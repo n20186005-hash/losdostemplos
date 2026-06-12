@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "title": "Los Dos Templos | Guadalajara",
+    "description": "Explore Los Dos Templos in Guadalajara, Jalisco, Mexico. Discover this important historical monument and landmark."
+  },
+  "header": {
+    "home": "Home",
+    "gallery": "Gallery",
+    "reviews": "Reviews",
+    "map": "Map",
+    "backToHome": "Back to Home"
+  },
+  "hero": {
+    "title": "Los Dos Templos",
+    "subtitle": "Jalisco · Mexico",
+    "rating": "4.6",
+    "reviewCount": "8,138",
+    "hours": "Historical Monument",
+    "openMaps": "View Location"
+  },
+  "intro": {
+    "title": "Explore Los Dos Templos",
+    "description": "Los Dos Templos is located in Guadalajara, Jalisco, Mexico. It is an important historical monument and landmark with rich historical and cultural value. The site is an important place to understand Mexican colonial history and architectural art, offering visitors a fascinating window into Mexican history and culture.",
+    "visitGuide": {
+      "title": "Visiting Tips",
+      "items": [
+        "The site is open all day, daytime visits are recommended",
+        "Visit historical buildings and ruins",
+        "Learn about colonial architectural styles",
+        "Visit nearby Guadalajara historic center"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Highlights",
+      "items": [
+        "Historical Monument: Important colonial historical landmark, symbol of Mexican architectural art.",
+        "Cultural Heritage: Located in Guadalajara, full of historical and cultural value.",
+        "Architectural Art: Experience Mexican colonial architectural styles and history.",
+        "Prime Location: Located in Guadalajara, Jalisco, easily accessible."
+      ]
+    }
+  },
+  "route": {
+    "title": "Tour Route",
+    "overview": "Discover the ideal route to explore Los Dos Templos and experience the essence of Mexican history and culture.",
+    "steps": [
+      "Arrive at the site in the morning to admire the surrounding historical buildings and ruins.",
+      "At noon, find a nearby restaurant to enjoy traditional Mexican cuisine.",
+      "Continue visiting in the afternoon to learn about colonial architectural styles and historical background.",
+      "After your visit, walk to Guadalajara historic center to see other attractions."
+    ],
+    "supplementsTitle": "Additional Tour Tips",
+    "supplements": [
+      "Please prepare some cash for buying souvenirs or snacks nearby.",
+      "The area around the site is open, please protect yourself from sun and stay hydrated.",
+      "If you are interested in history, you can prepare the historical background you want to learn about in advance."
+    ]
+  },
+  "knowledge": {
+    "title": "Discover the Charm of Los Dos Templos",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Historical Significance",
+        "content": "Los Dos Templos is an important historical and cultural site in Guadalajara. The site carries the historical memory of the colonial period and is an important place to understand Mexican history. The architectural style of the site reflects the artistic characteristics of the colonial period."
+      },
+      {
+        "id": "culture",
+        "title": "Cultural Landscape",
+        "content": "The site is located in Guadalajara, surrounded by historically styled buildings. It's an excellent place to experience Mexican historical culture and architectural art, full of historical depth."
+      },
+      {
+        "id": "experience",
+        "title": "Visiting Experience",
+        "content": "Visiting Los Dos Templos is an unforgettable historical and cultural experience. You can admire historical architecture, learn about Mexican colonial history, and feel the depth and charm of Mexican history."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Basic Information",
+    "officialName": "Official Name",
+    "officialNameValue": "Los Dos Templos",
+    "type": "Site Type",
+    "typeValue": "Historical Monument",
+    "country": "Country",
+    "countryValue": "Mexico",
+    "city": "City",
+    "cityValue": "Guadalajara, Jalisco",
+    "googleRating": "Google Rating",
+    "address": "Address",
+    "addressValue": "Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jal., Mexico",
+    "plusCode": "Plus Code",
+    "plusCodeValue": "MMC3+Q4 Guadalajara, Jalisco, Mexico"
+  },
+  "hours": {
+    "title": "Opening Hours",
+    "outdoor": "Site Area",
+    "outdoorTime": "Open all day (verify official information)",
+    "lighthouse": "Best Time to Visit",
+    "summer": "Dry Season (November-April)",
+    "summerTime": "Pleasant weather, ideal for outdoor visits",
+    "winter": "Rainy Season (May-October)",
+    "winterTime": "Warm weather with afternoon rains, bring umbrella",
+    "warning": "Important Notes",
+    "warningTime": "Recommended to verify latest information before visiting",
+    "tip": "Daytime visits offer the best experience"
+  },
+  "tickets": {
+    "title": "Ticket Information",
+    "outdoor": "Site Visit",
+    "outdoorPrice": "Free admission",
+    "lighthouse": "Guided Tours",
+    "adults": "On-site guidance",
+    "adultsPrice": "Tips appreciated",
+    "students": "Cultural Experience",
+    "studentsPrice": "Many historical attractions nearby",
+    "children": "Recommendations",
+    "childrenPrice": "Respect historical sites and protect cultural relics",
+    "card": "Additional Services",
+    "cardPrice": "History books and souvenirs available"
+  },
+  "transport": {
+    "title": "Transportation",
+    "airport": "From the Airport",
+    "airportDesc": "Nearest airport: Guadalajara International Airport (GDL). From there, take a bus or taxi to the historic center.",
+    "selfDrive": "Driving",
+    "selfDriveDesc": "The site is located in the historic center. Use navigation and check for public parking nearby.",
+    "bus": "Public Transport",
+    "busDesc": "Take Guadalajara metro or bus to Historic Center station, then walk to the site.",
+    "intercity": "Walking Tour",
+    "intercityDesc": "The site is in the historic center, walkable to nearby attractions.",
+    "cycling": "Other Means",
+    "cyclingDesc": "Public transport or walking recommended, historic center traffic can be congested.",
+    "tips": "Travel Tips",
+    "tipsDesc": "Los Dos Templos is an excellent place to experience Mexican history and culture, daytime visits recommended."
+  },
+  "gallery": {
+    "title": "Stunning Photos",
+    "subtitle": "The Charm of Los Dos Templos",
+    "captions": [
+      "Site panoramic view",
+      "Historical architecture",
+      "Architectural details",
+      "Site scenery",
+      "Historical ruins",
+      "Architectural art",
+      "Cultural landscape",
+      "Historical style",
+      "Site atmosphere",
+      "Architectural features",
+      "History and culture",
+      "Full site view",
+      "Architectural style",
+      "Historical traces",
+      "Cultural heritage",
+      "Historical architecture",
+      "Site scenery"
+    ],
+    "viewAll": "View more photos on Google Maps",
+    "showAllPhotos": "Show All Photos"
+  },
+  "reviews": {
+    "title": "Visitor Reviews",
+    "declaration": "Review information can be viewed via Google Maps (external link).",
+    "moreReviews": "View More Reviews on Google Maps",
+    "items": [
+      {
+        "name": "Carlos Rivera",
+        "date": "2 months ago",
+        "rating": 5,
+        "text": "A place full of history and culture. The architecture of the site is unforgettable, highly recommended for all tourists interested in history."
+      },
+      {
+        "name": "María González",
+        "date": "3 weeks ago",
+        "rating": 5,
+        "text": "Amazing historical site. The architectural style is very unique and has a long history. This is an important part of Mexican history and culture."
+      },
+      {
+        "name": "Juan Pérez",
+        "date": "1 month ago",
+        "rating": 4,
+        "text": "Very interesting place to learn about real history and culture. Daytime visits recommended when the light is best."
+      },
+      {
+        "name": "Ana Torres",
+        "date": "Over 6 months ago",
+        "rating": 5,
+        "text": "An important part of Mexican history. The architecture of the site is moving, a must-visit place in Guadalajara."
+      },
+      {
+        "name": "Roberto Silva",
+        "date": "2 years ago",
+        "rating": 4,
+        "text": "Great historical experience. The architectural style is wonderful, and there are many historical attractions nearby."
+      },
+      {
+        "name": "Sofía Méndez",
+        "date": "Over 6 months ago",
+        "rating": 5,
+        "text": "Beautiful site, full of the charm of Mexican history. The architectural style is unforgettable, definitely worth a visit."
+      },
+      {
+        "name": "Miguel Herrera",
+        "date": "3 months ago",
+        "rating": 4,
+        "text": "Interesting historical venue. Experience history and culture up close, respect the site and protect cultural relics."
+      },
+      {
+        "name": "Laura Vargas",
+        "date": "1 month ago",
+        "rating": 5,
+        "text": "Historical gem of Guadalajara. Los Dos Templos is an important place to understand Mexican history, definitely worth experiencing."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Location & Map",
+    "subtitle": "Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jal., Mexico",
+    "openMaps": "View on Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Los Dos Templos. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Settings",
+    "officialResourcesTitle": "Official Resources",
+    "officialLinks": {
+      "visitmexico": {
+        "name": "Mexico National Tourism Board",
+        "url": "https://visitmexico.com/"
+      },
+      "sectur": {
+        "name": "Secretary of Tourism of Mexico",
+        "url": "https://www.gob.mx/sectur"
+      },
+      "secturjal": {
+        "name": "Secretary of Tourism of Jalisco",
+        "url": "https://secturjal.jalisco.gob.mx/"
+      },
+      "inah": {
+        "name": "National Institute of Anthropology and History",
+        "url": "https://www.inah.gob.mx/"
+      }
+    },
+    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Information We Collect",
+        "content": "We only collect the minimum data necessary to provide our services. This data may include: browsing data (IP address, browser type, visited pages), cookies and similar technologies, and any information you voluntarily provide via contact forms or email."
+      },
+      {
+        "heading": "2. How We Use Your Information",
+        "content": "We use the collected information to: improve website content and user experience, analyze traffic and usage patterns, respond to requests, and comply with our legal obligations."
+      },
+      {
+        "heading": "3. Third-Party Services",
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+      },
+      {
+        "heading": "4. Your Rights",
+        "content": "Under the General Data Protection Regulation (GDPR) and related regulations, you have the right to: access your personal data, request correction or deletion, object to processing, and lodge a complaint with a supervisory authority."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated: June 2026",
+    "sections": [
+      {
+        "heading": "1. Acceptance of Terms",
+        "content": "By accessing and using this website, you agree to be bound by these terms of service."
+      },
+      {
+        "heading": "2. Use of Content",
+        "content": "All content on this website is for informational purposes only. We are an independent third-party travel information website, not affiliated with any tourist attractions, government agencies, or commercial operators."
+      },
+      {
+        "heading": "3. Accuracy of Information",
+        "content": "We strive to provide accurate and timely information, but we cannot guarantee its completeness or accuracy. Itineraries, conditions, and services are subject to change without notice. Always verify important information through official channels before traveling."
+      },
+      {
+        "heading": "4. Intellectual Property",
+        "content": "The design and original content of this website are protected by copyright. Images are sourced from Unsplash and used under license. The use of Google Maps data complies with Google's terms of service."
+      },
+      {
+        "heading": "5. Limitation of Liability",
+        "content": "This website is provided \"as is\" without any warranties. We are not responsible for any losses resulting from the use of information on this website, including but not limited to travel decisions made based on its content."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Cookie Settings",
+    "description": "Last Updated: June 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
+    "essential": {
+      "title": "Essential Cookies",
+      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
+      "badge": "Always Active"
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Active",
+          "description": "It collects anonymous information about how visitors use our website."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "They are used to show relevant advertisements and measure the effectiveness of ad campaigns.",
+      "items": [
+        {
+          "name": "Personalized Ads",
+          "status": "Inactive",
+          "description": "It can show you relevant ads based on your interests."
+        }
+      ]
+    },
+    "save": "Save Preferences",
+    "saved": "Settings saved!",
+    "preferences": {
+      "items": [
+        {
+          "name": "User Preferences",
+          "status": "Active",
+          "description": "Saves your language preferences and website settings."
+        }
+      ],
+      "title": "Preference Cookies",
+      "description": "They remember your settings, such as language and theme preferences."
+    },
+    "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
+    "rejectAll": "Reject All"
+  },
+  "officialManagement": {
+    "title": "About Los Dos Templos",
+    "text": "Los Dos Templos is a historical monument in Guadalajara, carrying rich historical and cultural value."
+  },
+  "historyTimeline": {
+    "title": "Historical Timeline",
+    "items": [
+      {
+        "year": "Colonial Period",
+        "title": "Colonial Period: Foundation",
+        "plaque": "Historical Ruins (Building Remains)",
+        "description": "Los Dos Templos was built during the Mexican colonial period and is an important historical building site in Guadalajara. These two temple buildings reflect the unique architectural style and religious beliefs of that time."
+      },
+      {
+        "year": "19th Century",
+        "title": "19th Century: Historical Changes",
+        "plaque": "Historical Records (Site Protection)",
+        "description": "With historical changes, these two temples experienced multiple renovations and protections. They witnessed the development of Guadalajara and the evolution of history, becoming important cultural heritage."
+      },
+      {
+        "year": "20th Century",
+        "title": "20th Century: Cultural Preservation",
+        "plaque": "Preservation Mark (Cultural Heritage Identification)",
+        "description": "In the 20th century, with increased awareness of cultural heritage preservation, Los Dos Templos received better protection. The government and community worked together to ensure this historical site is properly maintained."
+      },
+      {
+        "year": "21st Century",
+        "title": "21st Century: Tourism Development",
+        "plaque": "Tourism Identification (Cultural Tourism Landmark)",
+        "description": "Entering the 21st century, Los Dos Templos as an important cultural tourism attraction has attracted more and more visitors. It is not only a paradise for history enthusiasts, but also an important window to understand Mexican history and culture."
+      }
+    ],
+    "guideTitle": "Visitor Guide Tip",
+    "guideContent": "When visiting, start with the **site panoramic view** to feel the depth of history; then head to the **historical architecture** area to learn about colonial architectural styles; next, visit the **architectural details** to appreciate the traces of history; finally, understand the **cultural background** to deeply understand the important position of this site in Mexican history."
+  }
+}

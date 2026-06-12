@@ -1,0 +1,377 @@
+{
+  "meta": {
+    "title": "Los Dos Templos | Guadalajara",
+    "description": "Explora Los Dos Templos en Guadalajara, Jalisco, México. Descubre este importante monumento histórico y lugar de interés."
+  },
+  "header": {
+    "home": "Inicio",
+    "gallery": "Galería",
+    "reviews": "Resenas",
+    "map": "Mapa",
+    "backToHome": "Volver al Inicio"
+  },
+  "hero": {
+    "title": "Los Dos Templos",
+    "subtitle": "Jalisco · México",
+    "rating": "4.6",
+    "reviewCount": "8,138",
+    "hours": "Monumento Histórico",
+    "openMaps": "Ver Ubicación"
+  },
+  "intro": {
+    "title": "Explora Los Dos Templos",
+    "description": "Los Dos Templos se encuentra en Guadalajara, Jalisco, México. Es un importante monumento histórico y lugar de interés con rico valor histórico y cultural. El sitio es un lugar importante para comprender la historia y el arte arquitectónico colonial mexicano, ofreciendo a los visitantes una fascinante ventana a la historia y cultura mexicana.",
+    "visitGuide": {
+      "title": "Consejos de Visita",
+      "items": [
+        "El sitio está abierto todo el día, se recomiendan las visitas diurnas",
+        "Visita los edificios y ruinas históricas",
+        "Aprende sobre los estilos arquitectónicos coloniales",
+        "Visita el centro histórico cercano de Guadalajara"
+      ]
+    },
+    "alsoKnownAs": {
+      "title": "Destacados",
+      "items": [
+        "Monumento Histórico: Importante lugar histórico colonial, símbolo del arte arquitectónico mexicano.",
+        "Patrimonio Cultural: Ubicado en Guadalajara, lleno de valor histórico y cultural.",
+        "Arte Arquitectónico: Experimenta los estilos arquitectónicos coloniales mexicanos y la historia.",
+        "Ubicación Privilegiada: Ubicado en Guadalajara, Jalisco, fácilmente accesible."
+      ]
+    }
+  },
+  "route": {
+    "title": "Ruta de Visita",
+    "overview": "Descubre la ruta ideal para explorar Los Dos Templos y experimentar la esencia de la historia y cultura mexicana.",
+    "steps": [
+      "Llega al sitio por la mañana para admirar los edificios y ruinas históricas circundantes.",
+      "Al mediodía, encuentra un restaurante cercano para disfrutar de la auténtica comida mexicana.",
+      "Continúaa la visita por la tarde para aprender sobre los estilos arquitectónicos coloniales y el contexto histórico.",
+      "Después de tu visita, camina al centro histórico de Guadalajara para ver otras atracciones."
+    ],
+    "supplementsTitle": "Consejos Adicionales de Visita",
+    "supplements": [
+      "Por favor, prepara algo de efectivo para comprar recuerdos o bocadillos cercanos.",
+      "El área alrededor del sitio es abierta, por favor protégete del sol y mantente hidratado.",
+      "Si estás interesado en la historia, puedes preparar el contexto histórico que quieres aprender de antemano."
+    ]
+  },
+  "knowledge": {
+    "title": "Descubre el Encanto de Los Dos Templos",
+    "sections": [
+      {
+        "id": "history",
+        "title": "Importancia Histórica",
+        "content": "Los Dos Templos es un importante sitio histórico y cultural en Guadalajara. El sitio lleva la memoria histórica del período colonial y es un lugar importante para comprender la historia mexicana. El estilo arquitectónico del sitio refleja las características artísticas del período colonial."
+      },
+      {
+        "id": "culture",
+        "title": "Paisaje Cultural",
+        "content": "El sitio está ubicado en Guadalajara, rodeado de edificios de estilo histórico. Es un excelente lugar para experimentar la cultura histórica mexicana y el arte arquitectónico, lleno de profundidad histórica."
+      },
+      {
+        "id": "experience",
+        "title": "Experiencia de Visita",
+        "content": "Visitar Los Dos Templos es una inolvidable experiencia cultural e histórica. Puedes admirar la arquitectura histórica, aprender sobre la historia colonial mexicana y sentir la profundidad y el encanto de la historia mexicana."
+      }
+    ]
+  },
+  "basicInfo": {
+    "title": "Información Básica",
+    "officialName": "Nombre Oficial",
+    "officialNameValue": "Los Dos Templos",
+    "type": "Tipo de Sitio",
+    "typeValue": "Monumento Histórico",
+    "country": "País",
+    "countryValue": "México",
+    "city": "Ciudad",
+    "cityValue": "Guadalajara, Jalisco",
+    "googleRating": "Calificación de Google",
+    "address": "Dirección",
+    "addressValue": "Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jal., México",
+    "plusCode": "Código Plus",
+    "plusCodeValue": "MMC3+Q4 Guadalajara, Jalisco, México"
+  },
+  "hours": {
+    "title": "Horarios de Apertura",
+    "outdoor": "Área del Sitio",
+    "outdoorTime": "Abierto todo el día (verificar información oficial)",
+    "lighthouse": "Mejor Época para Visitar",
+    "summer": "Temporada Seca (noviembre-abril)",
+    "summerTime": "Clima más agradable, ideal para visitas al aire libre",
+    "winter": "Temporada de Lluvias (mayo-octubre)",
+    "winterTime": "Clima cálido con lluvias por la tarde, llevar paraguas",
+    "warning": "Notas Importantes",
+    "warningTime": "Se recomienda verificar la información más reciente antes de visitar",
+    "tip": "Las visitas diurnas ofrecen la mejor experiencia"
+  },
+  "tickets": {
+    "title": "Información de Entradas",
+    "outdoor": "Visita al Sitio",
+    "outdoorPrice": "Entrada gratuita",
+    "lighthouse": "Visitas Guiadas",
+    "adults": "Guía en el sitio",
+    "adultsPrice": "Propinas apreciadas",
+    "students": "Experiencia Cultural",
+    "studentsPrice": "Muchos atracciones históricas cercanas",
+    "children": "Recomendaciones",
+    "childrenPrice": "Respetar los sitios históricos y proteger los relicarios culturales",
+    "card": "Servicios Adicionales",
+    "cardPrice": "Libros de historia y recuerdos disponibles"
+  },
+  "transport": {
+    "title": "Transporte",
+    "airport": "Desde el Aeropuerto",
+    "airportDesc": "Aeropuerto más cercano: Aeropuerto Internacional de Guadalajara (GDL). Desde allí, toma un autobús o taxi al centro histórico.",
+    "selfDrive": "En Coche",
+    "selfDriveDesc": "El sitio está ubicado en el centro histórico. Usa navegación y busca estacionamiento público cercano.",
+    "bus": "Transporte Público",
+    "busDesc": "Toma el metro o autobús de Guadalajara hasta la estación Centro Histórico, luego camina al sitio.",
+    "intercity": "Tour a Pie",
+    "intercityDesc": "El sitio está en el centro histórico, caminable a atracciones cercanas.",
+    "cycling": "Otros Medios",
+    "cyclingDesc": "Se recomienda transporte público o caminar, el tráfico en el centro histórico puede estar congestionado.",
+    "tips": "Consejos de Viaje",
+    "tipsDesc": "Los Dos Templos es un excelente lugar para experimentar la historia y cultura mexicana, se recomiendan las visitas diurnas."
+  },
+  "gallery": {
+    "title": "Fotos Impresionantes",
+    "subtitle": "El Encanto de Los Dos Templos",
+    "captions": [
+      "Vista panorámica del sitio",
+      "Arquitectura histórica",
+      "Detalles arquitectónicos",
+      "Paisaje del sitio",
+      "Ruinas históricas",
+      "Arte arquitectónico",
+      "Paisaje cultural",
+      "Estilo histórico",
+      "Ambiente del sitio",
+      "Características arquitectónicas",
+      "Historia y cultura",
+      "Vista completa del sitio",
+      "Estilo arquitectónico",
+      "Rastros históricos",
+      "Patrimonio cultural",
+      "Arquitectura histórica",
+      "Paisaje del sitio"
+    ],
+    "viewAll": "Ver más fotos en Google Maps",
+    "showAllPhotos": "Mostrar Todas las Fotos"
+  },
+  "reviews": {
+    "title": "Resenas de Visitantes",
+    "declaration": "La información de las resenas se puede ver a través de Google Maps (enlace externo).",
+    "moreReviews": "Ver Más Resenas en Google Maps",
+    "items": [
+      {
+        "name": "Carlos Rivera",
+        "date": "hace 2 meses",
+        "rating": 5,
+        "text": "Un lugar lleno de historia y cultura. La arquitectura del sitio es inolvidable, muy recomendable para todos los turistas interesados en la historia."
+      },
+      {
+        "name": "María González",
+        "date": "hace 3 semanas",
+        "rating": 5,
+        "text": "Sitio histórico asombroso. El estilo arquitectónico es muy único y tiene una larga historia. Esta es una parte importante de la historia y cultura mexicana."
+      },
+      {
+        "name": "Juan Pérez",
+        "date": "hace 1 mes",
+        "rating": 4,
+        "text": "Lugar muy interesante para aprender sobre la verdadera historia y cultura. Se recomiendan las visitas diurnas cuando la luz es mejor."
+      },
+      {
+        "name": "Ana Torres",
+        "date": "hace más de 6 meses",
+        "rating": 5,
+        "text": "Una parte importante de la historia mexicana. La arquitectura del sitio es conmovedora, un lugar imprescindible en Guadalajara."
+      },
+      {
+        "name": "Roberto Silva",
+        "date": "hace 2 años",
+        "rating": 4,
+        "text": "Excelente experiencia histórica. El estilo arquitectónico es maravilloso y hay muchas atracciones históricas cercanas."
+      },
+      {
+        "name": "Sofía Méndez",
+        "date": "hace más de 6 meses",
+        "rating": 5,
+        "text": "Sitio hermoso, lleno del encanto de la historia mexicana. El estilo arquitectónico es inolvidable, definitivamente vale la pena visitarlo."
+      },
+      {
+        "name": "Miguel Herrera",
+        "date": "hace 3 meses",
+        "rating": 4,
+        "text": "Lugar histórico interesante. Experimenta la historia y cultura de cerca, respeta el sitio y protege los relicarios culturales."
+      },
+      {
+        "name": "Laura Vargas",
+        "date": "hace 1 mes",
+        "rating": 5,
+        "text": "Gema histórica de Guadalajara. Los Dos Templos es un lugar importante para comprender la historia mexicana, definitivamente vale la pena experimentarlo."
+      }
+    ]
+  },
+  "mapSection": {
+    "title": "Ubicación y Mapa",
+    "subtitle": "Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jal., México",
+    "openMaps": "Ver en Google Maps"
+  },
+  "footer": {
+    "rights": "© 2026 Los Dos Templos. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "cookies": "Configuración de Cookies",
+    "officialResourcesTitle": "Recursos Oficiales",
+    "officialLinks": {
+      "visitmexico": {
+        "name": "Secretaría de Turismo de México",
+        "url": "https://visitmexico.com/"
+      },
+      "sectur": {
+        "name": "Secretaría de Turismo del Gobierno Federal",
+        "url": "https://www.gob.mx/sectur"
+      },
+      "secturjal": {
+        "name": "Secretaría de Turismo de Jalisco",
+        "url": "https://secturjal.jalisco.gob.mx/"
+      },
+      "inah": {
+        "name": "Instituto Nacional de Antropología e Historia",
+        "url": "https://www.inah.gob.mx/"
+      }
+    },
+    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Información que Recopilamos",
+        "content": "Solo recopilamos los datos mínimos necesarios para proporcionar nuestros servicios. Estos datos pueden incluir: datos de navegación (dirección IP, tipo de navegador, páginas visitadas), cookies y tecnologías similares, y cualquier información que proporcione voluntariamente a través de formularios de contacto o correo electrónico."
+      },
+      {
+        "heading": "2. Cómo Utilizamos su Información",
+        "content": "Utilizamos la información recopilada para: mejorar el contenido del sitio web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a solicitudes y cumplir con nuestras obligaciones legales."
+      },
+      {
+        "heading": "3. Servicios de Terceros",
+        "content": "Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+      },
+      {
+        "heading": "4. Sus Derechos",
+        "content": "Bajo el Reglamento General de Protección de Datos (RGPD) y regulaciones relacionadas, usted tiene derecho a: acceder a sus datos personales, solicitar corrección o eliminación, oponerse al tratamiento y presentar una queja ante una autoridad de control."
+      }
+    ]
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última actualización: junio de 2026",
+    "sections": [
+      {
+        "heading": "1. Aceptación de los Términos",
+        "content": "Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos de servicio."
+      },
+      {
+        "heading": "2. Uso del Contenido",
+        "content": "Todo el contenido de este sitio web es solo para fines informativos. Somos un sitio web independiente de información turística de terceros, no afiliado con ningún atractivo turístico, agencia gubernamental u operador comercial."
+      },
+      {
+        "heading": "3. Exactitud de la Información",
+        "content": "Nos esforzamos por proporcionar información precisa y oportuna, pero no podemos garantizar su integridad o exactitud. Los itinerarios, condiciones y servicios están sujetos a cambios sin previo aviso. Verifique siempre la información importante a través de canales oficiales antes de viajar."
+      },
+      {
+        "heading": "4. Propiedad Intelectual",
+        "content": "El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Las imágenes provienen de Unsplash y se utilizan bajo licencia. El uso de datos de Google Maps cumple con los términos de servicio de Google."
+      },
+      {
+        "heading": "5. Limitación de Responsabilidad",
+        "content": "Este sitio web se proporciona \"tal como está\" sin ninguna garantía. No somos responsables de ninguna pérdida derivada del uso de la información en este sitio web, incluyendo, entre otros, las decisiones de viaje basadas en su contenido."
+      }
+    ]
+  },
+  "cookieSettings": {
+    "title": "Configuración de Cookies",
+    "description": "Última actualización: junio de 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
+    "essential": {
+      "title": "Cookies Esenciales",
+      "description": "Estas cookies son esenciales para el funcionamiento correcto del sitio web y no se pueden deshabilitar.",
+      "badge": "Siempre Activo"
+    },
+    "analytics": {
+      "title": "Cookies de Análisis",
+      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos de uso anónimos.",
+      "items": [
+        {
+          "name": "Google Analytics",
+          "status": "Activo",
+          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro sitio web."
+        }
+      ]
+    },
+    "marketing": {
+      "title": "Cookies de Marketing",
+      "description": "Se utilizan para mostrar anuncios relevantes y medir la efectividad de las campañas publicitarias.",
+      "items": [
+        {
+          "name": "Anuncios Personalizados",
+          "status": "Inactivo",
+          "description": "Puede mostrarle anuncios relevantes basados en sus intereses."
+        }
+      ]
+    },
+    "save": "Guardar Preferencias",
+    "saved": "¡Configuración guardada!",
+    "preferences": {
+      "items": [
+        {
+          "name": "Preferencias del Usuario",
+          "status": "Activo",
+          "description": "Guarda sus preferencias de idioma y configuraciones del sitio web."
+        }
+      ],
+      "title": "Cookies de Preferencias",
+      "description": "Recuerdan sus configuraciones, como las preferencias de idioma y tema."
+    },
+    "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "rejectAll": "Rechazar Todas"
+  },
+  "officialManagement": {
+    "title": "Acerca de Los Dos Templos",
+    "text": "Los Dos Templos es un monumento histórico en Guadalajara, que lleva un rico valor histórico y cultural."
+  },
+  "historyTimeline": {
+    "title": "Cronología Histórica",
+    "items": [
+      {
+        "year": "Período Colonial",
+        "title": "Período Colonial: Fundación",
+        "plaque": "Ruinas Históricas (Restos de Edificios)",
+        "description": "Los Dos Templos fue construido durante el período colonial mexicano y es un importante sitio de edificios históricos en Guadalajara. Estos dos edificios del templo reflejan el estilo arquitectónico único y las creencias religiosas de esa época."
+      },
+      {
+        "year": "Siglo XIX",
+        "title": "Siglo XIX: Cambios Históricos",
+        "plaque": "Registros Históricos (Protección del Sitio)",
+        "description": "Con los cambios históricos, estos dos templos experimentaron múltiples renovaciones y protecciones. Fueron testigos del desarrollo de Guadalajara y la evolución de la historia, convirtiéndose en un importante patrimonio cultural."
+      },
+      {
+        "year": "Siglo XX",
+        "title": "Siglo XX: Preservación Cultural",
+        "plaque": "Marca de Preservación (Identificación de Patrimonio Cultural)",
+        "description": "En el siglo XX, con la mayor concientización sobre la preservación del patrimonio cultural, Los Dos Templos recibió mejor protección. El gobierno y la comunidad trabajaron juntos para asegurar que este sitio histórico se mantenga adecuadamente."
+      },
+      {
+        "year": "Siglo XXI",
+        "title": "Siglo XXI: Desarrollo Turístico",
+        "plaque": "Identificación Turística (Lugar de Interés Cultural)",
+        "description": "Al entrar en el siglo XXI, Los Dos Templos como un importante atractivo turístico cultural ha atraído a más y más visitantes. No solo es un paraíso para los entusiastas de la historia, sino también una ventana importante para comprender la historia y cultura mexicana."
+      }
+    ],
+    "guideTitle": "Consejo de Guía para Visitantes",
+    "guideContent": "Al visitar, comienza con la **vista panorámica del sitio** para sentir la profundidad de la historia; luego diríjase al área de **arquitectura histórica** para aprender sobre los estilos arquitectónicos coloniales; a continuación, visite los **detalles arquitectónicos** para apreciar los rastros de la historia; finalmente, comprenda el **contexto cultural** para entender profundamente la importante posición de este sitio en la historia mexicana."
+  }
+}
