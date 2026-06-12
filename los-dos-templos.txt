@@ -1,0 +1,123 @@
+
+
+我们网站是
+
+检查下有没有错误
+
+
+单景点注册.com 域名推荐
+
+
+
+你正在用（Next.js开发）
+为一个新景点【 Los Dos Templos 】构建静态/Next.js 单页指南网站。
+页面只需要支持中文和英文双语言
+
+los-dos-templos
+
+
+
+墨西哥哈利斯科州	Los Dos Templos
+
+Los Dos Templos
+4.6(8,138)
+古迹地标
+
+Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jal., 墨西哥
+MMC3+Q4 瓜达拉哈拉 墨西哥哈利斯科州
+
+https://maps.app.goo.gl/boU6JfgsHb83L63i7
+
+
+
+首屏背景图要引用以下
+C:\Users\Administrator\Documents\GitHub\墨西哥\los-dos-templos\public\gallery\los-dos-templos (4).jpg
+
+
+
+删除原先友情链接，新增以下友情链接
+
+墨西哥国家旅游局
+https://visitmexico.com/
+
+墨西哥联邦政府旅游部
+https://www.gob.mx/sectur
+
+哈利斯科州旅游局
+https://secturjal.jalisco.gob.mx/
+
+墨西哥国家人类学与历史研究所
+https://www.inah.gob.mx/
+
+
+在Google地图上查看位置都跳转为 https://maps.app.goo.gl/boU6JfgsHb83L63i7
+页面一共四个链接每一个都需要修改
+
+照片画廊
+精彩照片 显示照片不全目前只显示8张，需要有显示完整照片显示功能
+检查照片名称是否正确并修正
+
+删除 探索更多 板块
+
+首屏谷歌地图位置跳转为 https://maps.app.goo.gl/boU6JfgsHb83L63i7
+
+照片画廊
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/boU6JfgsHb83L63i7
+
+游客评价
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/boU6JfgsHb83L63i7
+
+地图位置
+在Google地图上查看位置跳转为 https://maps.app.goo.gl/boU6JfgsHb83L63i7
+
+首屏右侧切换中文的时候 网站没转为/zh
+
+
+新增
+西班牙语
+
+生成一个文件忽略不需要上传的文件
+
+
+
+
+
+墨西哥国家旅游局
+https://visitmexico.com/
+
+墨西哥联邦政府旅游部
+https://www.gob.mx/sectur
+
+哈利斯科州旅游局
+https://secturjal.jalisco.gob.mx/
+
+
+
+瓜达拉哈拉官方旅游局
+https://visitagdl.com/
+
+UNESCO 联合国教科文组织 - 玛利亚奇音乐非物质文化遗产档案
+https://ich.unesco.org/en/RL/mariachi-string-music-song-and-trumpet-00575
+
+玛利亚奇：世界文化遗产数字展览
+https://artsandculture.google.com/story/mariachi-heritage-of-the-world/DwVxmtyVLG4Dbw
+
+
+
+
+墨西哥联邦政府旅游部
+https://www.gob.mx/sectur
+哈利斯科州旅游局
+https://secturjal.jalisco.gob.mx/inicio
+特乌奇特兰市政府政务与透明度
+https://teuchitlan.jalisco.gob.mx/inicio
+
+墨西哥国家人类学与历史研究所
+https://www.inah.gob.mx/
+INAH 官方考古遗址名录
+https://lugares.inah.gob.mx/es/zonas-arqueologicas/zonas/1715-teuchitl%C3%A1n-o-guachimontones.html
+
+
+
+
+
