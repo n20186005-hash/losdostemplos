@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Los Dos Templos | Guadalajara",
-    "description": "Explora Los Dos Templos en Guadalajara, Jalisco, México. Descubre este importante monumento histórico y lugar de interés."
+    "title": "Los Dos Templos | Iglesias Históricas",
+    "description": "Explora Los Dos Templos en Guadalajara, Jalisco, México. Descubre la magnífica arquitectura de San Francisco de Asís y Nuestra Señora de Aránzazu."
   },
   "header": {
     "home": "Inicio",
@@ -15,45 +15,45 @@
     "subtitle": "Jalisco · México",
     "rating": "4.6",
     "reviewCount": "8,138",
-    "hours": "Monumento Histórico",
+    "hours": "Iglesias Históricas",
     "openMaps": "Ver Ubicación"
   },
   "intro": {
     "title": "Explora Los Dos Templos",
-    "description": "Los Dos Templos se encuentra en Guadalajara, Jalisco, México. Es un importante monumento histórico y lugar de interés con rico valor histórico y cultural. El sitio es un lugar importante para comprender la historia y el arte arquitectónico colonial mexicano, ofreciendo a los visitantes una fascinante ventana a la historia y cultura mexicana.",
+    "description": "Los Dos Templos se encuentran en Guadalajara, Jalisco, México. Consisten en dos magníficas iglesias de los siglos XVII y XVIII, excepcionalmente bien conservadas y aún en uso. Antiguamente formaban parte de un vasto complejo conventual y hoy están separadas por el hermoso y tranquilo Jardín de San Francisco, siendo un lugar perfecto para experimentar el arte arquitectónico barroco mexicano.",
     "visitGuide": {
       "title": "Consejos de Visita",
       "items": [
-        "El sitio está abierto todo el día, se recomiendan las visitas diurnas",
-        "Visita los edificios y ruinas históricas",
-        "Aprende sobre los estilos arquitectónicos coloniales",
-        "Visita el centro histórico cercano de Guadalajara"
+        "Las iglesias están abiertas todo el día, se recomienda visitar de día",
+        "Admira los retablos dorados de estilo churrigueresco del siglo XVIII",
+        "Relájate en la plaza del Jardín de San Francisco",
+        "Visita el cercano centro histórico de Guadalajara"
       ]
     },
     "alsoKnownAs": {
       "title": "Destacados",
       "items": [
-        "Monumento Histórico: Importante lugar histórico colonial, símbolo del arte arquitectónico mexicano.",
-        "Patrimonio Cultural: Ubicado en Guadalajara, lleno de valor histórico y cultural.",
-        "Arte Arquitectónico: Experimenta los estilos arquitectónicos coloniales mexicanos y la historia.",
-        "Ubicación Privilegiada: Ubicado en Guadalajara, Jalisco, fácilmente accesible."
+        "Templo de San Francisco de Asís: Una de las iglesias más antiguas de Guadalajara con un exterior solemne.",
+        "Templo de Nuestra Señora de Aránzazu: ¡Muy recomendado! La única iglesia en la ciudad que conserva tres retablos de madera dorada de estilo churrigueresco (ultrabarroco) del siglo XVIII completos.",
+        "Jardín de San Francisco: Una hermosa y tranquila plaza que separa las dos iglesias, perfecta para el descanso de los visitantes.",
+        "Ubicación privilegiada: Situado en el centro histórico de Guadalajara, de fácil acceso."
       ]
     }
   },
   "route": {
     "title": "Ruta de Visita",
-    "overview": "Descubre la ruta ideal para explorar Los Dos Templos y experimentar la esencia de la historia y cultura mexicana.",
+    "overview": "Descubre la ruta ideal para explorar Los Dos Templos y experimentar la esencia del arte arquitectónico barroco y la historia mexicana.",
     "steps": [
-      "Llega al sitio por la mañana para admirar los edificios y ruinas históricas circundantes.",
-      "Al mediodía, encuentra un restaurante cercano para disfrutar de la auténtica comida mexicana.",
-      "Continúaa la visita por la tarde para aprender sobre los estilos arquitectónicos coloniales y el contexto histórico.",
-      "Después de tu visita, camina al centro histórico de Guadalajara para ver otras atracciones."
+      "Llega al Templo de San Francisco de Asís por la mañana para admirar su exterior solemne y su larga historia.",
+      "Camina por el hermoso y tranquilo Jardín de San Francisco y toma un breve descanso en la plaza.",
+      "Centra tu visita en el Templo de Nuestra Señora de Aránzazu para admirar sus impresionantes retablos de madera dorada de estilo churrigueresco del siglo XVIII.",
+      "Después de la visita, camina hacia el centro histórico de Guadalajara para explorar otras atracciones o disfrutar de la gastronomía local."
     ],
     "supplementsTitle": "Consejos Adicionales de Visita",
     "supplements": [
-      "Por favor, prepara algo de efectivo para comprar recuerdos o bocadillos cercanos.",
-      "El área alrededor del sitio es abierta, por favor protégete del sol y mantente hidratado.",
-      "Si estás interesado en la historia, puedes preparar el contexto histórico que quieres aprender de antemano."
+      "Prepara algo de efectivo para comprar recuerdos o bocadillos cerca.",
+      "Por favor, mantén silencio dentro de las iglesias y respeta las costumbres religiosas locales.",
+      "Al fotografiar los retablos dorados, evita usar flash para no molestar a los demás."
     ]
   },
   "knowledge": {
@@ -62,17 +62,17 @@
       {
         "id": "history",
         "title": "Importancia Histórica",
-        "content": "Los Dos Templos es un importante sitio histórico y cultural en Guadalajara. El sitio lleva la memoria histórica del período colonial y es un lugar importante para comprender la historia mexicana. El estilo arquitectónico del sitio refleja las características artísticas del período colonial."
+        "content": "Los Dos Templos son un importante punto de referencia histórico y cultural en Guadalajara. Estas dos iglesias pertenecieron a un enorme complejo conventual, presenciando siglos de evolución urbana, y sirven como un lugar importante para entender la religión y la historia de México."
       },
       {
         "id": "culture",
         "title": "Paisaje Cultural",
-        "content": "El sitio está ubicado en Guadalajara, rodeado de edificios de estilo histórico. Es un excelente lugar para experimentar la cultura histórica mexicana y el arte arquitectónico, lleno de profundidad histórica."
+        "content": "El Templo de Nuestra Señora de Aránzazu es la única iglesia en la ciudad que conserva tres retablos de madera dorada de estilo churrigueresco (ultrabarroco) del siglo XVIII completos. Su impacto visual es verdaderamente impresionante."
       },
       {
         "id": "experience",
         "title": "Experiencia de Visita",
-        "content": "Visitar Los Dos Templos es una inolvidable experiencia cultural e histórica. Puedes admirar la arquitectura histórica, aprender sobre la historia colonial mexicana y sentir la profundidad y el encanto de la historia mexicana."
+        "content": "Pasea por el Jardín de San Francisco entre las dos iglesias y siente el ambiente pacífico. Es una experiencia arquitectónica y cultural inolvidable, que te permite sentir de cerca la profundidad y el encanto de la historia mexicana."
       }
     ]
   },
@@ -80,8 +80,8 @@
     "title": "Información Básica",
     "officialName": "Nombre Oficial",
     "officialNameValue": "Los Dos Templos",
-    "type": "Tipo de Sitio",
-    "typeValue": "Monumento Histórico",
+    "type": "Tipo de monumento",
+    "typeValue": "Iglesias Históricas",
     "country": "País",
     "countryValue": "México",
     "city": "Ciudad",
@@ -94,7 +94,7 @@
   },
   "hours": {
     "title": "Horarios de Apertura",
-    "outdoor": "Área del Sitio",
+    "outdoor": "Área de la Iglesia",
     "outdoorTime": "Abierto todo el día (verificar información oficial)",
     "lighthouse": "Mejor Época para Visitar",
     "summer": "Temporada Seca (noviembre-abril)",
@@ -107,15 +107,15 @@
   },
   "tickets": {
     "title": "Información de Entradas",
-    "outdoor": "Visita al Sitio",
+    "outdoor": "Visita a la Iglesia",
     "outdoorPrice": "Entrada gratuita",
     "lighthouse": "Visitas Guiadas",
-    "adults": "Guía en el sitio",
+    "adults": "Guía en el monumento",
     "adultsPrice": "Propinas apreciadas",
     "students": "Experiencia Cultural",
     "studentsPrice": "Muchos atracciones históricas cercanas",
     "children": "Recomendaciones",
-    "childrenPrice": "Respetar los sitios históricos y proteger los relicarios culturales",
+    "childrenPrice": "Respetar los monumentos históricos y proteger los relicarios culturales",
     "card": "Servicios Adicionales",
     "cardPrice": "Libros de historia y recuerdos disponibles"
   },
@@ -124,37 +124,37 @@
     "airport": "Desde el Aeropuerto",
     "airportDesc": "Aeropuerto más cercano: Aeropuerto Internacional de Guadalajara (GDL). Desde allí, toma un autobús o taxi al centro histórico.",
     "selfDrive": "En Coche",
-    "selfDriveDesc": "El sitio está ubicado en el centro histórico. Usa navegación y busca estacionamiento público cercano.",
+    "selfDriveDesc": "El monumento está ubicado en el centro histórico. Usa navegación y busca estacionamiento público cercano.",
     "bus": "Transporte Público",
-    "busDesc": "Toma el metro o autobús de Guadalajara hasta la estación Centro Histórico, luego camina al sitio.",
+    "busDesc": "Puedes tomar la Línea 3 del Tren Ligero hasta la estación Guadalajara Centro, que está muy cerca de las iglesias y a poca distancia a pie.",
     "intercity": "Tour a Pie",
-    "intercityDesc": "El sitio está en el centro histórico, caminable a atracciones cercanas.",
+    "intercityDesc": "El monumento está en el centro histórico, caminable a atracciones cercanas.",
     "cycling": "Otros Medios",
     "cyclingDesc": "Se recomienda transporte público o caminar, el tráfico en el centro histórico puede estar congestionado.",
     "tips": "Consejos de Viaje",
-    "tipsDesc": "Los Dos Templos es un excelente lugar para experimentar la historia y cultura mexicana, se recomiendan las visitas diurnas."
+    "tipsDesc": "Los Dos Templos son un excelente lugar para experimentar el arte arquitectónico barroco mexicano, se recomiendan las visitas diurnas."
   },
   "gallery": {
     "title": "Fotos Impresionantes",
     "subtitle": "El Encanto de Los Dos Templos",
     "captions": [
-      "Vista panorámica del sitio",
+      "Vista panorámica del monumento",
       "Arquitectura histórica",
       "Detalles arquitectónicos",
-      "Paisaje del sitio",
-      "Ruinas históricas",
+      "Paisaje del monumento",
+      "monumentos históricos históricas",
       "Arte arquitectónico",
       "Paisaje cultural",
       "Estilo histórico",
-      "Ambiente del sitio",
+      "Ambiente del monumento",
       "Características arquitectónicas",
       "Historia y cultura",
-      "Vista completa del sitio",
+      "Vista completa del monumento",
       "Estilo arquitectónico",
       "Rastros históricos",
       "Patrimonio cultural",
       "Arquitectura histórica",
-      "Paisaje del sitio"
+      "Paisaje del monumento"
     ],
     "viewAll": "Ver más fotos en Google Maps",
     "showAllPhotos": "Mostrar Todas las Fotos"
@@ -168,13 +168,13 @@
         "name": "Carlos Rivera",
         "date": "hace 2 meses",
         "rating": 5,
-        "text": "Un lugar lleno de historia y cultura. La arquitectura del sitio es inolvidable, muy recomendable para todos los turistas interesados en la historia."
+        "text": "Un lugar lleno de historia y cultura. La arquitectura del monumento es inolvidable, muy recomendable para todos los turistas interesados en la historia."
       },
       {
         "name": "María González",
         "date": "hace 3 semanas",
         "rating": 5,
-        "text": "Sitio histórico asombroso. El estilo arquitectónico es muy único y tiene una larga historia. Esta es una parte importante de la historia y cultura mexicana."
+        "text": "monumento histórico asombroso. El estilo arquitectónico es muy único y tiene una larga historia. Esta es una parte importante de la historia y cultura mexicana."
       },
       {
         "name": "Juan Pérez",
@@ -186,7 +186,7 @@
         "name": "Ana Torres",
         "date": "hace más de 6 meses",
         "rating": 5,
-        "text": "Una parte importante de la historia mexicana. La arquitectura del sitio es conmovedora, un lugar imprescindible en Guadalajara."
+        "text": "Una parte importante de la historia mexicana. La arquitectura del monumento es conmovedora, un lugar imprescindible en Guadalajara."
       },
       {
         "name": "Roberto Silva",
@@ -198,13 +198,13 @@
         "name": "Sofía Méndez",
         "date": "hace más de 6 meses",
         "rating": 5,
-        "text": "Sitio hermoso, lleno del encanto de la historia mexicana. El estilo arquitectónico es inolvidable, definitivamente vale la pena visitarlo."
+        "text": "monumento hermoso, lleno del encanto de la historia mexicana. El estilo arquitectónico es inolvidable, definitivamente vale la pena visitarlo."
       },
       {
         "name": "Miguel Herrera",
         "date": "hace 3 meses",
         "rating": 4,
-        "text": "Lugar histórico interesante. Experimenta la historia y cultura de cerca, respeta el sitio y protege los relicarios culturales."
+        "text": "Lugar histórico interesante. Experimenta la historia y cultura de cerca, respeta el monumento y protege los relicarios culturales."
       },
       {
         "name": "Laura Vargas",
@@ -243,7 +243,7 @@
         "url": "https://www.inah.gob.mx/"
       }
     },
-    "disclaimer": "Este sitio web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+    "disclaimer": "Este monumento web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
   },
   "privacy": {
     "title": "Política de Privacidad",
@@ -255,11 +255,11 @@
       },
       {
         "heading": "2. Cómo Utilizamos su Información",
-        "content": "Utilizamos la información recopilada para: mejorar el contenido del sitio web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a solicitudes y cumplir con nuestras obligaciones legales."
+        "content": "Utilizamos la información recopilada para: mejorar el contenido del monumento web y la experiencia del usuario, analizar el tráfico y los patrones de uso, responder a solicitudes y cumplir con nuestras obligaciones legales."
       },
       {
         "heading": "3. Servicios de Terceros",
-        "content": "Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+        "content": "Nuestro monumento web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
       },
       {
         "heading": "4. Sus Derechos",
@@ -273,11 +273,11 @@
     "sections": [
       {
         "heading": "1. Aceptación de los Términos",
-        "content": "Al acceder y utilizar este sitio web, usted acepta estar sujeto a estos términos de servicio."
+        "content": "Al acceder y utilizar este monumento web, usted acepta estar sujeto a estos términos de servicio."
       },
       {
         "heading": "2. Uso del Contenido",
-        "content": "Todo el contenido de este sitio web es solo para fines informativos. Somos un sitio web independiente de información turística de terceros, no afiliado con ningún atractivo turístico, agencia gubernamental u operador comercial."
+        "content": "Todo el contenido de este monumento web es solo para fines informativos. Somos un monumento web independiente de información turística de terceros, no afiliado con ningún atractivo turístico, agencia gubernamental u operador comercial."
       },
       {
         "heading": "3. Exactitud de la Información",
@@ -285,11 +285,11 @@
       },
       {
         "heading": "4. Propiedad Intelectual",
-        "content": "El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Las imágenes provienen de Unsplash y se utilizan bajo licencia. El uso de datos de Google Maps cumple con los términos de servicio de Google."
+        "content": "El diseño y el contenido original de este monumento web están protegidos por derechos de autor. Las imágenes provienen de Unsplash y se utilizan bajo licencia. El uso de datos de Google Maps cumple con los términos de servicio de Google."
       },
       {
         "heading": "5. Limitación de Responsabilidad",
-        "content": "Este sitio web se proporciona \"tal como está\" sin ninguna garantía. No somos responsables de ninguna pérdida derivada del uso de la información en este sitio web, incluyendo, entre otros, las decisiones de viaje basadas en su contenido."
+        "content": "Este monumento web se proporciona \"tal como está\" sin ninguna garantía. No somos responsables de ninguna pérdida derivada del uso de la información en este monumento web, incluyendo, entre otros, las decisiones de viaje basadas en su contenido."
       }
     ]
   },
@@ -298,17 +298,17 @@
     "description": "Última actualización: junio de 2026\n\nUtilizamos cookies para mejorar su experiencia de navegación. Puede gestionar sus preferencias a continuación.",
     "essential": {
       "title": "Cookies Esenciales",
-      "description": "Estas cookies son esenciales para el funcionamiento correcto del sitio web y no se pueden deshabilitar.",
+      "description": "Estas cookies son esenciales para el funcionamiento correcto del monumento web y no se pueden deshabilitar.",
       "badge": "Siempre Activo"
     },
     "analytics": {
       "title": "Cookies de Análisis",
-      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro sitio web mediante la recopilación de datos de uso anónimos.",
+      "description": "Nos ayudan a comprender cómo interactúan los visitantes con nuestro monumento web mediante la recopilación de datos de uso anónimos.",
       "items": [
         {
           "name": "Google Analytics",
           "status": "Activo",
-          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro sitio web."
+          "description": "Recopila información anónima sobre cómo los visitantes utilizan nuestro monumento web."
         }
       ]
     },
@@ -330,48 +330,48 @@
         {
           "name": "Preferencias del Usuario",
           "status": "Activo",
-          "description": "Guarda sus preferencias de idioma y configuraciones del sitio web."
+          "description": "Guarda sus preferencias de idioma y configuraciones del monumento web."
         }
       ],
       "title": "Cookies de Preferencias",
       "description": "Recuerdan sus configuraciones, como las preferencias de idioma y tema."
     },
-    "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del sitio web.",
+    "consentManagement": "Gestión del Consentimiento: Puede cambiar su configuración de cookies en cualquier momento. Tenga en cuenta que deshabilitar ciertas cookies puede afectar la funcionalidad del monumento web.",
     "rejectAll": "Rechazar Todas"
   },
   "officialManagement": {
     "title": "Acerca de Los Dos Templos",
-    "text": "Los Dos Templos es un monumento histórico en Guadalajara, que lleva un rico valor histórico y cultural."
+    "text": "Los Dos Templos son iglesias históricas famosas en Guadalajara, formadas por el Templo de San Francisco de Asís y el Templo de Nuestra Señora de Aránzazu, que poseen un rico valor arquitectónico y cultural."
   },
   "historyTimeline": {
     "title": "Cronología Histórica",
     "items": [
       {
         "year": "Período Colonial",
-        "title": "Período Colonial: Fundación",
-        "plaque": "Ruinas Históricas (Restos de Edificios)",
-        "description": "Los Dos Templos fue construido durante el período colonial mexicano y es un importante sitio de edificios históricos en Guadalajara. Estos dos edificios del templo reflejan el estilo arquitectónico único y las creencias religiosas de esa época."
+        "title": "Época Colonial: Fundación",
+        "plaque": "Monumento Histórico (Complejo Conventual)",
+        "description": "Los Dos Templos fueron construidos durante la época colonial mexicana y originalmente pertenecían a un enorme complejo conventual. El Templo de San Francisco de Asís es una de las iglesias más antiguas de Guadalajara, con un exterior solemne."
       },
       {
         "year": "Siglo XIX",
-        "title": "Siglo XIX: Cambios Históricos",
-        "plaque": "Registros Históricos (Protección del Sitio)",
-        "description": "Con los cambios históricos, estos dos templos experimentaron múltiples renovaciones y protecciones. Fueron testigos del desarrollo de Guadalajara y la evolución de la historia, convirtiéndose en un importante patrimonio cultural."
+        "title": "Siglo XVIII: Apogeo Barroco",
+        "plaque": "Arte Arquitectónico (Retablos Dorados)",
+        "description": "El Templo de Nuestra Señora de Aránzazu brilló intensamente durante este período, con tres retablos completos de madera dorada de estilo churrigueresco (ultrabarroco) construidos en su interior, convirtiéndose en una joya del arte arquitectónico mexicano."
       },
       {
         "year": "Siglo XX",
-        "title": "Siglo XX: Preservación Cultural",
-        "plaque": "Marca de Preservación (Identificación de Patrimonio Cultural)",
-        "description": "En el siglo XX, con la mayor concientización sobre la preservación del patrimonio cultural, Los Dos Templos recibió mejor protección. El gobierno y la comunidad trabajaron juntos para asegurar que este sitio histórico se mantenga adecuadamente."
+        "title": "Siglo XX: Evolución Urbana",
+        "plaque": "Hito de la Ciudad (Jardín de San Francisco)",
+        "description": "Con el desarrollo urbano de Guadalajara, el complejo conventual original experimentó cambios. Hoy en día, las dos iglesias están separadas por el hermoso y tranquilo Jardín de San Francisco, que sirve como plaza de descanso para ciudadanos y turistas."
       },
       {
         "year": "Siglo XXI",
-        "title": "Siglo XXI: Desarrollo Turístico",
-        "plaque": "Identificación Turística (Lugar de Interés Cultural)",
-        "description": "Al entrar en el siglo XXI, Los Dos Templos como un importante atractivo turístico cultural ha atraído a más y más visitantes. No solo es un paraíso para los entusiastas de la historia, sino también una ventana importante para comprender la historia y cultura mexicana."
+        "title": "Siglo XXI: Destino de Turismo Cultural",
+        "plaque": "Hito Turístico (Destino Cultural)",
+        "description": "En el siglo XXI, Los Dos Templos atraen a más y más visitantes con su arquitectura centenaria bien conservada y sus impresionantes retablos dorados, convirtiéndose en una ventana importante para experimentar la historia y el arte de México."
       }
     ],
     "guideTitle": "Consejo de Guía para Visitantes",
-    "guideContent": "Al visitar, comienza con la **vista panorámica del sitio** para sentir la profundidad de la historia; luego diríjase al área de **arquitectura histórica** para aprender sobre los estilos arquitectónicos coloniales; a continuación, visite los **detalles arquitectónicos** para apreciar los rastros de la historia; finalmente, comprenda el **contexto cultural** para entender profundamente la importante posición de este sitio en la historia mexicana."
+    "guideContent": "Al visitar, puedes comenzar con el **Templo de San Francisco de Asís** para sentir su solemnidad; luego toma un descanso en el **Jardín de San Francisco**; a continuación, concéntrate en visitar el **Templo de Nuestra Señora de Aránzazu** para admirar los impresionantes retablos dorados churriguerescos; finalmente, pasea por el centro histórico para comprender profundamente la importante posición de estos monumentos en la historia de México."
   }
 }

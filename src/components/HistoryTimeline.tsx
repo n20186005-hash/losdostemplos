@@ -6,7 +6,7 @@ export default function HistoryTimeline() {
   const t = useTranslations('historyTimeline');
   
   // Create an array for the items to iterate easily
-  const items = [0, 1, 2, 3, 4];
+  const items = [0, 1, 2, 3];
 
   return (
     <section className="section-padding" style={{ background: 'var(--bg-primary)' }}>

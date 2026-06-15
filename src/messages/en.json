@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Los Dos Templos | Guadalajara",
-    "description": "Explore Los Dos Templos in Guadalajara, Jalisco, Mexico. Discover this important historical monument and landmark."
+    "title": "Los Dos Templos | Historic Churches",
+    "description": "Explore Los Dos Templos (The Two Historic Churches) in Guadalajara, Jalisco, Mexico. Discover the magnificent architecture of San Francisco de Asís and Nuestra Señora de Aránzazu."
   },
   "header": {
     "home": "Home",
@@ -15,45 +15,45 @@
     "subtitle": "Jalisco · Mexico",
     "rating": "4.6",
     "reviewCount": "8,138",
-    "hours": "Historical Monument",
+    "hours": "Historic Churches",
     "openMaps": "View Location"
   },
   "intro": {
     "title": "Explore Los Dos Templos",
-    "description": "Los Dos Templos is located in Guadalajara, Jalisco, Mexico. It is an important historical monument and landmark with rich historical and cultural value. The site is an important place to understand Mexican colonial history and architectural art, offering visitors a fascinating window into Mexican history and culture.",
+    "description": "Los Dos Templos is located in Guadalajara, Jalisco, Mexico. It consists of two exceptionally well-preserved 17th and 18th-century magnificent churches that are still in use today. They once belonged to a vast convent complex and are now separated by the beautiful and peaceful Jardín de San Francisco, making it a perfect place to experience Mexican Baroque architectural art.",
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
-        "The site is open all day, daytime visits are recommended",
-        "Visit historical buildings and ruins",
-        "Learn about colonial architectural styles",
-        "Visit nearby Guadalajara historic center"
+        "Churches open all day, daytime visits recommended",
+        "Admire the 18th-century Churrigueresque gilded altars",
+        "Relax at the Jardín de San Francisco square",
+        "Visit the nearby Guadalajara historic center"
       ]
     },
     "alsoKnownAs": {
       "title": "Highlights",
       "items": [
-        "Historical Monument: Important colonial historical landmark, symbol of Mexican architectural art.",
-        "Cultural Heritage: Located in Guadalajara, full of historical and cultural value.",
-        "Architectural Art: Experience Mexican colonial architectural styles and history.",
-        "Prime Location: Located in Guadalajara, Jalisco, easily accessible."
+        "Templo de San Francisco de Asís: One of the oldest churches in Guadalajara with a solemn and classic exterior.",
+        "Templo de Nuestra Señora de Aránzazu: Highly recommended! The only church in the city retaining three complete 18th-century Churrigueresque (Ultra-Baroque) gilded wooden altars.",
+        "Jardín de San Francisco: A beautiful and tranquil square separating the two churches, perfect for visitors to rest.",
+        "Prime Location: Located in the historic center of Guadalajara, Jalisco, easily accessible."
       ]
     }
   },
   "route": {
     "title": "Tour Route",
-    "overview": "Discover the ideal route to explore Los Dos Templos and experience the essence of Mexican history and culture.",
+    "overview": "Discover the ideal route to explore Los Dos Templos and experience the essence of Baroque architectural art and Mexican history.",
     "steps": [
-      "Arrive at the site in the morning to admire the surrounding historical buildings and ruins.",
-      "At noon, find a nearby restaurant to enjoy traditional Mexican cuisine.",
-      "Continue visiting in the afternoon to learn about colonial architectural styles and historical background.",
-      "After your visit, walk to Guadalajara historic center to see other attractions."
+      "Arrive at Templo de San Francisco de Asís in the morning to admire its solemn exterior and long history.",
+      "Walk through the beautiful and peaceful Jardín de San Francisco and take a short break in the square.",
+      "Focus your visit on Templo de Nuestra Señora de Aránzazu to admire its stunning 18th-century Churrigueresque gilded wooden altars.",
+      "After the visit, walk to the Guadalajara historic center to explore other attractions or enjoy local cuisine."
     ],
     "supplementsTitle": "Additional Tour Tips",
     "supplements": [
       "Please prepare some cash for buying souvenirs or snacks nearby.",
-      "The area around the site is open, please protect yourself from sun and stay hydrated.",
-      "If you are interested in history, you can prepare the historical background you want to learn about in advance."
+      "Please keep quiet inside the churches and respect local religious customs.",
+      "When photographing the gilded altars, please avoid using flash so as not to disturb others."
     ]
   },
   "knowledge": {
@@ -62,17 +62,17 @@
       {
         "id": "history",
         "title": "Historical Significance",
-        "content": "Los Dos Templos is an important historical and cultural site in Guadalajara. The site carries the historical memory of the colonial period and is an important place to understand Mexican history. The architectural style of the site reflects the artistic characteristics of the colonial period."
+        "content": "Los Dos Templos is an important historical and cultural landmark in Guadalajara. These two churches once belonged to a massive convent complex, witnessing centuries of urban evolution, and serve as an important place to understand Mexican religion and history."
       },
       {
         "id": "culture",
         "title": "Cultural Landscape",
-        "content": "The site is located in Guadalajara, surrounded by historically styled buildings. It's an excellent place to experience Mexican historical culture and architectural art, full of historical depth."
+        "content": "Templo de Nuestra Señora de Aránzazu is the only church in the city that retains three complete 18th-century Churrigueresque (Ultra-Baroque) gilded wooden altars. Its visual impact is truly breathtaking."
       },
       {
         "id": "experience",
         "title": "Visiting Experience",
-        "content": "Visiting Los Dos Templos is an unforgettable historical and cultural experience. You can admire historical architecture, learn about Mexican colonial history, and feel the depth and charm of Mexican history."
+        "content": "Stroll through the Jardín de San Francisco between the two churches and feel the peaceful atmosphere. It is an unforgettable architectural and cultural experience, allowing you to closely feel the depth and charm of Mexican history."
       }
     ]
   },
@@ -80,8 +80,8 @@
     "title": "Basic Information",
     "officialName": "Official Name",
     "officialNameValue": "Los Dos Templos",
-    "type": "Site Type",
-    "typeValue": "Historical Monument",
+    "type": "monument Type",
+    "typeValue": "Historic Churches",
     "country": "Country",
     "countryValue": "Mexico",
     "city": "City",
@@ -94,7 +94,7 @@
   },
   "hours": {
     "title": "Opening Hours",
-    "outdoor": "Site Area",
+    "outdoor": "Church Area",
     "outdoorTime": "Open all day (verify official information)",
     "lighthouse": "Best Time to Visit",
     "summer": "Dry Season (November-April)",
@@ -107,15 +107,15 @@
   },
   "tickets": {
     "title": "Ticket Information",
-    "outdoor": "Site Visit",
+    "outdoor": "Church Visit",
     "outdoorPrice": "Free admission",
     "lighthouse": "Guided Tours",
-    "adults": "On-site guidance",
+    "adults": "On-monument guidance",
     "adultsPrice": "Tips appreciated",
     "students": "Cultural Experience",
     "studentsPrice": "Many historical attractions nearby",
     "children": "Recommendations",
-    "childrenPrice": "Respect historical sites and protect cultural relics",
+    "childrenPrice": "Respect historical monuments and protect cultural relics",
     "card": "Additional Services",
     "cardPrice": "History books and souvenirs available"
   },
@@ -124,37 +124,37 @@
     "airport": "From the Airport",
     "airportDesc": "Nearest airport: Guadalajara International Airport (GDL). From there, take a bus or taxi to the historic center.",
     "selfDrive": "Driving",
-    "selfDriveDesc": "The site is located in the historic center. Use navigation and check for public parking nearby.",
+    "selfDriveDesc": "The monument is located in the historic center. Use navigation and check for public parking nearby.",
     "bus": "Public Transport",
-    "busDesc": "Take Guadalajara metro or bus to Historic Center station, then walk to the site.",
+    "busDesc": "You can take Line 3 (Línea 3) of the Guadalajara Light Rail (Tren Ligero) to the Guadalajara Centro station, which is very close to the churches and within walking distance.",
     "intercity": "Walking Tour",
-    "intercityDesc": "The site is in the historic center, walkable to nearby attractions.",
+    "intercityDesc": "The monument is in the historic center, walkable to nearby attractions.",
     "cycling": "Other Means",
     "cyclingDesc": "Public transport or walking recommended, historic center traffic can be congested.",
     "tips": "Travel Tips",
-    "tipsDesc": "Los Dos Templos is an excellent place to experience Mexican history and culture, daytime visits recommended."
+    "tipsDesc": "Los Dos Templos is an excellent place to experience Mexican Baroque architectural art, daytime visits recommended."
   },
   "gallery": {
     "title": "Stunning Photos",
     "subtitle": "The Charm of Los Dos Templos",
     "captions": [
-      "Site panoramic view",
+      "monument panoramic view",
       "Historical architecture",
       "Architectural details",
-      "Site scenery",
-      "Historical ruins",
+      "monument scenery",
+      "Historical historic monuments",
       "Architectural art",
       "Cultural landscape",
       "Historical style",
-      "Site atmosphere",
+      "monument atmosphere",
       "Architectural features",
       "History and culture",
-      "Full site view",
+      "Full monument view",
       "Architectural style",
       "Historical traces",
       "Cultural heritage",
       "Historical architecture",
-      "Site scenery"
+      "monument scenery"
     ],
     "viewAll": "View more photos on Google Maps",
     "showAllPhotos": "Show All Photos"
@@ -168,13 +168,13 @@
         "name": "Carlos Rivera",
         "date": "2 months ago",
         "rating": 5,
-        "text": "A place full of history and culture. The architecture of the site is unforgettable, highly recommended for all tourists interested in history."
+        "text": "A place full of history and culture. The architecture of the monument is unforgettable, highly recommended for all tourists interested in history."
       },
       {
         "name": "María González",
         "date": "3 weeks ago",
         "rating": 5,
-        "text": "Amazing historical site. The architectural style is very unique and has a long history. This is an important part of Mexican history and culture."
+        "text": "Amazing historical monument. The architectural style is very unique and has a long history. This is an important part of Mexican history and culture."
       },
       {
         "name": "Juan Pérez",
@@ -186,7 +186,7 @@
         "name": "Ana Torres",
         "date": "Over 6 months ago",
         "rating": 5,
-        "text": "An important part of Mexican history. The architecture of the site is moving, a must-visit place in Guadalajara."
+        "text": "An important part of Mexican history. The architecture of the monument is moving, a must-visit place in Guadalajara."
       },
       {
         "name": "Roberto Silva",
@@ -198,13 +198,13 @@
         "name": "Sofía Méndez",
         "date": "Over 6 months ago",
         "rating": 5,
-        "text": "Beautiful site, full of the charm of Mexican history. The architectural style is unforgettable, definitely worth a visit."
+        "text": "Beautiful monument, full of the charm of Mexican history. The architectural style is unforgettable, definitely worth a visit."
       },
       {
         "name": "Miguel Herrera",
         "date": "3 months ago",
         "rating": 4,
-        "text": "Interesting historical venue. Experience history and culture up close, respect the site and protect cultural relics."
+        "text": "Interesting historical venue. Experience history and culture up close, respect the monument and protect cultural relics."
       },
       {
         "name": "Laura Vargas",
@@ -243,7 +243,7 @@
         "url": "https://www.inah.gob.mx/"
       }
     },
-    "disclaimer": "This website is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+    "disclaimer": "This webmonument is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -251,15 +251,15 @@
     "sections": [
       {
         "heading": "1. Information We Collect",
-        "content": "We only collect the minimum data necessary to provide our services. This data may include: browsing data (IP address, browser type, visited pages), cookies and similar technologies, and any information you voluntarily provide via contact forms or email."
+        "content": "We only collect the minimum data necessary to provide our services. This data may include: browsing data (IP address, browser type, vimonumentd pages), cookies and similar technologies, and any information you voluntarily provide via contact forms or email."
       },
       {
         "heading": "2. How We Use Your Information",
-        "content": "We use the collected information to: improve website content and user experience, analyze traffic and usage patterns, respond to requests, and comply with our legal obligations."
+        "content": "We use the collected information to: improve webmonument content and user experience, analyze traffic and usage patterns, respond to requests, and comply with our legal obligations."
       },
       {
         "heading": "3. Third-Party Services",
-        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+        "content": "Our webmonument may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
       },
       {
         "heading": "4. Your Rights",
@@ -273,11 +273,11 @@
     "sections": [
       {
         "heading": "1. Acceptance of Terms",
-        "content": "By accessing and using this website, you agree to be bound by these terms of service."
+        "content": "By accessing and using this webmonument, you agree to be bound by these terms of service."
       },
       {
         "heading": "2. Use of Content",
-        "content": "All content on this website is for informational purposes only. We are an independent third-party travel information website, not affiliated with any tourist attractions, government agencies, or commercial operators."
+        "content": "All content on this webmonument is for informational purposes only. We are an independent third-party travel information webmonument, not affiliated with any tourist attractions, government agencies, or commercial operators."
       },
       {
         "heading": "3. Accuracy of Information",
@@ -285,11 +285,11 @@
       },
       {
         "heading": "4. Intellectual Property",
-        "content": "The design and original content of this website are protected by copyright. Images are sourced from Unsplash and used under license. The use of Google Maps data complies with Google's terms of service."
+        "content": "The design and original content of this webmonument are protected by copyright. Images are sourced from Unsplash and used under license. The use of Google Maps data complies with Google's terms of service."
       },
       {
         "heading": "5. Limitation of Liability",
-        "content": "This website is provided \"as is\" without any warranties. We are not responsible for any losses resulting from the use of information on this website, including but not limited to travel decisions made based on its content."
+        "content": "This webmonument is provided \"as is\" without any warranties. We are not responsible for any losses resulting from the use of information on this webmonument, including but not limited to travel decisions made based on its content."
       }
     ]
   },
@@ -298,17 +298,17 @@
     "description": "Last Updated: June 2026\n\nWe use cookies to improve your browsing experience. You can manage your preferences below.",
     "essential": {
       "title": "Essential Cookies",
-      "description": "These cookies are essential for the website to function properly and cannot be disabled.",
+      "description": "These cookies are essential for the webmonument to function properly and cannot be disabled.",
       "badge": "Always Active"
     },
     "analytics": {
       "title": "Analytics Cookies",
-      "description": "They help us understand how visitors interact with our website by collecting anonymous usage data.",
+      "description": "They help us understand how visitors interact with our webmonument by collecting anonymous usage data.",
       "items": [
         {
           "name": "Google Analytics",
           "status": "Active",
-          "description": "It collects anonymous information about how visitors use our website."
+          "description": "It collects anonymous information about how visitors use our webmonument."
         }
       ]
     },
@@ -330,18 +330,18 @@
         {
           "name": "User Preferences",
           "status": "Active",
-          "description": "Saves your language preferences and website settings."
+          "description": "Saves your language preferences and webmonument settings."
         }
       ],
       "title": "Preference Cookies",
       "description": "They remember your settings, such as language and theme preferences."
     },
-    "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the website's functionality.",
+    "consentManagement": "Consent Management: You can change your cookie settings at any time. Please note that disabling certain cookies may affect the webmonument's functionality.",
     "rejectAll": "Reject All"
   },
   "officialManagement": {
     "title": "About Los Dos Templos",
-    "text": "Los Dos Templos is a historical monument in Guadalajara, carrying rich historical and cultural value."
+    "text": "Los Dos Templos are famous historic churches in Guadalajara, consisting of Templo de San Francisco de Asís and Templo de Nuestra Señora de Aránzazu, carrying rich architectural and cultural value."
   },
   "historyTimeline": {
     "title": "Historical Timeline",
@@ -349,29 +349,29 @@
       {
         "year": "Colonial Period",
         "title": "Colonial Period: Foundation",
-        "plaque": "Historical Ruins (Building Remains)",
-        "description": "Los Dos Templos was built during the Mexican colonial period and is an important historical building site in Guadalajara. These two temple buildings reflect the unique architectural style and religious beliefs of that time."
+        "plaque": "Historic Monument (Convent Complex)",
+        "description": "Los Dos Templos was built during the Mexican colonial period and originally belonged to a massive convent complex. Templo de San Francisco de Asís is one of the oldest churches in Guadalajara, featuring a solemn exterior."
       },
       {
         "year": "19th Century",
-        "title": "19th Century: Historical Changes",
-        "plaque": "Historical Records (Site Protection)",
-        "description": "With historical changes, these two temples experienced multiple renovations and protections. They witnessed the development of Guadalajara and the evolution of history, becoming important cultural heritage."
+        "title": "18th Century: Baroque Pinnacle",
+        "plaque": "Architectural Art (Gilded Altars)",
+        "description": "Templo de Nuestra Señora de Aránzazu shone brightly during this period, with three complete Churrigueresque (Ultra-Baroque) gilded wooden altars built inside, becoming a gem of Mexican architectural art."
       },
       {
         "year": "20th Century",
-        "title": "20th Century: Cultural Preservation",
-        "plaque": "Preservation Mark (Cultural Heritage Identification)",
-        "description": "In the 20th century, with increased awareness of cultural heritage preservation, Los Dos Templos received better protection. The government and community worked together to ensure this historical site is properly maintained."
+        "title": "20th Century: Urban Evolution",
+        "plaque": "City Landmark (Jardín de San Francisco)",
+        "description": "With the urban development of Guadalajara, the original convent complex underwent changes. Today, the two churches are separated by the beautiful and peaceful Jardín de San Francisco, serving as a resting square for citizens and tourists."
       },
       {
         "year": "21st Century",
-        "title": "21st Century: Tourism Development",
-        "plaque": "Tourism Identification (Cultural Tourism Landmark)",
-        "description": "Entering the 21st century, Los Dos Templos as an important cultural tourism attraction has attracted more and more visitors. It is not only a paradise for history enthusiasts, but also an important window to understand Mexican history and culture."
+        "title": "21st Century: Cultural Tourism Destination",
+        "plaque": "Tourism Landmark (Cultural Destination)",
+        "description": "In the 21st century, Los Dos Templos attracts more and more visitors with its well-preserved centuries-old church architecture and stunning gilded altars, becoming an important window to experience Mexican history and art."
       }
     ],
     "guideTitle": "Visitor Guide Tip",
-    "guideContent": "When visiting, start with the **site panoramic view** to feel the depth of history; then head to the **historical architecture** area to learn about colonial architectural styles; next, visit the **architectural details** to appreciate the traces of history; finally, understand the **cultural background** to deeply understand the important position of this site in Mexican history."
+    "guideContent": "When visiting, you can start with **Templo de San Francisco de Asís** to feel its solemnity; then take a break at **Jardín de San Francisco**; next, focus on visiting **Templo de Nuestra Señora de Aránzazu** to admire the breathtaking Churrigueresque gilded altars; finally, stroll through the historic center to deeply understand the important position of these monuments in Mexican history."
   }
 }
