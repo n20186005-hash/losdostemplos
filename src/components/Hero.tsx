@@ -9,9 +9,11 @@ export default function Hero() {
       {/* Background image */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/los-dos-templos (4).jpg"
-          alt="Los Dos Templos"
+          src="/images/hero.jpg"
+          alt={t('imgAlt')}
           className="w-full h-full object-cover"
+          loading="eager"
+          fetchPriority="high"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />
       </div>

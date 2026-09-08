@@ -89,6 +89,30 @@ export default function TransportSection() {
           ))}
         </div>
 
+        {/* Bus routes that serve Los Dos Templos */}
+        <div
+          className="mt-8 rounded-xl p-6"
+          style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)' }}
+        >
+          <h3 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
+            {t('transitTitle')}
+          </h3>
+          <p className="text-sm leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>
+            {t('transitIntro')}
+          </p>
+          <ul className="space-y-2.5">
+            {(t.raw('lines') as string[]).map((line, i) => (
+              <li key={i} className="flex items-start gap-3">
+                <span className="mt-2 flex-shrink-0 w-1.5 h-1.5 rounded-full" style={{ background: 'var(--accent)' }} />
+                <span className="text-sm leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{line}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-4 text-sm font-medium" style={{ color: 'var(--accent)' }}>
+            💡 {t('transitNote')}
+          </p>
+        </div>
+
         {/* Travel Tips */}
         <div
           className="mt-8 rounded-xl p-6 flex items-start gap-4"

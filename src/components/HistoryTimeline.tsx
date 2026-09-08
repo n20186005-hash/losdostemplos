@@ -1,9 +1,11 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useTranslations, useMessages } from 'next-intl';
 
 export default function HistoryTimeline() {
   const t = useTranslations('historyTimeline');
+  const messages = useMessages() as any;
+  const historyExtra = messages?.historyExtra as { legendTitle?: string; legendText?: string } | undefined;
   
   // Create an array for the items to iterate easily
   const items = [0, 1, 2, 3];
@@ -55,6 +57,17 @@ export default function HistoryTimeline() {
               .replace(/\*\*(.*?)\*\*/g, '<strong style="color: var(--text-primary)">$1</strong>')
           }} />
         </div>
+
+        {historyExtra?.legendTitle && historyExtra?.legendText && (
+          <div className="mt-6 rounded-xl p-6 md:p-8" style={{ background: 'var(--bg-tertiary)', border: '1px solid var(--border-color)', borderLeft: '4px solid var(--accent)' }}>
+            <h4 className="text-lg font-bold mb-3 flex items-center gap-2" style={{ color: 'var(--text-primary)' }}>
+              🏛️ {historyExtra.legendTitle}
+            </h4>
+            <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+              {historyExtra.legendText}
+            </p>
+          </div>
+        )}
       </div>
     </section>
   );

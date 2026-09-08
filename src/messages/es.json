@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Los Dos Templos | Iglesias Históricas",
-    "description": "Explora Los Dos Templos en Guadalajara, Jalisco, México. Descubre la magnífica arquitectura de San Francisco de Asís y Nuestra Señora de Aránzazu."
+    "title": "Los Dos Templos Guadalajara: Horarios, Historia y Cómo Llegar",
+    "description": "Los Dos Templos en el Centro de Guadalajara: San Francisco y Aránzazu. Horarios de visita, historia, fotos y cómo llegar en autobús (Ruta 231, T15) o Tren Ligero."
   },
   "header": {
     "home": "Inicio",
@@ -11,12 +11,13 @@
     "backToHome": "Volver al Inicio"
   },
   "hero": {
-    "title": "Los Dos Templos",
+    "title": "Los Dos Templos (Guadalajara)",
     "subtitle": "Jalisco · México",
     "rating": "4.6",
-    "reviewCount": "8,138",
+    "reviewCount": "8,418",
     "hours": "Iglesias Históricas",
-    "openMaps": "Ver Ubicación"
+    "openMaps": "Ver Ubicación",
+    "imgAlt": "Los Dos Templos - Vista principal en Guadalajara, México"
   },
   "intro": {
     "title": "Explora Los Dos Templos",
@@ -38,7 +39,18 @@
         "Jardín de San Francisco: Una hermosa y tranquila plaza que separa las dos iglesias, perfecta para el descanso de los visitantes.",
         "Ubicación privilegiada: Situado en el centro histórico de Guadalajara, de fácil acceso."
       ]
-    }
+    },
+    "welcome": "Bienvenido a **Los Dos Templos**, cuyo nombre significa literalmente **los dos templos**, ampliamente reconocido como uno de los monumentos históricos centrales de **Guadalajara**. Situado en el corazón de **Guadalajara**, **Jalisco**, **México**, este destino es un punto de partida esencial para los viajeros de la región.",
+    "breadcrumb": {
+      "items": [
+        "Los Dos Templos",
+        "Guadalajara",
+        "Jalisco",
+        "México"
+      ]
+    },
+    "nearbyHeading": "Monumentos y Atracciones Alrededor de Los Dos Templos",
+    "nearby": "Al visitar **Los Dos Templos**, los visitantes pueden explorar fácilmente los monumentos históricos y puntos de interés cercanos, como la **Catedral de Guadalajara** y el **Teatro Degollado**."
   },
   "route": {
     "title": "Ruta de Visita",
@@ -124,13 +136,22 @@
     "selfDrive": "En Coche",
     "selfDriveDesc": "El monumento está ubicado en el centro histórico. Usa navegación y busca estacionamiento público cercano.",
     "bus": "Transporte Público",
-    "busDesc": "Puedes tomar la Línea 3 del Tren Ligero hasta la estación Guadalajara Centro, que está muy cerca de las iglesias y a poca distancia a pie.",
+    "busDesc": "Puedes llegar en camión urbano o en el Tren Ligero: varias rutas (Ruta 231, T15, Ruta 86) y la Línea 3 (estación Guadalajara Centro) te dejan a pocos minutos a pie de las iglesias.",
     "intercity": "Tour a Pie",
     "intercityDesc": "El monumento está en el centro histórico, caminable a atracciones cercanas.",
     "cycling": "Otros Medios",
     "cyclingDesc": "Se recomienda transporte público o caminar, el tráfico en el centro histórico puede estar congestionado.",
     "tips": "Consejos de Viaje",
-    "tipsDesc": "Los Dos Templos son un excelente lugar para experimentar el arte arquitectónico barroco mexicano, se recomiendan las visitas diurnas."
+    "tipsDesc": "Los Dos Templos son un excelente lugar para experimentar el arte arquitectónico barroco mexicano, se recomiendan las visitas diurnas.",
+    "transitTitle": "¿En qué rutas de camión llego a Los Dos Templos?",
+    "transitIntro": "Los autobuses urbanos (camiones) que pasan por Av. 16 de Septiembre y Calzada Revolución te dejan prácticamente enfrente del conjunto. La parada de la zona se conoce como «Dos Templos» o «San Francisco».",
+    "lines": [
+      "Ruta 231 — recorre el centro y sirve la zona de Los Dos Templos.",
+      "T15 — ruta troncal urbana que pasa por el centro de Guadalajara.",
+      "Ruta 86 — otra opción frecuente por el centro histórico.",
+      "Tren Ligero Línea 3 — bájate en la estación Guadalajara Centro y camina unos 5–7 minutos."
+    ],
+    "transitNote": "Consejo local: al subir, di al chofer «¿Me avisa en Dos Templos?» y te indicará dónde bajar."
   },
   "gallery": {
     "title": "Fotos Impresionantes",
@@ -213,9 +234,11 @@
     ]
   },
   "mapSection": {
-    "title": "Ubicación y Mapa",
+    "title": "Ubicación y Cómo Visitar Los Dos Templos en Guadalajara",
     "subtitle": "Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jal., México",
-    "openMaps": "Ver en Google Maps"
+    "openMaps": "Ver en Google Maps",
+    "officialNote": "Para información oficial actualizada y turismo regional, visita",
+    "officialPortalLabel": "el Portal Oficial de Turismo de México / Jalisco"
   },
   "footer": {
     "rights": "© 2026 Los Dos Templos. Todos los derechos reservados.",
@@ -241,7 +264,8 @@
         "url": "https://www.inah.gob.mx/"
       }
     },
-    "disclaimer": "Este monumento web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales."
+    "disclaimer": "Este monumento web es un proyecto independiente de información turística de terceros. No tenemos afiliación con el gobierno local u otras instituciones oficiales.",
+    "imageRights": "Todas las imágenes mostradas en este sitio web son propiedad de sus respectivos fotógrafos y están protegidas por derechos de autor."
   },
   "privacy": {
     "title": "Política de Privacidad",
@@ -257,7 +281,7 @@
       },
       {
         "heading": "3. Servicios de Terceros",
-        "content": "Nuestro monumento web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación), Google Analytics (para análisis de tráfico) y Unsplash (para imágenes). Estos servicios tienen sus propias políticas de privacidad."
+        "content": "Nuestro sitio web puede utilizar servicios de terceros como Google Maps (para mapas integrados y datos de ubicación) y Google Analytics (para análisis de tráfico). Estos servicios tienen sus propias políticas de privacidad."
       },
       {
         "heading": "4. Sus Derechos",
@@ -283,7 +307,7 @@
       },
       {
         "heading": "4. Propiedad Intelectual",
-        "content": "El diseño y el contenido original de este monumento web están protegidos por derechos de autor. Las imágenes provienen de Unsplash y se utilizan bajo licencia. El uso de datos de Google Maps cumple con los términos de servicio de Google."
+        "content": "El diseño y el contenido original de este sitio web están protegidos por derechos de autor. Todas las imágenes mostradas en este sitio web son propiedad de sus respectivos fotógrafos y están protegidas por derechos de autor. El uso de datos de Google Maps cumple con los términos de servicio de Google."
       },
       {
         "heading": "5. Limitación de Responsabilidad",
@@ -342,7 +366,7 @@
     "text": "Los Dos Templos son iglesias históricas famosas en Guadalajara, formadas por el Templo de San Francisco de Asís y el Templo de Nuestra Señora de Aránzazu, que poseen un rico valor arquitectónico y cultural."
   },
   "historyTimeline": {
-    "title": "Cronología Histórica",
+    "title": "Historia y Significado de Los Dos Templos",
     "items": [
       {
         "year": "Período Colonial",
@@ -371,5 +395,333 @@
     ],
     "guideTitle": "Consejo de Guía para Visitantes",
     "guideContent": "Al visitar, puedes comenzar con el **Templo de San Francisco de Asís** para sentir su solemnidad; luego toma un descanso en el **Jardín de San Francisco**; a continuación, concéntrate en visitar el **Templo de Nuestra Señora de Aránzazu** para admirar los impresionantes retablos dorados churriguerescos; finalmente, pasea por el centro histórico para comprender profundamente la importante posición de estos monumentos en la historia de México."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes sobre Los Dos Templos",
+    "items": [
+      {
+        "q": "¿Dónde se encuentra Los Dos Templos?",
+        "a": "Los Dos Templos se encuentra en el centro histórico de Guadalajara, en Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jalisco, México."
+      },
+      {
+        "q": "¿Qué dos iglesias forman Los Dos Templos?",
+        "a": "Los Dos Templos está formado por dos iglesias históricas: el Templo de San Francisco de Asís y el Templo de Nuestra Señora de Aránzazu. Antiguamente pertenecían a un vasto complejo conventual y hoy están separados por el tranquilo Jardín de San Francisco."
+      },
+      {
+        "q": "¿Es gratis visitar Los Dos Templos?",
+        "a": "Sí, visitar Los Dos Templos y entrar a sus dos iglesias es gratuito. Como monumento histórico público de Guadalajara, está abierto a los visitantes de forma gratuita durante todo el año."
+      },
+      {
+        "q": "¿Cuál es el horario de apertura de Los Dos Templos?",
+        "a": "Las iglesias suelen estar abiertas durante todo el día; se recomienda la visita diurna para disfrutar de la mejor luz y ambiente. Por favor, verifica el horario oficial más reciente antes de tu visita."
+      },
+      {
+        "q": "¿Qué puedo ver en Los Dos Templos?",
+        "a": "Los visitantes pueden admirar la arquitectura barroca colonial de las dos iglesias, especialmente los tres retablos completos de madera dorada de estilo churrigueresco (ultrabarroco) del siglo XVIII conservados en el Templo de Nuestra Señora de Aránzazu, así como el tranquilo Jardín de San Francisco."
+      },
+      {
+        "q": "¿Cómo llego a Los Dos Templos en Guadalajara?",
+        "a": "Los Dos Templos se encuentra en el centro histórico de Guadalajara. Puedes tomar la Línea 3 del Tren Ligero hasta la estación Guadalajara Centro y caminar, o llegar a pie o en taxi desde el centro de la ciudad."
+      },
+      {
+        "q": "¿Qué monumentos hay cerca de Los Dos Templos?",
+        "a": "Al visitar Los Dos Templos, también puedes explorar monumentos cercanos como la Catedral de Guadalajara y el Teatro Degollado, ambos a poca distancia a pie en el centro histórico."
+      },
+      {
+        "q": "¿Cuál es el templo más antiguo de Guadalajara?",
+        "a": "El Templo de San Francisco de Asís, que forma parte del conjunto de Los Dos Templos, es uno de los recintos religiosos más antiguos que siguen en pie en el centro histórico: su iglesia actual se construyó entre los siglos XVII y XVIII sobre el solar del antiguo convento franciscano."
+      },
+      {
+        "q": "¿Los Dos Templos son de estilo gótico?",
+        "a": "No exactamente: Los Dos Templos muestran un barroco colonial mexicano, con retablos churriguerescos dorados en el Templo de Nuestra Señora de Aránzazu. Si buscas estilo gótico en Guadalajara, el ejemplo más conocido son las torres neogóticas de la Catedral, añadidas a mediados del siglo XIX."
+      },
+      {
+        "q": "¿Qué camión o autobús me deja en Los Dos Templos?",
+        "a": "Varias rutas urbanas pasan por Av. 16 de Septiembre y Calzada Revolución, entre ellas la Ruta 231, la T15 y la Ruta 86; la parada de la zona se conoce como «Dos Templos», así que pide al chofer que te avise. También puedes tomar la Línea 3 del Tren Ligero hasta la estación Guadalajara Centro y caminar unos minutos."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Fuentes y Referencias Oficiales",
+    "intro": "Esta guía de visitantes se elaboró con información pública de instituciones oficiales de turismo, patrimonio y municipales. Para información oficial actualizada y turismo regional, visita las siguientes fuentes autorizadas:",
+    "items": [
+      {
+        "name": "Secretaría de Turismo de Jalisco (SECTUR Jalisco)",
+        "url": "https://secturjal.jalisco.gob.mx/"
+      },
+      {
+        "name": "Secretaría de Turismo de México (SECTUR)",
+        "url": "https://www.gob.mx/sectur"
+      },
+      {
+        "name": "Gobierno Municipal de Guadalajara (H. Ayuntamiento de Guadalajara)",
+        "url": "https://guadalajara.gob.mx/"
+      },
+      {
+        "name": "Instituto Nacional de Antropología e Historia (INAH)",
+        "url": "https://www.inah.gob.mx/"
+      }
+    ]
+  },
+  "weather": {
+    "eyebrow": "Clima y consejos",
+    "title": "Clima en vivo y previsión a 7 días",
+    "subtitle": "No basta con ver la temperatura: te ayudamos a decidir qué ponerte, qué plan hacer y qué llevar.",
+    "loading": "Consultando el clima de hoy…",
+    "retry": "Reintentar",
+    "error": "Ahora mismo no podemos obtener el clima. Inténtalo en un momento.",
+    "feels": "Sensación",
+    "precipProb": "Prob. de lluvia",
+    "uv": "UV",
+    "uvLevels": [
+      "Baja",
+      "Moderada",
+      "Alta",
+      "Muy alta",
+      "Extrema"
+    ],
+    "windLevels": [
+      "En calma",
+      "Brisa ligera",
+      "Brisa moderada",
+      "Viento fuerte",
+      "Vendaval"
+    ],
+    "todayLabel": "Hoy",
+    "forecastLabel": "Próximos 6 días",
+    "sunrise": "Amanecer",
+    "sunset": "Atardecer",
+    "adviceTitle": "Guía para hoy",
+    "riskTitle": "Avisos",
+    "noRisk": "Sin riesgos importantes de momento: puedes planear con normalidad.",
+    "groupOutfit": "Qué ponerse",
+    "groupPlan": "Plan del día",
+    "groupItems": "Qué llevar",
+    "alertTitle": "Alerta meteorológica",
+    "codes": {
+      "sunny": "Despejado",
+      "partly": "Parcialmente nublado",
+      "cloudy": "Nublado",
+      "fog": "Niebla",
+      "drizzle": "Llovizna",
+      "rain": "Lluvia",
+      "snow": "Nieve",
+      "showers": "Chubascos",
+      "snowShowers": "Nevadas",
+      "thunder": "Tormenta"
+    },
+    "suggest": {
+      "outfitRange": "Mucha diferencia térmica entre día y noche: lleva una chaqueta ligera.",
+      "outfitChilly": "Mañanas y noches frescas: una capa fina o suéter te vendrá bien.",
+      "outfitColdMax": "Día frío: abrígate con chaqueta gruesa y bufanda.",
+      "outfitHot": "Hace calor: usa ropa ligera y evita el mediodía.",
+      "outfitStuffy": "Ambiente bochornoso: elige telas frescas e hidrátate con frecuencia.",
+      "outfitWind": "Hay viento: ten cuidado con sombreros y bufandas sueltas.",
+      "outfitWet": "Día de lluvia: un impermeable o ropa que seque rápido ayuda mucho.",
+      "actSunny": "Buen tiempo para pasear y fotografiar; la luz favorece las fachadas.",
+      "actClearViews": "Buena visibilidad para disfrutar el amanecer y el atardecer.",
+      "actOvercast": "La luz suave invita a recorrer con calma y fotografiar detalles.",
+      "actDrizzle": "Llovizna: el piso puede estar resbaloso, camina con cuidado.",
+      "actLightRain": "Lluvia ligera: prefiere pasillos y soportales cubiertos.",
+      "actModerateRain": "Lluvia moderada: empieza por espacios interiores y sal cuando amaine.",
+      "actHeavyRain": "Lluvia fuerte: evita largos ratos al aire libre y quédate resguardado.",
+      "actProbRain": "Alta probabilidad de lluvia, a menudo por la tarde: mejor un plan interior y flexible.",
+      "actThunder": "Posibles tormentas: detén el plan al aire libre y espera en un lugar seguro.",
+      "actFog": "Niebla con poca visibilidad: muévete con cuidado; las vistas se reducen.",
+      "actHot": "Sol y calor intensos: descansa a la sombra cerca del mediodía.",
+      "actUvStrong": "Radiación UV alta: protégete del sol si estarás al aire libre.",
+      "alertNote": "Consulta los avisos oficiales locales y ajusta tu itinerario."
+    },
+    "items": {
+      "umbrella": "paraguas",
+      "fold": "paraguas plegable",
+      "raincoat": "impermeable",
+      "sunscreen": "protector solar",
+      "sunglasses": "lentes de sol",
+      "hat": "sombrero",
+      "water": "agua",
+      "jacketThin": "chaqueta ligera",
+      "jacketWarm": "chaqueta gruesa",
+      "scarf": "bufanda"
+    },
+    "risk": {
+      "heavyRain": "Lluvia intensa: evita calles bajas con agua acumulada y cruza con precaución.",
+      "thunder": "Durante una tormenta, no permanezcas en plazas abiertas ni bajo árboles o estructuras metálicas.",
+      "gale": "Viento fuerte: aléjate de letreros y estructuras temporales; cuidado con lo que pueda caer."
+    }
+  },
+  "seasons": {
+    "title": "Estrategia de visita por temporada",
+    "subtitle": "Tabla orientativa según el clima y la afluencia habitual en Guadalajara. Solo fines informativos y neutrales.",
+    "cols": {
+      "season": "Temporada",
+      "months": "Meses",
+      "weather": "Clima típico",
+      "crowds": "Afluencia",
+      "tip": "Recomendación"
+    },
+    "note": "Guadalajara tiene clima templado de altura: seco la mayor parte del año y lluvias por la tarde entre junio y septiembre.",
+    "rows": [
+      {
+        "season": "Primavera",
+        "months": "mar–may",
+        "weather": "Seco y cálido, 15–33 °C; tardes calurosas",
+        "crowds": "Alta en Semana Santa y fines de semana",
+        "tip": "Visita temprano; usa protección solar y lleva agua."
+      },
+      {
+        "season": "Verano (lluvias)",
+        "months": "jun–sep",
+        "weather": "Lluvias por la tarde; fresco, 18–30 °C",
+        "crowds": "Media; más familias en vacaciones de jul–ago",
+        "tip": "Aprovecha las mañanas para el exterior y lleva paraguas por la tarde."
+      },
+      {
+        "season": "Otoño",
+        "months": "oct–nov",
+        "weather": "Menos lluvia y clima agradable, 14–28 °C",
+        "crowds": "Baja a media; ideal para fotografías",
+        "tip": "Buena luz por la mañana y al atardecer para pasear y fotografiar."
+      },
+      {
+        "season": "Invierno",
+        "months": "dic–feb",
+        "weather": "Seco y templado, 8–26 °C; noches frescas",
+        "crowds": "Alta en celebraciones decembrinas y fines de semana",
+        "tip": "Viste por capas para la noche; es buen clima para caminar todo el día."
+      }
+    ]
+  },
+  "itineraries": {
+    "title": "Propuestas de recorrido",
+    "intro": "Esquemas neutros de referencia, no son promociones comerciales. Combínalos según tu tiempo y condición física.",
+    "halfDay": {
+      "title": "Ruta clásica de medio día (2–3 h)",
+      "steps": [
+        "Comienza por el interior de la iglesia de Nuestra Señora de Aranzazú y admira sus retablos dorados del siglo XVIII.",
+        "Descansa un momento en el Jardín de San Francisco, entre las dos iglesias, y observa la vista de ambos templos.",
+        "Continúa hacia la iglesia de San Francisco para apreciar su fachada y ambiente histórico.",
+        "Si tienes tiempo, camina por la avenida 16 de Septiembre hacia las plazas públicas del centro histórico."
+      ]
+    },
+    "fullDay": {
+      "title": "Ruta profunda de día completo (5–6 h)",
+      "steps": [
+        "Por la mañana: completa las dos iglesias y el jardín según la ruta de medio día.",
+        "Al mediodía: elige opciones de comida popular en las zonas de mercado del centro (solo referencias de tipo, sin marcas).",
+        "Por la tarde: camina por el eje del centro histórico y visita espacios públicos emblemáticos (Catedral, Plaza de Armas, Teatro Degollado).",
+        "Opcional: entra a alguna institución cultural pública cercana para una pausa en ambiente interior.",
+        "Al atardecer: regresa al Jardín de San Francisco para ver las fachadas iluminadas."
+      ]
+    },
+    "crowdTitle": "Recorridos según el tipo de viajero",
+    "crowdNote": "Elige según la composición del grupo y el ritmo que prefieras.",
+    "crowdItems": [
+      {
+        "title": "Familias con niños",
+        "duration": "2–3 h · ritmo tranquilo",
+        "points": [
+          "El jardín y las plazas ofrecen espacio abierto para descansar; mantén limpios el césped y las bancas.",
+          "Dentro de los templos guarda silencio y explica a los niños las normas de visita.",
+          "En la zona hay baños públicos y opciones de comida tipo; lleva agua y toallitas.",
+          "Evita las horas de misa si prefieres un recorrido más fluido."
+        ]
+      },
+      {
+        "title": "Fotografía y arquitectura",
+        "duration": "3–4 h · por etapas",
+        "points": [
+          "La luz lateral de la mañana y del atardecer favorece las fachadas y el jardín.",
+          "En el interior y ante los retablos dorados no uses flash.",
+          "Desde las esquinas puedes componer vistas con el entorno urbano; cruza con cuidado.",
+          "Al anochecer, las fachadas iluminadas y la plaza son buenas para tomas nocturnas."
+        ]
+      },
+      {
+        "title": "Bajo esfuerzo / accesible",
+        "duration": "1.5–2 h · ritmo suave",
+        "points": [
+          "La visita principal sigue aceras planas del centro y el jardín cuenta con bancas para descansar.",
+          "Algunos interiores históricos tienen escalones; prioriza el exterior y pide apoyo al personal para confirmar accesos.",
+          "Fíjate en la señalización de baños públicos y accesibles durante el paseo.",
+          "Para menos gente, conviene llegar antes de las 10:00."
+        ]
+      }
+    ],
+    "neutralNote": "Todas las referencias son descriptivas y de tipo genérico. Este es un sitio de divulgación sin fines de lucro y no recomendamos comercios específicos."
+  },
+  "facilities": {
+    "title": "Servicios al visitante y alrededores",
+    "subtitle": "Resumen neutral por tipo de servicio (sin nombres de comercios) para tu planeación.",
+    "items": [
+      {
+        "title": "Baños públicos (WC)",
+        "text": "En el centro histórico suele haber baños públicos en plazas, estaciones de transporte y grandes edificios públicos; algunos requieren monedas o tarjeta. Verifica horarios antes de entrar."
+      },
+      {
+        "title": "Estacionamiento",
+        "text": "Hay estacionamientos techados y cajones de pago en la calle. En días festivos y fines de semana la demanda sube; prefiere transporte público o estaciona algo más afuera y camina."
+      },
+      {
+        "title": "Comida y bebida",
+        "text": "Las opciones comunes incluyen puestos callejeros, zonas de comida en mercados tradicionales, cafeterías y restaurantes sencillos. Elige lugares concurridos y cuida la higiene."
+      },
+      {
+        "title": "Alojamiento",
+        "text": "A pocos minutos a pie del monumento hay desde hostales económicos hasta hoteles medios y de mayor categoría. En fechas festivas conviene reservar con semanas de anticipación."
+      },
+      {
+        "title": "Tiendas y conveniencia",
+        "text": "En el área abundan tiendas de conveniencia, supermercados pequeños y farmacias; hay cajeros automáticos para efectivo. Algunos negocios pequeños abren menos horas los domingos."
+      },
+      {
+        "title": "Combustible y carga eléctrica",
+        "text": "Para visitas en auto, las gasolineras están sobre avenidas principales. Para autos eléctricos hay puntos de carga públicos cerca de centros comerciales y vialidades; confirma disponibilidad antes de salir."
+      }
+    ],
+    "tipsTitle": "Recordatorios prácticos",
+    "tips": [
+      "En emergencias marca el 911.",
+      "El centro histórico es peatonalmente amigable; guarda tus pertenencias en zonas concurridas.",
+      "Lleva algo de efectivo por si necesitas un baño público o un servicio pequeño."
+    ]
+  },
+  "education": {
+    "title": "Cultura, ciencia y responsabilidad del visitante",
+    "subtitle": "Somos un proyecto de divulgación sin fines de lucro: explicamos el patrimonio de forma objetiva y sin promocionar comercios.",
+    "blocks": [
+      {
+        "title": "Claves de arquitectura y cultura",
+        "points": [
+          "El estilo churrigueresco es una variante del barroco del siglo XVIII, famoso por sus retablos tallados y dorados.",
+          "Las dos iglesias pertenecieron a un gran conjunto conventual; hoy el jardín las separa y ambas son testimonio de la vida religiosa y pública de la ciudad.",
+          "Muchas piezas del interior fueron obra de artesanos locales y reflejan el intercambio cultural entre Europa y América.",
+          "Observa retablos, estructuras de madera y las torres: son pistas para reconocer la antigüedad de un edificio histórico."
+        ]
+      },
+      {
+        "title": "Etiqueta en espacios religiosos",
+        "points": [
+          "Son templos en uso: guarda silencio y pon el teléfono en modo silencio.",
+          "Durante misas y ceremonias no cruces el presbiterio ni interrumpas la celebración.",
+          "Para fotografiar el interior y los retablos apaga el flash; respeta las zonas donde no se permite tomar fotos.",
+          "Viste de forma respetuosa al entrar a los interiores."
+        ]
+      },
+      {
+        "title": "Responsabilidad y seguridad",
+        "points": [
+          "No trepes, apoyes ni toques monumentos, esculturas o rejas.",
+          "El jardín y las plazas son espacios públicos: lleva tu basura y cuida áreas verdes y bancas.",
+          "En días de mucha afluencia vigila tus objetos personales ante aglomeraciones.",
+          "Pide permiso antes de fotografiar a personas y respeta a quienes oran o habitan el barrio.",
+          "Ante una emergencia marca 911 o pide ayuda al personal cercano."
+        ]
+      }
+    ]
+  },
+  "historyExtra": {
+    "legendTitle": "El nombre y la memoria local",
+    "legendText": "Los habitantes de Guadalajara suelen referirse a la zona como «los dos templos» para orientarse: es una forma corta y conocida que también usan el transporte, los taxis y los mapas. Dos iglesias de estilos distintos que se miran a través de un jardín se han vuelto parte de la memoria colectiva del barrio y un punto de encuentro natural para el recorrido a pie."
   }
 }

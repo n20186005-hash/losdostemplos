@@ -57,6 +57,9 @@ export default function Footer() {
         >
           <p>{t('rights')}</p>
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
+          {t('imageRights') && (
+            <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('imageRights')}</p>
+          )}
         </div>
       </div>
     </footer>

@@ -3,25 +3,10 @@
 import { useTranslations } from 'next-intl';
 import { useState, useCallback } from 'react';
 
-const photoFiles = [
-  'los-dos-templos (1).jpg',
-  'los-dos-templos (2).jpg',
-  'los-dos-templos (3).jpg',
-  'los-dos-templos (4).jpg',
-  'los-dos-templos (5).jpg',
-  'los-dos-templos (6).jpg',
-  'los-dos-templos (7).jpg',
-  'los-dos-templos (8).jpg',
-  'los-dos-templos (9).jpg',
-  'los-dos-templos (10).jpg',
-  'los-dos-templos (11).jpg',
-  'los-dos-templos (12).jpg',
-  'los-dos-templos (13).jpg',
-  'los-dos-templos (14).jpg',
-  'los-dos-templos (15).jpg',
-  'los-dos-templos (16).jpg',
-  'los-dos-templos (17).jpg',
-];
+const photoFiles = Array.from(
+  { length: 17 },
+  (_, i) => `los-dos-templos-guadalajara-${i + 1}.jpg`
+);
 
 export default function Gallery() {
   const t = useTranslations('gallery');
@@ -31,7 +16,7 @@ export default function Gallery() {
 
   const photos = photoFiles.map((file, i) => ({
     src: `/gallery/${file}`,
-    alt: captions?.[i] || `Los Dos Templos ${i + 1}`,
+    alt: `Los Dos Templos - ${captions?.[i] || `Photo ${i + 1}`}`,
   }));
 
   const visiblePhotos = photos;

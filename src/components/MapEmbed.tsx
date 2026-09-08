@@ -1,8 +1,8 @@
 import { useTranslations } from 'next-intl';
+import { siteConfig } from '@/config/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
-  const mapsUrl = "https://maps.app.goo.gl/boU6JfgsHb83L63i7";
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -16,31 +16,27 @@ export default function MapEmbed() {
         <p className="mb-8 text-sm" style={{ color: 'var(--text-muted)' }}>{t('subtitle')}</p>
         <div className="w-12 h-0.5 mb-10" style={{ background: 'var(--accent)' }} />
 
-        {/* Map */}
+        {/* 地图 */}
         <div
           className="map-container relative rounded-xl overflow-hidden"
           style={{ border: '1px solid var(--map-border)' }}
         >
-          {/* 
-            NOTE: Google Maps attribution is hidden via CSS (.gm-style-cc, .gmnoprint).
-            This is for visual cleanliness only. Google's Terms of Service apply.
-          */}
           <iframe
-            src="https://maps.google.com/maps?q=Los+Dos+Templos,+Guadalajara,+Jalisco,+México&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            src={siteConfig.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Google Maps - Los Dos Templos"
+            referrerPolicy="strict-origin-when-cross-origin"
+            title="Google Maps - Los Dos Templos, Guadalajara, Jalisco, Mexico"
           />
         </div>
 
         {/* Open in Google Maps */}
-        <div className="mt-6 flex justify-center">
+        <div className="mt-6 flex flex-col items-center gap-4">
           <a
-            href={mapsUrl}
+            href={siteConfig.mapsShareUrl}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium text-white transition-colors"
@@ -57,6 +53,21 @@ export default function MapEmbed() {
               <line x1="10" y1="14" x2="21" y2="3" />
             </svg>
           </a>
+
+          {/* 权威出站链接 */}
+          <p className="text-sm text-center" style={{ color: 'var(--text-muted)' }}>
+            {t('officialNote')}{' '}
+            <a
+              href={siteConfig.govtTourismUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: 'var(--accent)' }}
+              className="hover:underline"
+            >
+              {t('officialPortalLabel')}
+            </a>
+            .
+          </p>
         </div>
       </div>
     </section>

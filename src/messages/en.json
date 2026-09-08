@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Los Dos Templos | Historic Churches",
-    "description": "Explore Los Dos Templos (The Two Historic Churches) in Guadalajara, Jalisco, Mexico. Discover the magnificent architecture of San Francisco de Asís and Nuestra Señora de Aránzazu."
+    "title": "Los Dos Templos Guadalajara: Opening Hours, History & Getting There",
+    "description": "Los Dos Templos in Guadalajara’s historic center: San Francisco and Aránzazu churches. Opening hours, history, photos and how to get there by bus (Ruta 231, T15) or light rail."
   },
   "header": {
     "home": "Home",
@@ -11,12 +11,13 @@
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Los Dos Templos",
+    "title": "Los Dos Templos (Guadalajara)",
     "subtitle": "Jalisco · Mexico",
     "rating": "4.6",
-    "reviewCount": "8,138",
+    "reviewCount": "8,418",
     "hours": "Historic Churches",
-    "openMaps": "View Location"
+    "openMaps": "View Location",
+    "imgAlt": "Los Dos Templos - Main view in Guadalajara, Mexico"
   },
   "intro": {
     "title": "Explore Los Dos Templos",
@@ -38,7 +39,18 @@
         "Jardín de San Francisco: A beautiful and tranquil square separating the two churches, perfect for visitors to rest.",
         "Prime Location: Located in the historic center of Guadalajara, Jalisco, easily accessible."
       ]
-    }
+    },
+    "welcome": "Welcome to **Los Dos Templos**, whose name translates from Spanish as the **Two Temples**, widely recognized as one of the central historic landmarks of **Guadalajara**. Located in the heart of **Guadalajara**, **Jalisco**, **Mexico**, this destination serves as a primary hub for travelers visiting the region.",
+    "breadcrumb": {
+      "items": [
+        "Los Dos Templos",
+        "Guadalajara",
+        "Jalisco",
+        "Mexico"
+      ]
+    },
+    "nearbyHeading": "Landmarks & Attractions Around Los Dos Templos",
+    "nearby": "When visiting **Los Dos Templos**, visitors can easily explore surrounding historical landmarks and points of interest, including **Catedral de Guadalajara** and **Teatro Degollado**."
   },
   "route": {
     "title": "Tour Route",
@@ -124,13 +136,22 @@
     "selfDrive": "Driving",
     "selfDriveDesc": "The monument is located in the historic center. Use navigation and check for public parking nearby.",
     "bus": "Public Transport",
-    "busDesc": "You can take Line 3 (Línea 3) of the Guadalajara Light Rail (Tren Ligero) to the Guadalajara Centro station, which is very close to the churches and within walking distance.",
+    "busDesc": "You can arrive by city bus or light rail: several routes (Ruta 231, T15, Ruta 86) and Line 3 of the Tren Ligero (Guadalajara Centro station) stop within a short walk of the churches.",
     "intercity": "Walking Tour",
     "intercityDesc": "The monument is in the historic center, walkable to nearby attractions.",
     "cycling": "Other Means",
     "cyclingDesc": "Public transport or walking recommended, historic center traffic can be congested.",
     "tips": "Travel Tips",
-    "tipsDesc": "Los Dos Templos is an excellent place to experience Mexican Baroque architectural art, daytime visits recommended."
+    "tipsDesc": "Los Dos Templos is an excellent place to experience Mexican Baroque architectural art, daytime visits recommended.",
+    "transitTitle": "Which bus routes reach Los Dos Templos?",
+    "transitIntro": "City buses running along Av. 16 de Septiembre and Calzada Revolución stop almost right outside the site. The stop in the area is known as “Dos Templos” or “San Francisco”.",
+    "lines": [
+      "Ruta 231 — crosses downtown and serves the Los Dos Templos area.",
+      "T15 — a main city bus line passing through downtown Guadalajara.",
+      "Ruta 86 — another frequent option around the historic center.",
+      "Tren Ligero Line 3 — get off at Guadalajara Centro station and walk 5–7 minutes."
+    ],
+    "transitNote": "Local tip: when you board, tell the driver “Please let me know at Dos Templos”."
   },
   "gallery": {
     "title": "Stunning Photos",
@@ -213,9 +234,11 @@
     ]
   },
   "mapSection": {
-    "title": "Location & Map",
+    "title": "Location & How to Visit Los Dos Templos in Guadalajara",
     "subtitle": "Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jal., Mexico",
-    "openMaps": "View on Google Maps"
+    "openMaps": "View on Google Maps",
+    "officialNote": "For official updates and regional tourism information, visit",
+    "officialPortalLabel": "Mexico / Jalisco Official Tourism Portal"
   },
   "footer": {
     "rights": "© 2026 Los Dos Templos. All rights reserved.",
@@ -241,7 +264,8 @@
         "url": "https://www.inah.gob.mx/"
       }
     },
-    "disclaimer": "This webmonument is an independent third-party travel information project. We have no affiliation with local government or other official institutions."
+    "disclaimer": "This webmonument is an independent third-party travel information project. We have no affiliation with local government or other official institutions.",
+    "imageRights": "All images displayed on this website are the property of and copyrighted by their respective photographers."
   },
   "privacy": {
     "title": "Privacy Policy",
@@ -257,7 +281,7 @@
       },
       {
         "heading": "3. Third-Party Services",
-        "content": "Our webmonument may use third-party services such as Google Maps (for embedded maps and location data), Google Analytics (for traffic analysis), and Unsplash (for images). These services have their own privacy policies."
+        "content": "Our website may use third-party services such as Google Maps (for embedded maps and location data) and Google Analytics (for traffic analysis). These services have their own privacy policies."
       },
       {
         "heading": "4. Your Rights",
@@ -283,7 +307,7 @@
       },
       {
         "heading": "4. Intellectual Property",
-        "content": "The design and original content of this webmonument are protected by copyright. Images are sourced from Unsplash and used under license. The use of Google Maps data complies with Google's terms of service."
+        "content": "The design and original content of this website are protected by copyright. All images displayed on this website are the property of and copyrighted by their respective photographers. The use of Google Maps data complies with Google's terms of service."
       },
       {
         "heading": "5. Limitation of Liability",
@@ -342,7 +366,7 @@
     "text": "Los Dos Templos are famous historic churches in Guadalajara, consisting of Templo de San Francisco de Asís and Templo de Nuestra Señora de Aránzazu, carrying rich architectural and cultural value."
   },
   "historyTimeline": {
-    "title": "Historical Timeline",
+    "title": "History & Significance of Los Dos Templos",
     "items": [
       {
         "year": "Colonial Period",
@@ -371,5 +395,333 @@
     ],
     "guideTitle": "Visitor Guide Tip",
     "guideContent": "When visiting, you can start with **Templo de San Francisco de Asís** to feel its solemnity; then take a break at **Jardín de San Francisco**; next, focus on visiting **Templo de Nuestra Señora de Aránzazu** to admire the breathtaking Churrigueresque gilded altars; finally, stroll through the historic center to deeply understand the important position of these monuments in Mexican history."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions about Los Dos Templos",
+    "items": [
+      {
+        "q": "Where is Los Dos Templos located?",
+        "a": "Los Dos Templos is located in the historic center of Guadalajara, at Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jalisco, Mexico."
+      },
+      {
+        "q": "Which two churches form Los Dos Templos?",
+        "a": "Los Dos Templos is formed by two historic churches: Templo de San Francisco de Asís and Templo de Nuestra Señora de Aránzazu. They once belonged to a vast convent complex and are now separated by the peaceful Jardín de San Francisco."
+      },
+      {
+        "q": "Is Los Dos Templos free to visit?",
+        "a": "Yes, visiting Los Dos Templos and entering its two churches is free of charge. As a public historic landmark of Guadalajara, it is open to visitors free of charge year-round."
+      },
+      {
+        "q": "What are the opening hours of Los Dos Templos?",
+        "a": "The churches are generally open throughout the day, and daytime visits are recommended for the best light and atmosphere. Please verify the latest official schedule before your visit."
+      },
+      {
+        "q": "What can I see at Los Dos Templos?",
+        "a": "Visitors can admire the colonial Baroque architecture of the two churches, especially the three complete 18th-century Churrigueresque (Ultra-Baroque) gilded wooden altars preserved inside the Templo de Nuestra Señora de Aránzazu, as well as the tranquil Jardín de San Francisco."
+      },
+      {
+        "q": "How do I get to Los Dos Templos in Guadalajara?",
+        "a": "Los Dos Templos is located in the historic center of Guadalajara. You can take Line 3 (Línea 3) of the Guadalajara light rail (Tren Ligero) to Guadalajara Centro station and walk, or reach it on foot or by taxi from the city center."
+      },
+      {
+        "q": "Which landmarks are near Los Dos Templos?",
+        "a": "While visiting Los Dos Templos, you can also explore nearby landmarks such as Catedral de Guadalajara (Guadalajara Cathedral) and Teatro Degollado, both just a short walk away in the historic center."
+      },
+      {
+        "q": "Which is the oldest church in Guadalajara?",
+        "a": "The Templo de San Francisco de Asís, part of Los Dos Templos, is one of the oldest religious buildings still standing in the historic center: the current church was built between the 17th and 18th centuries on the site of the original Franciscan convent."
+      },
+      {
+        "q": "Are Los Dos Templos Gothic in style?",
+        "a": "Not exactly: Los Dos Templos showcase Mexican colonial Baroque, including the gilded Churrigueresque altars inside the Templo de Nuestra Señora de Aránzazu. If you are looking for Gothic architecture in Guadalajara, the best-known example is the neo-Gothic towers of the Cathedral, added in the mid-19th century."
+      },
+      {
+        "q": "Which bus takes me to Los Dos Templos?",
+        "a": "Several city buses run along Av. 16 de Septiembre and Calzada Revolución, including Ruta 231, T15 and Ruta 86; the stop in the area is known as “Dos Templos”, so ask the driver to let you know. You can also take Line 3 of the Tren Ligero to Guadalajara Centro station and walk a few minutes."
+      }
+    ]
+  },
+  "sources": {
+    "title": "Sources & Official References",
+    "intro": "This visitor guide was prepared using publicly available information from official tourism, heritage and municipal institutions. For official updates and regional tourism information, visit the following authoritative sources:",
+    "items": [
+      {
+        "name": "Jalisco Secretary of Tourism (SECTUR Jalisco)",
+        "url": "https://secturjal.jalisco.gob.mx/"
+      },
+      {
+        "name": "Secretariat of Tourism of Mexico (SECTUR)",
+        "url": "https://www.gob.mx/sectur"
+      },
+      {
+        "name": "Guadalajara City Government (H. Ayuntamiento de Guadalajara)",
+        "url": "https://guadalajara.gob.mx/"
+      },
+      {
+        "name": "National Institute of Anthropology and History (INAH)",
+        "url": "https://www.inah.gob.mx/"
+      }
+    ]
+  },
+  "weather": {
+    "eyebrow": "Weather",
+    "title": "Live weather & 7-day forecast",
+    "subtitle": "Temperature alone is not enough — we turn the forecast into what to wear, what to do and what to bring.",
+    "loading": "Checking today’s weather…",
+    "retry": "Try again",
+    "error": "Weather is temporarily unavailable. Please try again shortly.",
+    "feels": "Feels like",
+    "precipProb": "Rain chance",
+    "uv": "UV",
+    "uvLevels": [
+      "Low",
+      "Moderate",
+      "High",
+      "Very high",
+      "Extreme"
+    ],
+    "windLevels": [
+      "Calm",
+      "Light breeze",
+      "Moderate breeze",
+      "Strong wind",
+      "Gale"
+    ],
+    "todayLabel": "Today",
+    "forecastLabel": "Next 6 days",
+    "sunrise": "Sunrise",
+    "sunset": "Sunset",
+    "adviceTitle": "Today’s guide",
+    "riskTitle": "Risk alerts",
+    "noRisk": "No major weather risks right now — plan as usual.",
+    "groupOutfit": "What to wear",
+    "groupPlan": "Plan your day",
+    "groupItems": "What to pack",
+    "alertTitle": "Weather alert",
+    "codes": {
+      "sunny": "Sunny",
+      "partly": "Partly cloudy",
+      "cloudy": "Cloudy",
+      "fog": "Fog",
+      "drizzle": "Drizzle",
+      "rain": "Rain",
+      "snow": "Snow",
+      "showers": "Showers",
+      "snowShowers": "Snow showers",
+      "thunder": "Thunderstorm"
+    },
+    "suggest": {
+      "outfitRange": "Big day–night temperature swing: a light layer is handy.",
+      "outfitChilly": "Mornings and nights are cool — a light jacket or sweater works.",
+      "outfitColdMax": "It stays cold all day: dress warmly with a thick coat and scarf.",
+      "outfitHot": "It will feel hot: wear light, breathable clothing and avoid midday.",
+      "outfitStuffy": "Humid and stuffy — go for breathable fabrics and keep drinking water.",
+      "outfitWind": "Windy out there: wide hats and loose scarves may blow away.",
+      "outfitWet": "Rain is around: water-resistant shoes and a quick-dry layer help.",
+      "actSunny": "Great day for a walk outdoors — the light is lovely for photos.",
+      "actClearViews": "Clear skies: sunrise and sunset views should be memorable.",
+      "actOvercast": "Soft light today: perfect for taking your time with architecture shots.",
+      "actDrizzle": "Light drizzle — pavements may be slippery, watch your step.",
+      "actLightRain": "Light rain: stick to covered walkways and arcades.",
+      "actModerateRain": "Moderate rain: start indoors and head out when it eases.",
+      "actHeavyRain": "Heavy rain expected: avoid long stretches outdoors and stay sheltered.",
+      "actProbRain": "High chance of rain, often in the afternoon — keep plans flexible.",
+      "actThunder": "Thunderstorms possible: pause outdoor plans and wait somewhere safe.",
+      "actFog": "Foggy with limited visibility: take it slow, distant views will be hidden.",
+      "actHot": "Strong sun and heat: rest in the shade around midday.",
+      "actUvStrong": "UV is high: protect yourself if you’ll be outside for a while.",
+      "alertNote": "Follow official local updates and adjust your itinerary."
+    },
+    "items": {
+      "umbrella": "umbrella",
+      "fold": "compact umbrella",
+      "raincoat": "rain poncho",
+      "sunscreen": "sunscreen",
+      "sunglasses": "sunglasses",
+      "hat": "sun hat",
+      "water": "drinking water",
+      "jacketThin": "light jacket",
+      "jacketWarm": "warm coat",
+      "scarf": "scarf"
+    },
+    "risk": {
+      "heavyRain": "Heavy rain: avoid low-lying, waterlogged streets and cross roads carefully.",
+      "thunder": "During a storm, avoid open plazas, tall trees and metal structures.",
+      "gale": "Gale-force wind: keep clear of signage and temporary structures; mind falling objects."
+    }
+  },
+  "seasons": {
+    "title": "Seasonal Visit Strategy",
+    "subtitle": "A neutral reference table based on typical Guadalajara climate and crowd patterns.",
+    "cols": {
+      "season": "Season",
+      "months": "Months",
+      "weather": "Typical weather",
+      "crowds": "Crowds",
+      "tip": "Tip"
+    },
+    "note": "Guadalajara has a mild highland climate: mostly dry, with afternoon showers from June to September.",
+    "rows": [
+      {
+        "season": "Spring",
+        "months": "Mar–May",
+        "weather": "Dry and warm, 15–33 °C; hot afternoons",
+        "crowds": "Busy during Holy Week and weekends",
+        "tip": "Visit early, use sun protection and carry water."
+      },
+      {
+        "season": "Summer (rains)",
+        "months": "Jun–Sep",
+        "weather": "Afternoon showers; mild, 18–30 °C",
+        "crowds": "Moderate; more families in Jul–Aug school break",
+        "tip": "Enjoy mornings outdoors and keep an umbrella for the afternoon."
+      },
+      {
+        "season": "Autumn",
+        "months": "Oct–Nov",
+        "weather": "Rains ease; pleasant, 14–28 °C",
+        "crowds": "Low to moderate; great for photos",
+        "tip": "Good light in the morning and at dusk for strolling and photography."
+      },
+      {
+        "season": "Winter",
+        "months": "Dec–Feb",
+        "weather": "Dry and mild, 8–26 °C; cool nights",
+        "crowds": "Busy around December festivities and weekends",
+        "tip": "Dress in layers for cool evenings; fine for a full day of walking."
+      }
+    ]
+  },
+  "itineraries": {
+    "title": "Recommended Visit Plans",
+    "intro": "Neutral reference plans, not commercial promotions. Mix them to fit your time and mobility.",
+    "halfDay": {
+      "title": "Classic Half-Day Route (2–3 h)",
+      "steps": [
+        "Start inside the church of Nuestra Señora de Aranzazú and admire its 18th-century gilded altars.",
+        "Rest at Jardín de San Francisco between the two churches and enjoy the facing views.",
+        "Continue to San Francisco church to appreciate its sober, historic atmosphere.",
+        "If time allows, stroll along Avenida 16 de Septiembre toward the historic center squares."
+      ]
+    },
+    "fullDay": {
+      "title": "Full-Day Deep Route (5–6 h)",
+      "steps": [
+        "Morning: follow the half-day route to complete both churches and the garden.",
+        "Lunch: pick from general market-style food areas in the historic center (type reference only, no brands).",
+        "Afternoon: walk the historic center axis to public landmarks (Cathedral, Plaza de Armas, Teatro Degollado).",
+        "Optional: step into a nearby public cultural venue for an indoor break.",
+        "Dusk: return to Jardín de San Francisco to see the lit facades."
+      ]
+    },
+    "crowdTitle": "Plans by Traveler Type",
+    "crowdNote": "Choose by your group mix and preferred pace.",
+    "crowdItems": [
+      {
+        "title": "Families with children",
+        "duration": "2–3 h · relaxed pace",
+        "points": [
+          "The garden and squares offer open space to rest; keep lawns and benches clean.",
+          "Inside the churches keep quiet and explain visiting manners to kids.",
+          "Public toilets and common food types are nearby; bring water and wipes.",
+          "Avoid Mass hours for a smoother visit."
+        ]
+      },
+      {
+        "title": "Photography & architecture",
+        "duration": "3–4 h · in stages",
+        "points": [
+          "Side light in the early morning and late afternoon flatters facades and the garden.",
+          "No flash inside or in front of the gilded altars.",
+          "Frame street-level views from the corners; cross streets carefully.",
+          "After dusk, lit facades and the plaza are great for night shots."
+        ]
+      },
+      {
+        "title": "Low effort / accessible",
+        "duration": "1.5–2 h · gentle pace",
+        "points": [
+          "The main visit follows flat sidewalks, and the garden has benches to rest.",
+          "Some historic interiors have steps; prioritize outdoor areas and ask staff to confirm accessible routes.",
+          "Watch for public and accessible restroom signage along the way.",
+          "To avoid crowds, arrive before 10:00."
+        ]
+      }
+    ],
+    "neutralNote": "All references are descriptive and type-generic. This is a non-profit educational site and does not recommend specific businesses."
+  },
+  "facilities": {
+    "title": "Visitor Services & Nearby Facilities",
+    "subtitle": "A neutral, type-based overview (no business names) to help you plan.",
+    "items": [
+      {
+        "title": "Public restrooms (WC)",
+        "text": "Public restrooms are usually available at plazas, transit stations and large public buildings in the historic center; unattended ones may need coins or a card. Check opening hours first."
+      },
+      {
+        "title": "Parking",
+        "text": "Both covered parking garages and paid street spots exist. Demand rises on holidays and weekends, so prefer public transit or park on the edge and walk in."
+      },
+      {
+        "title": "Food & drink",
+        "text": "Common options include street stalls, market food courts, casual eateries and cafés. Choose busy places and mind food hygiene."
+      },
+      {
+        "title": "Accommodation",
+        "text": "Within walking distance there are hostels, mid-range hotels and higher-category hotels. Book weeks ahead around major festivities."
+      },
+      {
+        "title": "Shops & convenience",
+        "text": "Convenience stores, small supermarkets and pharmacies are common, with ATMs for cash. Some small shops keep shorter Sunday hours."
+      },
+      {
+        "title": "Fuel & EV charging",
+        "text": "For self-drive visits, gas stations sit along main avenues. Public EV chargers are found near malls and main roads; confirm availability before you go."
+      }
+    ],
+    "tipsTitle": "Practical reminders",
+    "tips": [
+      "Call 911 for emergencies.",
+      "The historic center is walkable; guard your belongings in crowded spots.",
+      "Carry some cash for public restrooms or small services."
+    ]
+  },
+  "education": {
+    "title": "Heritage Notes & Visitor Responsibility",
+    "subtitle": "We are a professional non-profit educational site: we explain heritage objectively without promoting businesses.",
+    "blocks": [
+      {
+        "title": "Architecture & culture quick guide",
+        "points": [
+          "Churrigueresque is an 18th-century ultra-Baroque style known for richly carved, gilded altarpieces.",
+          "The two churches once belonged to one large convent complex; the garden now separates them, and both witness the city’s religious and public life.",
+          "Much of the interior art was made by local artisans, reflecting cultural exchange between Europe and the Americas.",
+          "Look at altars, timber structures and towers: they are clues for dating a historic building."
+        ]
+      },
+      {
+        "title": "Etiquette in religious spaces",
+        "points": [
+          "These are working churches: keep quiet and silence your phone.",
+          "Do not walk across the sanctuary or interrupt services during Mass.",
+          "Turn off flash when photographing interiors and altars; respect no-photo zones.",
+          "Dress modestly when entering the interiors."
+        ]
+      },
+      {
+        "title": "Responsibility & safety",
+        "points": [
+          "Do not climb, lean on or touch monuments, sculptures or railings.",
+          "The garden and squares are public: take your litter and care for green areas and benches.",
+          "Watch your belongings during busy days and crowds.",
+          "Ask permission before photographing people, and respect worshippers and locals.",
+          "In an emergency call 911 or ask nearby staff for help."
+        ]
+      }
+    ]
+  },
+  "historyExtra": {
+    "legendTitle": "The name & local memory",
+    "legendText": "Guadalajara residents commonly use “los dos templos” (the two churches) to orient people in this area — a short, familiar label also used by transport, taxis and maps. Two churches of different styles facing each other across a garden have become part of the neighborhood’s collective memory and a natural meeting point for walking tours."
   }
 }

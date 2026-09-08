@@ -1,9 +1,10 @@
 import { MetadataRoute } from 'next';
+import { siteConfig } from '@/config/site';
 
 export const dynamic = 'force-static';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://visitplazadelosmariachis.com';
+  const baseUrl = siteConfig.url;
   const locales = ['zh', 'en', 'es'];
   const routes = ['', '/privacy-policy', '/terms-of-service', '/cookie-settings'];
 
