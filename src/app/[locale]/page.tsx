@@ -10,6 +10,7 @@ import RouteSection from '@/components/RouteSection';
 import HoursSection from '@/components/HoursSection';
 import TicketsSection from '@/components/TicketsSection';
 import TransportSection from '@/components/TransportSection';
+import TopicLinks from '@/components/TopicLinks';
 import VisitPlanSection from '@/components/VisitPlanSection';
 import FacilitiesSection from '@/components/FacilitiesSection';
 import Gallery from '@/components/Gallery';
@@ -135,6 +136,7 @@ export default async function HomePage({
         <HoursSection />
         <TicketsSection />
         <TransportSection />
+        <TopicLinks />
         <VisitPlanSection />
         <FacilitiesSection />
         <Gallery />

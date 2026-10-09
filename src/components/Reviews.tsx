@@ -1,4 +1,5 @@
-import { useTranslations, useMessages } from 'next-intl';
+import { useTranslations } from 'next-intl';
+import { siteConfig } from '@/config/site';
 
 function Stars({ count }: { count: number }) {
   return (
@@ -6,8 +7,8 @@ function Stars({ count }: { count: number }) {
       {[1, 2, 3, 4, 5].map((i) => (
         <svg
           key={i}
-          width="14"
-          height="14"
+          width="18"
+          height="18"
           viewBox="0 0 24 24"
           fill={i <= count ? '#f0b429' : 'var(--border-color)'}
           stroke="none"
@@ -21,13 +22,10 @@ function Stars({ count }: { count: number }) {
 
 export default function Reviews() {
   const t = useTranslations('reviews');
-  const messages = useMessages() as any;
-  const items = (messages?.reviews?.items || []) as Array<{
-    name: string;
-    date: string;
-    rating: number;
-    text: string;
-  }>;
+  const th = useTranslations('hero');
+  const rating = Math.round(Number(th('rating')) || 5);
+  const reviewCount = th('reviewCount');
+  const mapsUrl = siteConfig.mapsShareUrl;
 
   return (
     <section id="reviews" className="section-padding">
@@ -41,63 +39,34 @@ export default function Reviews() {
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
 
         <p
-          className="text-sm leading-relaxed mb-10 max-w-2xl"
+          className="text-sm leading-relaxed mb-8 max-w-2xl"
           style={{ color: 'var(--text-muted)' }}
         >
           {t('declaration')}
         </p>
 
-        <div className="grid sm:grid-cols-2 gap-4 sm:gap-6 mb-8">
-          {items.map((review, i) => (
-            <div
-              key={i}
-              className="rounded-xl p-5 sm:p-6 transition-shadow hover:shadow-md"
-              style={{
-                background: 'var(--card-bg)',
-                boxShadow: 'var(--card-shadow)',
-                border: '1px solid var(--border-color)',
-              }}
-            >
-              <div className="flex items-start justify-between mb-3">
-                <div>
-                  <div className="flex items-center gap-2 mb-1">
-                    <div
-                      className="w-8 h-8 rounded-full flex items-center justify-center text-sm font-semibold text-white"
-                      style={{ background: 'var(--accent)' }}
-                    >
-                      {review.name.charAt(0)}
-                    </div>
-                    <span
-                      className="text-sm font-semibold"
-                      style={{ color: 'var(--text-primary)' }}
-                    >
-                      {review.name}
-                    </span>
-                  </div>
-                </div>
-                <span className="text-xs" style={{ color: 'var(--text-muted)' }}>
-                  {review.date}
-                </span>
-              </div>
-              <Stars count={review.rating} />
-              <p className="text-sm mt-3 leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
-                {review.text}
+        <div
+          className="rounded-xl p-6 sm:p-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6"
+          style={{ background: 'var(--card-bg)', boxShadow: 'var(--card-shadow)', border: '1px solid var(--border-color)' }}
+        >
+          <div className="flex items-center gap-5">
+            <span className="font-display text-5xl font-bold" style={{ color: 'var(--accent)' }}>
+              {th('rating')}
+            </span>
+            <div>
+              <Stars count={rating} />
+              <p className="text-sm mt-2" style={{ color: 'var(--text-secondary)' }}>
+                {reviewCount} · Google Maps
               </p>
             </div>
-          ))}
-        </div>
+          </div>
 
-        {/* More reviews link — arrow only */}
-        <div className="flex justify-center">
           <a
-            href="https://maps.app.goo.gl/boU6JfgsHb83L63i7"
+            href={mapsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="group flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-all"
-            style={{
-              color: 'var(--accent)',
-              border: '1px solid var(--accent)',
-            }}
+            className="group inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-medium transition-all"
+            style={{ color: 'var(--accent)', border: '1px solid var(--accent)' }}
           >
             <span>{t('moreReviews')}</span>
             <svg

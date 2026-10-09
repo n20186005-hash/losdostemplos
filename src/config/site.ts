@@ -29,7 +29,7 @@ export const siteConfig = {
   longitude: -103.3472266,
   // Google 评分（最新景点信息）
   rating: '4.6',
-  reviewCount: '8,418',
+  reviewCount: '8,486',
 
   // {{MAPS_SHARE_URL}}
   mapsShareUrl: 'https://maps.app.goo.gl/boU6JfgsHb83L63i7',

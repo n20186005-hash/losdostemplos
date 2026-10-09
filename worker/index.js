@@ -48,6 +48,17 @@ export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
 
+    // 0) Canonical host: redirect www -> apex and http -> https (P0 from SEO audit).
+    //    The site canonicalizes to https://losdostemplos.com everywhere; unify the host here.
+    const host = url.hostname;
+    const proto = (request.headers.get('x-forwarded-proto') || url.protocol).replace(':', '');
+    if (host.startsWith('www.') || proto === 'http') {
+      const target = new URL(request.url);
+      if (host.startsWith('www.')) target.hostname = host.replace(/^www\./, '');
+      target.protocol = 'https:';
+      return Response.redirect(target.toString(), 301);
+    }
+
     // 1) 天气数据代理
     if (url.pathname === '/api/weather') {
       return handleWeather(ctx);

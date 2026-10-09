@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Los Dos Templos Guadalajara: Horarios, Historia y Cómo Llegar",
-    "description": "Los Dos Templos en el Centro de Guadalajara: San Francisco y Aránzazu. Horarios de visita, historia, fotos y cómo llegar en autobús (Ruta 231, T15) o Tren Ligero."
+    "title": "Los Dos Templos Guadalajara: Fotos, Ubicación y Cómo Llegar",
+    "description": "Descubre Los Dos Templos en el Centro Histórico de Guadalajara. Consulta fotos, ubicación en Google Maps, cómo llegar, historia y consejos para tu visita."
   },
   "header": {
     "home": "Inicio",
@@ -14,7 +14,7 @@
     "title": "Los Dos Templos (Guadalajara)",
     "subtitle": "Jalisco · México",
     "rating": "4.6",
-    "reviewCount": "8,418",
+    "reviewCount": "8,486",
     "hours": "Iglesias Históricas",
     "openMaps": "Ver Ubicación",
     "imgAlt": "Los Dos Templos - Vista principal en Guadalajara, México"
@@ -25,7 +25,7 @@
     "visitGuide": {
       "title": "Consejos de Visita",
       "items": [
-        "Las iglesias están abiertas todo el día, se recomienda visitar de día",
+        "El jardín está abierto al público; entra a las iglesias en horario de misa o visita guiada, preferentemente de día",
         "Admira los retablos dorados de estilo churrigueresco del siglo XVIII",
         "Relájate en la plaza del Jardín de San Francisco",
         "Visita el cercano centro histórico de Guadalajara"
@@ -107,7 +107,7 @@
   "hours": {
     "title": "Horarios de Apertura",
     "outdoor": "Área de la Iglesia",
-    "outdoorTime": "Abierto todo el día (verificar información oficial)",
+    "outdoorTime": "El jardín es de acceso público; el interior de cada iglesia sigue el horario de misas y visitas (conviene verificar).",
     "lighthouse": "Mejor Época para Visitar",
     "summer": "Temporada Seca (noviembre-abril)",
     "summerTime": "Clima más agradable, ideal para visitas al aire libre",
@@ -179,59 +179,9 @@
     "showAllPhotos": "Mostrar Todas las Fotos"
   },
   "reviews": {
-    "title": "Resenas de Visitantes",
-    "declaration": "La información de las resenas se puede ver a través de Google Maps (enlace externo).",
-    "moreReviews": "Ver Más Resenas en Google Maps",
-    "items": [
-      {
-        "name": "Carlos Rivera",
-        "date": "hace 2 meses",
-        "rating": 5,
-        "text": "Un lugar lleno de historia y cultura. La arquitectura del monumento es inolvidable, muy recomendable para todos los turistas interesados en la historia."
-      },
-      {
-        "name": "María González",
-        "date": "hace 3 semanas",
-        "rating": 5,
-        "text": "monumento histórico asombroso. El estilo arquitectónico es muy único y tiene una larga historia. Esta es una parte importante de la historia y cultura mexicana."
-      },
-      {
-        "name": "Juan Pérez",
-        "date": "hace 1 mes",
-        "rating": 4,
-        "text": "Lugar muy interesante para aprender sobre la verdadera historia y cultura. Se recomiendan las visitas diurnas cuando la luz es mejor."
-      },
-      {
-        "name": "Ana Torres",
-        "date": "hace más de 6 meses",
-        "rating": 5,
-        "text": "Una parte importante de la historia mexicana. La arquitectura del monumento es conmovedora, un lugar imprescindible en Guadalajara."
-      },
-      {
-        "name": "Roberto Silva",
-        "date": "hace 2 años",
-        "rating": 4,
-        "text": "Excelente experiencia histórica. El estilo arquitectónico es maravilloso y hay muchas atracciones históricas cercanas."
-      },
-      {
-        "name": "Sofía Méndez",
-        "date": "hace más de 6 meses",
-        "rating": 5,
-        "text": "monumento hermoso, lleno del encanto de la historia mexicana. El estilo arquitectónico es inolvidable, definitivamente vale la pena visitarlo."
-      },
-      {
-        "name": "Miguel Herrera",
-        "date": "hace 3 meses",
-        "rating": 4,
-        "text": "Lugar histórico interesante. Experimenta la historia y cultura de cerca, respeta el monumento y protege los relicarios culturales."
-      },
-      {
-        "name": "Laura Vargas",
-        "date": "hace 1 mes",
-        "rating": 5,
-        "text": "Gema histórica de Guadalajara. Los Dos Templos es un lugar importante para comprender la historia mexicana, definitivamente vale la pena experimentarlo."
-      }
-    ]
+    "title": "Reseñas de Visitantes",
+    "declaration": "La calificación que mostramos (4.6 sobre 5) es el promedio agregado de Google Maps, consultado en octubre de 2026. No publicamos comentarios individuales verificados; para leer experiencias reales de visitantes, consulta la sección de reseñas en Google Maps.",
+    "moreReviews": "Ver más reseñas en Google Maps"
   },
   "mapSection": {
     "title": "Ubicación y Cómo Visitar Los Dos Templos en Guadalajara",
@@ -375,7 +325,7 @@
         "description": "Los Dos Templos fueron construidos durante la época colonial mexicana y originalmente pertenecían a un enorme complejo conventual. El Templo de San Francisco de Asís es una de las iglesias más antiguas de Guadalajara, con un exterior solemne."
       },
       {
-        "year": "Siglo XIX",
+        "year": "Siglo XVIII",
         "title": "Siglo XVIII: Apogeo Barroco",
         "plaque": "Arte Arquitectónico (Retablos Dorados)",
         "description": "El Templo de Nuestra Señora de Aránzazu brilló intensamente durante este período, con tres retablos completos de madera dorada de estilo churrigueresco (ultrabarroco) construidos en su interior, convirtiéndose en una joya del arte arquitectónico mexicano."
@@ -413,7 +363,7 @@
       },
       {
         "q": "¿Cuál es el horario de apertura de Los Dos Templos?",
-        "a": "Las iglesias suelen estar abiertas durante todo el día; se recomienda la visita diurna para disfrutar de la mejor luz y ambiente. Por favor, verifica el horario oficial más reciente antes de tu visita."
+        "a": "El jardín (Jardín de San Francisco) está abierto al público durante el día. El interior de cada iglesia se visita según su horario de misas y visitas guiadas; te recomendamos confirmar los horarios oficiales antes de tu visita."
       },
       {
         "q": "¿Qué puedo ver en Los Dos Templos?",
@@ -723,5 +673,159 @@
   "historyExtra": {
     "legendTitle": "El nombre y la memoria local",
     "legendText": "Los habitantes de Guadalajara suelen referirse a la zona como «los dos templos» para orientarse: es una forma corta y conocida que también usan el transporte, los taxis y los mapas. Dos iglesias de estilos distintos que se miran a través de un jardín se han vuelto parte de la memoria colectiva del barrio y un punto de encuentro natural para el recorrido a pie."
-  }
+  },
+  "topics": {
+    "moreGuides": "Explora más guías de Los Dos Templos",
+    "comoLlegar": {
+      "title": "Cómo Llegar a Los Dos Templos en Guadalajara",
+      "description": "Guía práctica para llegar a Los Dos Templos: ubicación en el Centro Histórico, transporte público (Ruta 231, T15, Línea 3 del Tren Ligero) y cómo caminar desde la Catedral o el centro.",
+      "intro": "Los Dos Templos se encuentran en el corazón del Centro Histórico de Guadalajara, en el cruce de Av. 16 de Septiembre y Calz. Revolución. Llegar es sencillo a pie, en transporte público o en taxi.",
+      "sections": [
+        {
+          "heading": "Ubicación y punto de referencia",
+          "body": "La dirección es Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jalisco. El conjunto se reconoce por el Jardín de San Francisco, la plaza que separa las dos iglesias. El código Plus es MMC3+Q4."
+        },
+        {
+          "heading": "En transporte público",
+          "body": "Varias rutas urbanas recorren Av. 16 de Septiembre y Calzada Revolución y se detienen prácticamente frente al conjunto. La parada se conoce localmente como «Dos Templos» o «San Francisco». También puedes tomar la Línea 3 del Tren Ligero y bajar en la estación Guadalajara Centro, a unos 5–7 minutos a pie."
+        },
+        {
+          "heading": "Desde la Catedral de Guadalajara",
+          "body": "Desde la Catedral de Guadalajara (a pocas cuadras al norte) puedes caminar por el centro histórico en unos 10–15 minutos, siguiendo Av. 16 de Septiembre hacia el sur. Es un paseo agradable que atraviesa el corazón de la ciudad."
+        },
+        {
+          "heading": "En coche y estacionamiento",
+          "body": "Si vas en coche, usa navegación con la dirección exacta. En el centro hay estacionamientos techados y cajones de pago en la calle; los fines de semana y festivos la demanda es alta, así que el transporte público suele ser más cómodo."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Qué camión o autobús me deja en Los Dos Templos?",
+          "a": "Varias rutas urbanas pasan por Av. 16 de Septiembre y Calzada Revolución, entre ellas la Ruta 231, la T15 y la Ruta 86. Pide al chofer que te avise en la parada «Dos Templos»."
+        },
+        {
+          "q": "¿Cómo llegar en Tren Ligero?",
+          "a": "Toma la Línea 3 del Tren Ligero hasta la estación Guadalajara Centro y camina unos 5–7 minutos por Av. 16 de Septiembre."
+        },
+        {
+          "q": "¿Se puede llegar caminando desde el centro?",
+          "a": "Sí. Los Dos Templos están a pocos minutos a pie de la Catedral, el Teatro Degollado y la Plaza de Armas, en pleno Centro Histórico."
+        },
+        {
+          "q": "¿Cuál es la estación más cercana?",
+          "a": "La estación de Tren Ligero más cercana es Guadalajara Centro (Línea 3). En autobús, la parada más cercana es «Dos Templos» / «San Francisco»."
+        }
+      ]
+    },
+    "fotos": {
+      "title": "Fotos de Los Dos Templos",
+      "description": "Galería de fotos de Los Dos Templos: exteriores de San Francisco y Aránzazu, sus retablos dorados, el Jardín de San Francisco y la luz del centro histórico de Guadalajara.",
+      "intro": "Una selección de imágenes para ayudarte a reconocer el conjunto antes de tu visita: las dos iglesias, sus fachadas, los retablos churriguerescos, la plaza y el entorno del Centro Histórico.",
+      "galleryIntro": "Galería",
+      "captions": [
+        "Vista general de Los Dos Templos",
+        "Fachada del Templo de San Francisco de Asís",
+        "Fachada del Templo de Nuestra Señora de Aránzazu",
+        "Jardín de San Francisco entre las dos iglesias",
+        "Retablos dorados de estilo churrigueresco",
+        "Detalle de la arquitectura barroca",
+        "Puerta y pórtico de la iglesia",
+        "Torre y cubierta de la iglesia",
+        "Plaza y bancas del jardín",
+        "Escultura y elementos del conjunto",
+        "Arco y vanos de la fachada",
+        "Detalle de piedra tallada",
+        "Interior y retablos de Aránzazu",
+        "Luz natural sobre las fachadas",
+        "Rincón del Jardín de San Francisco",
+        "Calle Av. 16 de Septiembre alrededores",
+        "Conjunto al atardecer"
+      ],
+      "faq": [
+        {
+          "q": "¿Se puede fotografiar el interior?",
+          "a": "Por lo general se permite fotografiar el interior, pero sin flash y respetando las zonas señaladas. Durante misas o ceremonias, evita interrumpir."
+        },
+        {
+          "q": "¿Cuál es la mejor hora para fotografiar?",
+          "a": "La luz lateral de la mañana y del atardecer favorece las fachadas y el jardín. Al anochecer, las iglesias iluminadas quedan muy fotogénicas."
+        },
+        {
+          "q": "¿Dónde ver más fotos?",
+          "a": "Puedes ver más imágenes y reseñas de visitantes en Google Maps mediante el enlace de la sección de ubicación."
+        }
+      ]
+    },
+    "historia": {
+      "title": "Historia de Los Dos Templos",
+      "description": "La historia de Los Dos Templos de Guadalajara: del complejo conventual colonial a las iglesias barrocas de Aránzazu y San Francisco que separa el Jardín de San Francisco.",
+      "intro": "Los Dos Templos son el testimonio de siglos de historia religiosa y urbana de Guadalajara. Lo que hoy vemos son dos iglesias que formaron parte de un gran conjunto conventual.",
+      "sections": [
+        {
+          "heading": "Orígenes coloniales",
+          "body": "Los Dos Templos se construyeron durante la época colonial. El Templo de San Francisco de Asís es una de las iglesias más antiguas de Guadalajara, con un exterior sobrio y solemne que recuerda su larga historia."
+        },
+        {
+          "heading": "El apogeo barroco",
+          "body": "El Templo de Nuestra Señora de Aránzazu brilló en el siglo XVIII, cuando se instalaron en su interior tres retablos completos de madera dorada de estilo churrigueresco (ultrabarroco), una joya del arte barroco mexicano que se conserva intacta."
+        },
+        {
+          "heading": "Evolución urbana",
+          "body": "Con el crecimiento de Guadalajara, el antiguo conjunto conventual cambió. Hoy las dos iglesias están separadas por el Jardín de San Francisco, una plaza pública que es punto de encuentro de vecinos y visitantes."
+        },
+        {
+          "heading": "Destino cultural hoy",
+          "body": "En el siglo XXI, Los Dos Templos son un destino de turismo cultural que atrae a quienes quieren conocer la historia y el arte barroco de la ciudad."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuánto tiempo tienen las iglesias?",
+          "a": "El Templo de San Francisco de Asís es una de las iglesias más antiguas de la ciudad; su iglesia actual se construyó entre los siglos XVII y XVIII sobre el antiguo convento franciscano."
+        },
+        {
+          "q": "¿Qué retablos destacan?",
+          "a": "El Templo de Nuestra Señora de Aránzazu conserva tres retablos completos de madera dorada de estilo churrigueresco del siglo XVIII, únicos en la ciudad."
+        },
+        {
+          "q": "¿Los Dos Templos son de estilo gótico?",
+          "a": "No: muestran un barroco colonial mexicano. Si buscas gótico en Guadalajara, las torres neogóticas de la Catedral, añadidas en el siglo XIX, son el ejemplo más conocido."
+        }
+      ]
+    },
+    "sanFranciscoYaranzazu": {
+      "title": "San Francisco de Asís y Aránzazu",
+      "description": "Conoce las dos iglesias de Los Dos Templos: el Templo de San Francisco de Asís y el Templo de Nuestra Señora de Aránzazu, sus retablos dorados y su historia.",
+      "intro": "Los Dos Templos reúnen dos iglesias distintas que se miran desde lados opuestos del Jardín de San Francisco. Cada una tiene su propia historia y joyas artísticas.",
+      "sections": [
+        {
+          "heading": "Templo de San Francisco de Asís",
+          "body": "Una de las iglesias más antiguas de Guadalajara, con un exterior sobrio y solemne. Fue parte del antiguo convento franciscano y conserva la austeridad de su origen colonial."
+        },
+        {
+          "heading": "Templo de Nuestra Señora de Aránzazu",
+          "body": "Es la joya artística del conjunto: conserva tres retablos completos de madera dorada de estilo churrigueresco (ultrabarroco) del siglo XVIII, únicos en la ciudad. Su interior es una parada imprescindible."
+        },
+        {
+          "heading": "El Jardín de San Francisco",
+          "body": "La plaza que separa ambas iglesias es un espacio público tranquilo, ideal para descansar y contemplar las fachadas desde ambos lados. Es el punto natural de encuentro del recorrido."
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuál iglesia tiene los retablos dorados?",
+          "a": "El Templo de Nuestra Señora de Aránzazu conserva los tres retablos de madera dorada de estilo churrigueresco del siglo XVIII."
+        },
+        {
+          "q": "¿Cuál es la más antigua?",
+          "a": "El Templo de San Francisco de Asís es una de las iglesias más antiguas del centro histórico de Guadalajara."
+        },
+        {
+          "q": "¿Se pueden visitar las dos?",
+          "a": "Sí, ambas iglesias están abiertas al público y se visitan en pocos minutos a pie una de la otra, cruzando el Jardín de San Francisco."
+        }
+      ]
+    }
+  },
+  "topicNote": "La información de horarios, misas y transporte puede cambiar. Verifica siempre los datos oficiales antes de tu visita."
 }

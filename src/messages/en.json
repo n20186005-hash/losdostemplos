@@ -14,7 +14,7 @@
     "title": "Los Dos Templos (Guadalajara)",
     "subtitle": "Jalisco · Mexico",
     "rating": "4.6",
-    "reviewCount": "8,418",
+    "reviewCount": "8,486",
     "hours": "Historic Churches",
     "openMaps": "View Location",
     "imgAlt": "Los Dos Templos - Main view in Guadalajara, Mexico"
@@ -25,7 +25,7 @@
     "visitGuide": {
       "title": "Visiting Tips",
       "items": [
-        "Churches open all day, daytime visits recommended",
+        "The garden is open to the public; visit church interiors during Mass or guided-visit hours, ideally by day",
         "Admire the 18th-century Churrigueresque gilded altars",
         "Relax at the Jardín de San Francisco square",
         "Visit the nearby Guadalajara historic center"
@@ -107,7 +107,7 @@
   "hours": {
     "title": "Opening Hours",
     "outdoor": "Church Area",
-    "outdoorTime": "Open all day (verify official information)",
+    "outdoorTime": "The garden is public; church interiors follow Mass and visit schedules (verify on site).",
     "lighthouse": "Best Time to Visit",
     "summer": "Dry Season (November-April)",
     "summerTime": "Pleasant weather, ideal for outdoor visits",
@@ -180,58 +180,8 @@
   },
   "reviews": {
     "title": "Visitor Reviews",
-    "declaration": "Review information can be viewed via Google Maps (external link).",
-    "moreReviews": "View More Reviews on Google Maps",
-    "items": [
-      {
-        "name": "Carlos Rivera",
-        "date": "2 months ago",
-        "rating": 5,
-        "text": "A place full of history and culture. The architecture of the monument is unforgettable, highly recommended for all tourists interested in history."
-      },
-      {
-        "name": "María González",
-        "date": "3 weeks ago",
-        "rating": 5,
-        "text": "Amazing historical monument. The architectural style is very unique and has a long history. This is an important part of Mexican history and culture."
-      },
-      {
-        "name": "Juan Pérez",
-        "date": "1 month ago",
-        "rating": 4,
-        "text": "Very interesting place to learn about real history and culture. Daytime visits recommended when the light is best."
-      },
-      {
-        "name": "Ana Torres",
-        "date": "Over 6 months ago",
-        "rating": 5,
-        "text": "An important part of Mexican history. The architecture of the monument is moving, a must-visit place in Guadalajara."
-      },
-      {
-        "name": "Roberto Silva",
-        "date": "2 years ago",
-        "rating": 4,
-        "text": "Great historical experience. The architectural style is wonderful, and there are many historical attractions nearby."
-      },
-      {
-        "name": "Sofía Méndez",
-        "date": "Over 6 months ago",
-        "rating": 5,
-        "text": "Beautiful monument, full of the charm of Mexican history. The architectural style is unforgettable, definitely worth a visit."
-      },
-      {
-        "name": "Miguel Herrera",
-        "date": "3 months ago",
-        "rating": 4,
-        "text": "Interesting historical venue. Experience history and culture up close, respect the monument and protect cultural relics."
-      },
-      {
-        "name": "Laura Vargas",
-        "date": "1 month ago",
-        "rating": 5,
-        "text": "Historical gem of Guadalajara. Los Dos Templos is an important place to understand Mexican history, definitely worth experiencing."
-      }
-    ]
+    "declaration": "The rating shown (4.6 out of 5) is the aggregated Google Maps average, checked in October 2026. We do not publish individually verified comments here; to read real visitor experiences, see the reviews section on Google Maps.",
+    "moreReviews": "View more reviews on Google Maps"
   },
   "mapSection": {
     "title": "Location & How to Visit Los Dos Templos in Guadalajara",
@@ -375,7 +325,7 @@
         "description": "Los Dos Templos was built during the Mexican colonial period and originally belonged to a massive convent complex. Templo de San Francisco de Asís is one of the oldest churches in Guadalajara, featuring a solemn exterior."
       },
       {
-        "year": "19th Century",
+        "year": "18th Century",
         "title": "18th Century: Baroque Pinnacle",
         "plaque": "Architectural Art (Gilded Altars)",
         "description": "Templo de Nuestra Señora de Aránzazu shone brightly during this period, with three complete Churrigueresque (Ultra-Baroque) gilded wooden altars built inside, becoming a gem of Mexican architectural art."
@@ -413,7 +363,7 @@
       },
       {
         "q": "What are the opening hours of Los Dos Templos?",
-        "a": "The churches are generally open throughout the day, and daytime visits are recommended for the best light and atmosphere. Please verify the latest official schedule before your visit."
+        "a": "The garden (Jardín de San Francisco) is open to the public during the day. Each church interior is visited according to its Mass and guided-visit schedule; we recommend confirming the official hours before your visit."
       },
       {
         "q": "What can I see at Los Dos Templos?",
@@ -723,5 +673,159 @@
   "historyExtra": {
     "legendTitle": "The name & local memory",
     "legendText": "Guadalajara residents commonly use “los dos templos” (the two churches) to orient people in this area — a short, familiar label also used by transport, taxis and maps. Two churches of different styles facing each other across a garden have become part of the neighborhood’s collective memory and a natural meeting point for walking tours."
-  }
+  },
+  "topics": {
+    "moreGuides": "Explore more Los Dos Templos guides",
+    "comoLlegar": {
+      "title": "How to Get to Los Dos Templos in Guadalajara",
+      "description": "Practical guide to reach Los Dos Templos: location in the Historic Center, public transit (Route 231, T15, Line 3 Light Rail), and walking from the Cathedral or downtown.",
+      "intro": "Los Dos Templos sit in the heart of Guadalajara's Historic Center, at the crossing of Av. 16 de Septiembre and Calz. Revolución. They are easy to reach on foot, by public transit, or by taxi.",
+      "sections": [
+        {
+          "heading": "Location and landmark",
+          "body": "The address is Av. 16 de Septiembre & Calz. Revolución, Zona Centro, 44100 Guadalajara, Jalisco. The complex is recognized by the Jardín de San Francisco, the plaza that separates the two churches. The Plus Code is MMC3+Q4."
+        },
+        {
+          "heading": "By public transit",
+          "body": "Several urban routes run along Av. 16 de Septiembre and Calzada Revolución and stop almost in front of the complex. The stop is locally known as \"Dos Templos\" or \"San Francisco.\" You can also take Line 3 of the Light Rail and get off at Guadalajara Centro station, about a 5–7 minute walk away."
+        },
+        {
+          "heading": "From Guadalajara Cathedral",
+          "body": "From the Cathedral (a few blocks north) you can walk through the historic center in about 10–15 minutes, following Av. 16 de Septiembre south. It is a pleasant walk through the heart of the city."
+        },
+        {
+          "heading": "By car and parking",
+          "body": "If you drive, use navigation with the exact address. Downtown has covered parking and paid street spots; on weekends and holidays demand is high, so public transit is usually more convenient."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which bus stops at Los Dos Templos?",
+          "a": "Several urban routes pass along Av. 16 de Septiembre and Calzada Revolución, including Route 231, the T15 and Route 86. Ask the driver to let you off at the \"Dos Templos\" stop."
+        },
+        {
+          "q": "How to get there by Light Rail?",
+          "a": "Take Line 3 of the Light Rail to Guadalajara Centro station and walk about 5–7 minutes along Av. 16 de Septiembre."
+        },
+        {
+          "q": "Can you walk from downtown?",
+          "a": "Yes. Los Dos Templos are a few minutes on foot from the Cathedral, the Teatro Degollado and the Plaza de Armas, right in the Historic Center."
+        },
+        {
+          "q": "Which is the nearest station?",
+          "a": "The nearest Light Rail station is Guadalajara Centro (Line 3). By bus, the closest stop is \"Dos Templos\" / \"San Francisco.\""
+        }
+      ]
+    },
+    "fotos": {
+      "title": "Photos of Los Dos Templos",
+      "description": "Photo gallery of Los Dos Templos: exteriors of San Francisco and Aránzazu, their gilded altarpieces, the Jardín de San Francisco and the light of Guadalajara's historic center.",
+      "intro": "A selection of images to help you recognize the complex before your visit: the two churches, their facades, the Churrigueresque altarpieces, the plaza and the surroundings of the Historic Center.",
+      "galleryIntro": "Gallery",
+      "captions": [
+        "Overview of Los Dos Templos",
+        "Facade of the Templo de San Francisco de Asís",
+        "Facade of the Templo de Nuestra Señora de Aránzazu",
+        "Jardín de San Francisco between the two churches",
+        "Gilded Churrigueresque altarpieces",
+        "Detail of the baroque architecture",
+        "Church door and portico",
+        "Tower and roof of the church",
+        "Plaza and garden benches",
+        "Sculpture and elements of the complex",
+        "Arch and openings of the facade",
+        "Detail of carved stone",
+        "Interior and altarpieces of Aránzazu",
+        "Natural light on the facades",
+        "Corner of the Jardín de San Francisco",
+        "Av. 16 de Septiembre surroundings",
+        "Complex at dusk"
+      ],
+      "faq": [
+        {
+          "q": "Can you photograph the interior?",
+          "a": "Generally yes, photography is allowed inside, but without flash and respecting marked areas. During Mass or ceremonies, avoid interrupting."
+        },
+        {
+          "q": "What is the best time to photograph?",
+          "a": "Side light in the morning and at sunset favors the facades and the garden. At dusk, the illuminated churches are very photogenic."
+        },
+        {
+          "q": "Where can I see more photos?",
+          "a": "You can see more images and visitor reviews on Google Maps via the link in the location section."
+        }
+      ]
+    },
+    "historia": {
+      "title": "History of Los Dos Templos",
+      "description": "The history of Los Dos Templos in Guadalajara: from the colonial convent complex to the baroque churches of Aránzazu and San Francisco separated by the Jardín de San Francisco.",
+      "intro": "Los Dos Templos are the testimony of centuries of religious and urban history of Guadalajara. What we see today are two churches that were part of a large convent complex.",
+      "sections": [
+        {
+          "heading": "Colonial origins",
+          "body": "Los Dos Templos were built during the colonial period. The Templo de San Francisco de Asís is one of the oldest churches in Guadalajara, with a sober and solemn exterior that recalls its long history."
+        },
+        {
+          "heading": "The baroque apogee",
+          "body": "The Templo de Nuestra Señora de Aránzazu shone in the 18th century, when three complete gilded altarpieces in Churrigueresque style (ultra-baroque) were installed inside — a jewel of Mexican baroque art that remains intact."
+        },
+        {
+          "heading": "Urban evolution",
+          "body": "As Guadalajara grew, the old convent complex changed. Today the two churches are separated by the Jardín de San Francisco, a public plaza that is a meeting point for neighbors and visitors."
+        },
+        {
+          "heading": "A cultural destination today",
+          "body": "In the 21st century, Los Dos Templos are a cultural tourism destination that attracts those who want to know the history and baroque art of the city."
+        }
+      ],
+      "faq": [
+        {
+          "q": "How old are the churches?",
+          "a": "The Templo de San Francisco de Asís is one of the oldest churches in the city; its current church was built between the 17th and 18th centuries over the old Franciscan convent."
+        },
+        {
+          "q": "Which altarpieces stand out?",
+          "a": "The Templo de Nuestra Señora de Aránzazu preserves three complete gilded wood altarpieces in 18th-century Churrigueresque style, unique in the city."
+        },
+        {
+          "q": "Are Los Dos Templos Gothic?",
+          "a": "No: they show a Mexican colonial baroque. If you are looking for Gothic in Guadalajara, the neo-Gothic towers of the Cathedral, added in the 19th century, are the best-known example."
+        }
+      ]
+    },
+    "sanFranciscoYaranzazu": {
+      "title": "San Francisco de Asís and Aránzazu",
+      "description": "Meet the two churches of Los Dos Templos: the Templo de San Francisco de Asís and the Templo de Nuestra Señora de Aránzazu, their gilded altarpieces and history.",
+      "intro": "Los Dos Templos bring together two distinct churches that face each other from opposite sides of the Jardín de San Francisco. Each has its own history and artistic treasures.",
+      "sections": [
+        {
+          "heading": "Templo de San Francisco de Asís",
+          "body": "One of the oldest churches in Guadalajara, with a sober and solemn exterior. It was part of the old Franciscan convent and retains the austerity of its colonial origin."
+        },
+        {
+          "heading": "Templo de Nuestra Señora de Aránzazu",
+          "body": "It is the artistic jewel of the complex: it preserves three complete gilded wood altarpieces in 18th-century Churrigueresque (ultra-baroque) style, unique in the city. Its interior is a must-see stop."
+        },
+        {
+          "heading": "El Jardín de San Francisco",
+          "body": "The plaza that separates both churches is a quiet public space, ideal for resting and contemplating the facades from both sides. It is the natural meeting point of the tour."
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which church has the gilded altarpieces?",
+          "a": "The Templo de Nuestra Señora de Aránzazu preserves the three gilded wood altarpieces in 18th-century Churrigueresque style."
+        },
+        {
+          "q": "Which is the oldest?",
+          "a": "The Templo de San Francisco de Asís is one of the oldest churches in Guadalajara's historic center."
+        },
+        {
+          "q": "Can you visit both?",
+          "a": "Yes, both churches are open to the public and are a short walk from each other, crossing the Jardín de San Francisco."
+        }
+      ]
+    }
+  },
+  "topicNote": "Hours, Mass times and transit information can change. Always verify the official details before your visit."
 }
