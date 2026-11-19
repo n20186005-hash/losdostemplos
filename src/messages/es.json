@@ -3,10 +3,22 @@
     "title": "Los Dos Templos Guadalajara: Fotos, Ubicación y Cómo Llegar",
     "description": "Descubre Los Dos Templos en el Centro Histórico de Guadalajara. Consulta fotos, ubicación en Google Maps, cómo llegar, historia y consejos para tu visita."
   },
+  "ui": {
+    "breadcrumb": "Ruta de navegación",
+    "toggleTheme": "Cambiar tema",
+    "switchLanguage": "Cambiar idioma",
+    "closeLightbox": "Cerrar imagen",
+    "previousPhoto": "Foto anterior",
+    "nextPhoto": "Foto siguiente",
+    "photo": "Foto",
+    "toggleCookie": "Cambiar preferencia: {label}",
+    "faq": "Preguntas frecuentes",
+    "mapsName": "Los Dos Templos en Google Maps"
+  },
   "header": {
     "home": "Inicio",
     "gallery": "Galería",
-    "reviews": "Resenas",
+    "reviews": "Reseñas",
     "map": "Mapa",
     "backToHome": "Volver al Inicio"
   },

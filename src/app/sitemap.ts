@@ -1,9 +1,11 @@
 import { MetadataRoute } from 'next';
 import { siteConfig } from '@/config/site';
+import { allTopicSlugs } from '@/data/seoTopics';
+import { nearbySlugs } from '@/data/nearbyTopics';
 
 export const dynamic = 'force-static';
 
-const TOPICS = ['como-llegar', 'fotos', 'historia', 'san-francisco-y-aranzazu'];
+const TOPICS = [...allTopicSlugs, ...nearbySlugs];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = siteConfig.url;

@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 
 function CookieToggle({
   label,
+  toggleLabel,
   description,
   enabled,
   onToggle,
@@ -12,6 +13,7 @@ function CookieToggle({
   badge,
 }: {
   label: string;
+  toggleLabel: string;
   description: string;
   enabled: boolean;
   onToggle: () => void;
@@ -42,7 +44,7 @@ function CookieToggle({
       <button
         onClick={locked ? undefined : onToggle}
         className={`cookie-toggle flex-shrink-0 ${enabled ? 'active' : ''} ${locked ? 'opacity-60 cursor-not-allowed' : ''}`}
-        aria-label={`Toggle ${label}`}
+        aria-label={toggleLabel}
         disabled={locked}
       />
     </div>
@@ -51,6 +53,7 @@ function CookieToggle({
 
 export default function CookieSettingsClient() {
   const t = useTranslations('cookieSettings');
+  const ui = useTranslations('ui');
   const ht = useTranslations('header');
   const locale = useLocale();
   const homeHref = locale === 'zh' ? '/zh' : `/${locale}`;
@@ -108,6 +111,7 @@ export default function CookieSettingsClient() {
         <div className="space-y-4 mb-8">
           <CookieToggle
             label={t('essential.title')}
+            toggleLabel={ui('toggleCookie', { label: t('essential.title') })}
             description={t('essential.description')}
             enabled={true}
             onToggle={() => {}}
@@ -120,6 +124,7 @@ export default function CookieSettingsClient() {
               <CookieToggle
                 key={i}
                 label={t('analytics.title')}
+                toggleLabel={ui('toggleCookie', { label: t('analytics.title') })}
                 description={t('analytics.description')}
                 enabled={analytics}
                 onToggle={() => setAnalytics(!analytics)}
@@ -133,6 +138,7 @@ export default function CookieSettingsClient() {
               <CookieToggle
                 key={i}
                 label={t('preferences.title')}
+                toggleLabel={ui('toggleCookie', { label: t('preferences.title') })}
                 description={t('preferences.description')}
                 enabled={preferences}
                 onToggle={() => setPreferences(!preferences)}
@@ -146,6 +152,7 @@ export default function CookieSettingsClient() {
               <CookieToggle
                 key={i}
                 label={t('marketing.title')}
+                toggleLabel={ui('toggleCookie', { label: t('marketing.title') })}
                 description={t('marketing.description')}
                 enabled={marketing}
                 onToggle={() => setMarketing(!marketing)}

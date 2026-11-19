@@ -1,4 +1,6 @@
 import { useLocale, useTranslations } from 'next-intl';
+import { seoTopics } from '@/data/seoTopics';
+import { nearbyTopics } from '@/data/nearbyTopics';
 
 export default function TopicLinks() {
   const locale = useLocale();
@@ -13,6 +15,12 @@ export default function TopicLinks() {
       title: t('sanFranciscoYaranzazu.title'),
       desc: t('sanFranciscoYaranzazu.description'),
     },
+    ...Object.entries(seoTopics[locale as keyof typeof seoTopics] || seoTopics.es).map(([slug, data]) => ({
+      slug, title: data.title, desc: data.description,
+    })),
+    ...Object.entries(nearbyTopics[locale] || nearbyTopics.es).map(([slug, data]) => ({
+      slug, title: data.title, desc: data.description,
+    })),
   ];
 
   return (

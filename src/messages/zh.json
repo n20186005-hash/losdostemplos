@@ -3,6 +3,18 @@
     "title": "Los Dos Templos（瓜达拉哈拉）开放时间、历史与交通指南",
     "description": "探索瓜达拉哈拉市中心的 Los Dos Templos——圣方济各堂与阿兰萨苏堂：开放时间、历史、照片，以及 231 路、T15 路公交与轻轨（Tren Ligero）的到达方式。"
   },
+  "ui": {
+    "breadcrumb": "面包屑导航",
+    "toggleTheme": "切换主题",
+    "switchLanguage": "切换语言",
+    "closeLightbox": "关闭图片",
+    "previousPhoto": "上一张照片",
+    "nextPhoto": "下一张照片",
+    "photo": "照片",
+    "toggleCookie": "切换偏好：{label}",
+    "faq": "常见问题",
+    "mapsName": "在 Google 地图查看双教堂"
+  },
   "header": {
     "home": "首页",
     "gallery": "图库",

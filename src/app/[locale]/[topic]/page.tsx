@@ -4,10 +4,17 @@ import { setRequestLocale } from 'next-intl/server';
 import { routing } from '@/i18n/routing';
 import { siteConfig } from '@/config/site';
 import TopicPage from '@/components/TopicPage';
+import { allTopicSlugs, seoTopics, topicKeys } from '@/data/seoTopics';
+import { nearbySlugs, nearbyTopics } from '@/data/nearbyTopics';
 
 export const dynamicParams = false;
 
-const TOPICS = ['como-llegar', 'fotos', 'historia', 'san-francisco-y-aranzazu'];
+const TOPICS = [...allTopicSlugs, ...nearbySlugs];
+
+function getTopic(messages: any, locale: string, slug: string) {
+  const extra = seoTopics[locale as keyof typeof seoTopics];
+  return nearbyTopics[locale]?.[slug] || (extra as Record<string, unknown> | undefined)?.[slug] || messages?.topics?.[topicKeys[slug]];
+}
 
 export function generateStaticParams() {
   return routing.locales.flatMap((locale) =>
@@ -24,7 +31,7 @@ export async function generateMetadata({
   if (!TOPICS.includes(topic)) return {};
 
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
-  const t = messages?.topics?.[topic];
+  const t = getTopic(messages, locale, topic) as { title: string; description: string } | undefined;
   if (!t) return {};
 
   const url = `${siteConfig.url}/${locale}/${topic}`;
@@ -43,7 +50,7 @@ export async function generateMetadata({
       title: t.title,
       description: t.description,
       url,
-      siteName: siteConfig.name,
+      siteName: siteConfig.fullName,
       locale,
       type: 'article',
     },
@@ -60,7 +67,7 @@ export default async function Page({
   setRequestLocale(locale);
 
   const messages = (await import(`@/messages/${locale}.json`)).default as any;
-  const topicData = messages?.topics?.[topic];
+  const topicData = getTopic(messages, locale, topic) as any;
 
   return <TopicPage locale={locale} slug={topic} topic={topicData} />;
 }
