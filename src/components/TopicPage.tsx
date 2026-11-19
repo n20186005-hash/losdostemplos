@@ -5,6 +5,7 @@ import { nearbySlugs, nearbyTopics } from '@/data/nearbyTopics';
 import VerifiedPhoto from './VerifiedPhoto';
 import NearbyDetailSections from './NearbyDetailSections';
 import ExpandedNearbySections from './ExpandedNearbySections';
+import { getNearbyFacts } from '@/data/nearbyFacts';
 
 interface TopicContent {
   title: string;
@@ -89,6 +90,7 @@ export default function TopicPage({
   const galleryCount = 17;
   const isNearby = nearbySlugs.includes(slug);
   const isExpanded = isNearby && slug !== 'templo-san-francisco-asis' && slug !== 'capilla-aranzazu';
+  const facts = isExpanded ? getNearbyFacts(slug, locale) : null;
   const management = isNearby ? topic.sections?.find((section) => /^(Gestión y conservación|Management and conservation|管理与保护|管理与文物保护|管理与维护|Management and care)$/.test(section.heading)) : undefined;
   const nearbySections = isNearby ? topic.sections?.filter((section) => section !== management) : topic.sections;
 
@@ -123,10 +125,15 @@ export default function TopicPage({
                 {isExpanded ? topic.category : locale === 'zh' ? '历史宗教建筑' : locale === 'es' ? 'Monumento religioso histórico' : 'Historic religious landmark'}
               </span>
               <a className="rounded-full px-3 py-1 underline underline-offset-4" style={{ background: 'var(--card-bg)', color: 'var(--accent)', border: '1px solid var(--border-color)' }} href={topic.mapsUrl} target="_blank" rel="noopener noreferrer">
-                Google Maps
+                {locale==='zh'?'查看地点与评价':locale==='es'?'Ubicación y reseñas':'Location and reviews'} · Google Maps
               </a>
             </div>
           )}
+
+          {isNearby && <div className="flex flex-wrap gap-2 mb-6 text-sm" style={{color:'var(--text-muted)'}}>
+            <span className="rounded-lg px-3 py-2" style={{border:'1px solid var(--border-color)'}}>{locale==='zh'?'评分与评价：查看此地点 Google Maps':locale==='es'?'Valoración: consultar ficha de Google Maps':'Rating: see this place on Google Maps'}</span>
+            <span className="rounded-lg px-3 py-2" style={{border:'1px solid var(--border-color)'}}>{facts?.duration ? `${locale==='zh'?'建议停留':locale==='es'?'Visita sugerida':'Suggested visit'} · ${facts.duration}` : locale==='zh'?'参观时段以现场安排为准':locale==='es'?'Apertura según el recinto':'Hours depend on the venue'}</span>
+          </div>}
 
           {topic.intro && (
             <p className="text-base leading-relaxed mb-10" style={{ color: 'var(--text-secondary)' }}>
@@ -135,6 +142,8 @@ export default function TopicPage({
           )}
 
           {topic.images?.length ? <div className="grid sm:grid-cols-2 gap-4 mb-10">{topic.images.map((photo,i)=><VerifiedPhoto key={photo.url} src={photo.url} alt={`${topic.localName} · ${locale==='zh'?'实景':locale==='es'?'fotografía':'photograph'} ${i+1}`} source={photo.source} locale={locale} />)}</div> : topic.image ? <VerifiedPhoto src={topic.image} alt={topic.title} source={topic.imageSource} locale={locale} /> : null}
+
+          {isExpanded && <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4">{locale==='zh'?'探索与游览建议':locale==='es'?'Explora y prepara la visita':'Explore and plan your visit'}</h2><p className="leading-relaxed" style={{color:'var(--text-secondary)'}}>{topic.visitAdvice}</p><h3 className="font-display text-xl font-semibold mt-6 mb-3">{locale==='zh'?'这里值得观察什么':locale==='es'?'Qué merece la pena observar':'What to look for'}</h3><p className="leading-relaxed" style={{color:'var(--text-secondary)'}}>{topic.sections?.[1]?.body}</p></section>}
 
           {isNearby && (
             <section className="rounded-xl p-6 mb-10" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>
@@ -158,8 +167,16 @@ export default function TopicPage({
                 {[
                   [locale === 'zh' ? '景点名称' : locale === 'es' ? 'Nombre' : 'Name', topic.localName],
                   [locale === 'zh' ? '所在地' : locale === 'es' ? 'Ubicación' : 'Location', 'Guadalajara, Jalisco, México'],
+                  [locale === 'zh' ? '景点类型' : locale === 'es' ? 'Tipo de lugar' : 'Place type', topic.category || (locale==='zh'?'历史宗教建筑':locale==='es'?'Monumento religioso histórico':'Historic religious site')],
                   [locale === 'zh' ? '地址' : locale === 'es' ? 'Dirección' : 'Address', topic.address],
-                  [locale === 'zh' ? '开放与门票' : locale === 'es' ? 'Horarios y entrada' : 'Hours and admission', locale === 'zh' ? '外观可从公共空间观赏；内部以现场安排为准' : locale === 'es' ? 'Exterior visible desde el espacio público; interior según apertura local' : 'Exterior viewable from public space; interior access varies'],
+                  ...(facts ? [
+                    [locale==='zh'?'历史年代':locale==='es'?'Época e historia':'Historic period',facts.era],
+                    [locale==='zh'?'主要看点':locale==='es'?'Qué ver':'Highlights',facts.focus],
+                    [locale==='zh'?'建议停留':locale==='es'?'Duración sugerida':'Suggested duration',facts.duration],
+                  ] : []),
+                  [locale === 'zh' ? '开放安排' : locale === 'es' ? 'Acceso y horarios' : 'Hours and access', topic.visitAdvice || (locale === 'zh' ? '外观可从公共空间观赏；内部以现场安排为准' : locale === 'es' ? 'Exterior visible desde el espacio público; interior según apertura local' : 'Exterior viewable from public space; interior access varies')],
+                  [locale === 'zh' ? '管理维护' : locale === 'es' ? 'Administración' : 'Management', topic.management || management?.body || '—'],
+                  [locale === 'zh' ? '游客评价' : locale === 'es' ? 'Reseñas' : 'Reviews', locale==='zh'?'该地点的最新评分及评价请查看专属 Google 地图':locale==='es'?'Puntuación y opiniones actuales en su ficha de Google Maps':'Current place-specific rating and reviews on Google Maps'],
                 ].map(([name, value]) => <div key={name} className="grid grid-cols-1 sm:grid-cols-3 gap-2 p-4" style={{ borderBottom: '1px solid var(--border-color)' }}><dt className="font-semibold text-sm">{name}</dt><dd className="sm:col-span-2 text-sm" style={{ color: 'var(--text-secondary)' }}>{value}</dd></div>)}
               </dl>
             </section>
@@ -204,7 +221,7 @@ export default function TopicPage({
                 ))}
               </div>
             </>
-          ) : (
+          ) : !isExpanded ? (
             <div className="space-y-8 mb-12">
               {isNearby && <h2 className="font-display text-2xl font-semibold">{locale === 'zh' ? '更多历史与实用资料' : locale === 'es' ? 'Más historia e información práctica' : 'Further history and practical information'}</h2>}
               {!isExpanded && nearbySections?.map((section, idx) => (
@@ -218,7 +235,7 @@ export default function TopicPage({
                 </section>
               ))}
             </div>
-          )}
+          ) : null}
 
           {topic.faq && topic.faq.length > 0 && (
             <section className="mt-12 pt-8" style={{ borderTop: '1px solid var(--border-color)' }}>
