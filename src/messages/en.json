@@ -13,7 +13,8 @@
     "photo": "Photo",
     "toggleCookie": "Toggle preference: {label}",
     "faq": "Frequently asked questions",
-    "mapsName": "Los Dos Templos on Google Maps"
+    "mapsName": "Los Dos Templos on Google Maps",
+    "mapFrameTitle": "Map of Los Dos Templos in Guadalajara, Mexico"
   },
   "header": {
     "home": "Home",

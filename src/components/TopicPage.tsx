@@ -29,7 +29,7 @@ interface TopicContent {
   category?: string;
 }
 
-function TopicJsonLd({ topic, locale, slug }: { topic: TopicContent; locale: string; slug: string }) {
+function TopicJsonLd({ topic, locale, slug, homeLabel }: { topic: TopicContent; locale: string; slug: string; homeLabel: string }) {
   const pageUrl = `${siteConfig.url}/${locale}/${slug}`;
   const graph: Record<string, unknown>[] = [
     {
@@ -43,7 +43,7 @@ function TopicJsonLd({ topic, locale, slug }: { topic: TopicContent; locale: str
       breadcrumb: {
         '@type': 'BreadcrumbList',
         itemListElement: [
-          { '@type': 'ListItem', position: 1, name: 'Home', item: `${siteConfig.url}/${locale}` },
+          { '@type': 'ListItem', position: 1, name: homeLabel, item: `${siteConfig.url}/${locale}` },
           { '@type': 'ListItem', position: 2, name: topic.title, item: pageUrl },
         ],
       },
@@ -96,7 +96,7 @@ export default function TopicPage({
 
   return (
     <>
-      <TopicJsonLd topic={topic} locale={locale} slug={slug} />
+      <TopicJsonLd topic={topic} locale={locale} slug={slug} homeLabel={tHeader('home')} />
       <main className="min-h-screen" style={{ background: 'var(--bg)', color: 'var(--text-primary)' }}>
         <div className="max-w-3xl mx-auto px-5 py-12 sm:py-16">
           <a

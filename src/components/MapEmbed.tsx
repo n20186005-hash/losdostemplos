@@ -3,6 +3,7 @@ import { siteConfig } from '@/config/site';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
+  const ui = useTranslations('ui');
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -29,7 +30,7 @@ export default function MapEmbed() {
             allowFullScreen
             loading="lazy"
             referrerPolicy="strict-origin-when-cross-origin"
-            title="Google Maps - Los Dos Templos, Guadalajara, Jalisco, Mexico"
+            title={ui('mapFrameTitle')}
           />
         </div>
 

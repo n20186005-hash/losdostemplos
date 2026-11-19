@@ -13,7 +13,8 @@
     "photo": "照片",
     "toggleCookie": "切换偏好：{label}",
     "faq": "常见问题",
-    "mapsName": "在 Google 地图查看双教堂"
+    "mapsName": "在 Google 地图查看双教堂",
+    "mapFrameTitle": "墨西哥瓜达拉哈拉双教堂地图"
   },
   "header": {
     "home": "首页",
