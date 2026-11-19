@@ -19,6 +19,8 @@ interface TopicContent {
   sourceUrl?: string;
   localName?: string;
   address?: string;
+  management?: string;
+  category?: string;
 }
 
 function TopicJsonLd({ topic, locale, slug }: { topic: TopicContent; locale: string; slug: string }) {
@@ -81,7 +83,8 @@ export default function TopicPage({
   const isGallery = slug === 'fotos';
   const galleryCount = 17;
   const isNearby = nearbySlugs.includes(slug);
-  const management = isNearby ? topic.sections?.find((section) => /^(Gestión y conservación|Management and conservation|管理与保护|管理与文物保护)$/.test(section.heading)) : undefined;
+  const isExpanded = isNearby && slug !== 'templo-san-francisco-asis' && slug !== 'capilla-aranzazu';
+  const management = isNearby ? topic.sections?.find((section) => /^(Gestión y conservación|Management and conservation|管理与保护|管理与文物保护|管理与维护|Management and care)$/.test(section.heading)) : undefined;
   const nearbySections = isNearby ? topic.sections?.filter((section) => section !== management) : topic.sections;
 
   return (
@@ -112,7 +115,7 @@ export default function TopicPage({
             <div className="flex flex-wrap gap-3 mb-6 text-sm" style={{ color: 'var(--text-secondary)' }}>
               <span className="rounded-full px-3 py-1" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>Guadalajara · Jalisco</span>
               <span className="rounded-full px-3 py-1" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>
-                {locale === 'zh' ? '历史宗教建筑' : locale === 'es' ? 'Monumento religioso histórico' : 'Historic religious landmark'}
+                {isExpanded ? topic.category : locale === 'zh' ? '历史宗教建筑' : locale === 'es' ? 'Monumento religioso histórico' : 'Historic religious landmark'}
               </span>
               <a className="rounded-full px-3 py-1 underline underline-offset-4" style={{ background: 'var(--card-bg)', color: 'var(--accent)', border: '1px solid var(--border-color)' }} href={topic.mapsUrl} target="_blank" rel="noopener noreferrer">
                 Google Maps
@@ -134,14 +137,14 @@ export default function TopicPage({
             <section className="rounded-xl p-6 mb-10" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>
               <h2 className="font-display text-2xl font-semibold mb-3">{locale === 'zh' ? `关于${topic.localName}` : locale === 'es' ? `Sobre ${topic.localName}` : `About ${topic.localName}`}</h2>
               <p className="leading-relaxed mb-4" style={{ color: 'var(--text-secondary)' }}>
-                {locale === 'zh'
+                {topic.management || (locale === 'zh'
                   ? `${topic.localName}是瓜达拉哈拉旧城区的重要宗教历史建筑，也是原方济各会修院建筑群历史的一部分。墨西哥联邦文化部门负责历史古迹的法定保护与相关文物资料记录；宗教管理方负责日常礼拜及内部开放安排。`
                   : locale === 'es'
                     ? `${topic.localName} forma parte del patrimonio religioso del Centro Histórico de Guadalajara y de la memoria del antiguo conjunto franciscano. La autoridad cultural federal documenta y protege su carácter de monumento histórico; la administración religiosa organiza el culto y el acceso cotidiano al interior.`
-                    : `${topic.localName} is part of Guadalajara’s historic religious heritage and the former Franciscan complex. The federal cultural authority documents and protects its historic-monument status, while religious administrators oversee worship and everyday interior access.`}
+                    : `${topic.localName} is part of Guadalajara’s historic religious heritage and the former Franciscan complex. The federal cultural authority documents and protects its historic-monument status, while religious administrators oversee worship and everyday interior access.`)}
               </p>
               {management && <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{management.body}</p>}
-              {topic.sourceUrl && <a className="block mt-4 text-sm underline underline-offset-4" style={{ color: 'var(--accent)' }} href={topic.sourceUrl} target="_blank" rel="noopener noreferrer">{locale === 'zh' ? '历史建筑资料来源' : locale === 'es' ? 'Ficha patrimonial de referencia' : 'Heritage documentation'}</a>}
+              {topic.sourceUrl && <a className="block mt-4 text-sm underline underline-offset-4" style={{ color: 'var(--accent)' }} href={topic.sourceUrl} target="_blank" rel="noopener noreferrer">{isExpanded ? locale === 'zh' ? '官方景点资料' : locale === 'es' ? 'Información turística municipal' : 'Municipal visitor information' : locale === 'zh' ? '历史建筑资料来源' : locale === 'es' ? 'Ficha patrimonial de referencia' : 'Heritage documentation'}</a>}
             </section>
           )}
 
@@ -166,11 +169,11 @@ export default function TopicPage({
                 {locale === 'zh' ? '评分和评价数量会随时间变化，请在该地点专属 Google 地图页面查看最新数据。' : locale === 'es' ? 'La puntuación y el número de reseñas varían; consulta los datos actuales de este lugar en Google Maps.' : 'Ratings and review counts change; see the latest figures for this specific place on Google Maps.'}
               </p>
               <a className="underline text-sm" style={{ color: 'var(--accent)' }} href={topic.mapsUrl} target="_blank" rel="noopener noreferrer">Google Maps · {topic.title}</a>
-              {topic.sourceUrl && <p className="mt-3 text-sm"><a className="underline" style={{ color: 'var(--accent)' }} href={topic.sourceUrl} target="_blank" rel="noopener noreferrer">{locale === 'zh' ? '历史与管理资料来源：墨西哥文化部门' : locale === 'es' ? 'Fuente patrimonial: Secretaría de Cultura' : 'Heritage source: Mexican Ministry of Culture'}</a></p>}
+              {topic.sourceUrl && <p className="mt-3 text-sm"><a className="underline" style={{ color: 'var(--accent)' }} href={topic.sourceUrl} target="_blank" rel="noopener noreferrer">{isExpanded ? locale === 'zh' ? '参考资料：瓜达拉哈拉市旅游部门' : locale === 'es' ? 'Fuente: Turismo de Guadalajara' : 'Source: Guadalajara Tourism' : locale === 'zh' ? '历史与管理资料来源：墨西哥文化部门' : locale === 'es' ? 'Fuente patrimonial: Secretaría de Cultura' : 'Heritage source: Mexican Ministry of Culture'}</a></p>}
             </section>
           )}
 
-          {isNearby && <NearbyDetailSections locale={locale} slug={slug} />}
+          {isNearby && !isExpanded && <NearbyDetailSections locale={locale} slug={slug} />}
 
           {isGallery ? (
             <>
@@ -228,6 +231,19 @@ export default function TopicPage({
                       {f.a}
                     </p>
                   </div>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {isNearby && (
+            <section className="mt-12 pt-8" style={{borderTop:'1px solid var(--border-color)'}}>
+              <h2 className="font-display text-2xl font-semibold mb-5">{locale === 'zh' ? '继续探索周边景点' : locale === 'es' ? 'Sigue explorando lugares cercanos' : 'Explore more nearby places'}</h2>
+              <div className="grid sm:grid-cols-2 gap-3">
+                {nearbySlugs.filter((other) => other !== slug).map((other) => (
+                  <a key={other} href={`/${locale}/${other}`} className="rounded-lg px-4 py-3 text-sm font-medium hover:underline" style={{background:'var(--card-bg)',border:'1px solid var(--border-color)',color:'var(--text-primary)'}}>
+                    {nearbyTopics[locale]?.[other]?.localName} →
+                  </a>
                 ))}
               </div>
             </section>

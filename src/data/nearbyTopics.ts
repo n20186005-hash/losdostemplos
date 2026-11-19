@@ -1,3 +1,5 @@
+import { expandedNearbySlugs, expandedNearbyTopics } from './nearbyExpansion';
+
 const landmarks = {
   'templo-san-francisco-asis': {
     localName: 'Templo de San Francisco de Asís',
@@ -114,10 +116,15 @@ const descriptions = {
   },
 } as const;
 
-export const nearbyTopics = Object.fromEntries(
+const originalNearbyTopics = Object.fromEntries(
   Object.entries(descriptions).map(([locale, pages]) => [locale,
     Object.fromEntries(Object.entries(pages).map(([slug, content]) => [slug, { ...content, ...landmarks[slug as keyof typeof landmarks] }]))
   ])
-) as Record<string, Record<string, { title: string; description: string; intro: string; sections: readonly {heading: string; body: string}[]; faq: readonly {q: string; a: string}[]; image: string; imageSource: string; mapsUrl: string; sourceUrl: string; localName: string; address: string }>>;
+) as Record<string, Record<string, { title: string; description: string; intro: string; sections: readonly {heading: string; body: string}[]; faq: readonly {q: string; a: string}[]; image: string; imageSource: string; mapsUrl: string; sourceUrl: string; localName: string; address: string; category?: string; management?: string }>>;
 
-export const nearbySlugs = Object.keys(landmarks);
+export const nearbyTopics = Object.fromEntries(['es', 'en', 'zh'].map((locale) => [locale, {
+  ...originalNearbyTopics[locale],
+  ...(expandedNearbyTopics as Record<string, Record<string, any>>)[locale],
+}])) as typeof originalNearbyTopics;
+
+export const nearbySlugs = [...Object.keys(landmarks), ...expandedNearbySlugs];

@@ -128,6 +128,7 @@ export default async function HomePage({
       <main>
         <Hero />
         <Intro />
+        <TopicLinks />
         <BasicInfo />
         <HistoryTimeline />
         <WeatherSection />
@@ -136,7 +137,6 @@ export default async function HomePage({
         <HoursSection />
         <TicketsSection />
         <TransportSection />
-        <TopicLinks />
         <VisitPlanSection />
         <FacilitiesSection />
         <Gallery />
