@@ -120,7 +120,7 @@ const originalNearbyTopics = Object.fromEntries(
   Object.entries(descriptions).map(([locale, pages]) => [locale,
     Object.fromEntries(Object.entries(pages).map(([slug, content]) => [slug, { ...content, ...landmarks[slug as keyof typeof landmarks] }]))
   ])
-) as Record<string, Record<string, { title: string; description: string; intro: string; sections: readonly {heading: string; body: string}[]; faq: readonly {q: string; a: string}[]; image: string; imageSource: string; mapsUrl: string; sourceUrl: string; localName: string; address: string; category?: string; management?: string }>>;
+) as Record<string, Record<string, { title: string; description: string; intro: string; sections: readonly {heading: string; body: string}[]; faq: readonly {q: string; a: string}[]; image: string; imageSource: string; mapsUrl: string; sourceUrl: string; localName: string; address: string; category?: string; management?: string; images?: {url:string;source:string}[]; visitAdvice?: string; routeAdvice?: string; photoAdvice?: string }>>;
 
 export const nearbyTopics = Object.fromEntries(['es', 'en', 'zh'].map((locale) => [locale, {
   ...originalNearbyTopics[locale],

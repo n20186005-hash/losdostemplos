@@ -4,6 +4,7 @@ import { allTopicSlugs, seoTopics, topicKeys } from '@/data/seoTopics';
 import { nearbySlugs, nearbyTopics } from '@/data/nearbyTopics';
 import VerifiedPhoto from './VerifiedPhoto';
 import NearbyDetailSections from './NearbyDetailSections';
+import ExpandedNearbySections from './ExpandedNearbySections';
 
 interface TopicContent {
   title: string;
@@ -19,6 +20,10 @@ interface TopicContent {
   sourceUrl?: string;
   localName?: string;
   address?: string;
+  images?: { url:string; source:string }[];
+  visitAdvice?: string;
+  routeAdvice?: string;
+  photoAdvice?: string;
   management?: string;
   category?: string;
 }
@@ -129,9 +134,7 @@ export default function TopicPage({
             </p>
           )}
 
-          {topic.image && (
-            <VerifiedPhoto src={topic.image} alt={topic.title} source={topic.imageSource} locale={locale} />
-          )}
+          {topic.images?.length ? <div className="grid sm:grid-cols-2 gap-4 mb-10">{topic.images.map((photo,i)=><VerifiedPhoto key={photo.url} src={photo.url} alt={`${topic.localName} · ${locale==='zh'?'实景':locale==='es'?'fotografía':'photograph'} ${i+1}`} source={photo.source} locale={locale} />)}</div> : topic.image ? <VerifiedPhoto src={topic.image} alt={topic.title} source={topic.imageSource} locale={locale} /> : null}
 
           {isNearby && (
             <section className="rounded-xl p-6 mb-10" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>
@@ -174,6 +177,7 @@ export default function TopicPage({
           )}
 
           {isNearby && !isExpanded && <NearbyDetailSections locale={locale} slug={slug} />}
+          {isExpanded && <ExpandedNearbySections locale={locale} slug={slug} />}
 
           {isGallery ? (
             <>
@@ -203,7 +207,7 @@ export default function TopicPage({
           ) : (
             <div className="space-y-8 mb-12">
               {isNearby && <h2 className="font-display text-2xl font-semibold">{locale === 'zh' ? '更多历史与实用资料' : locale === 'es' ? 'Más historia e información práctica' : 'Further history and practical information'}</h2>}
-              {nearbySections?.map((section, idx) => (
+              {!isExpanded && nearbySections?.map((section, idx) => (
                 <section key={idx}>
                   <h2 className="font-display text-xl font-semibold mb-2" style={{ color: 'var(--text-primary)' }}>
                     {section.heading}

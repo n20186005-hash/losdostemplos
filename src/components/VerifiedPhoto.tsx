@@ -39,7 +39,7 @@ export default function VerifiedPhoto({
       {source && (
         <figcaption className="mt-2 text-xs" style={{ color: 'var(--text-muted)' }}>
           <a href={source} target="_blank" rel="noopener noreferrer" className="underline">
-            Wikimedia Commons · {locale === 'zh' ? '景点实景照片来源' : locale === 'es' ? 'Fotografías de este lugar' : 'Photos of this landmark'}
+            {source.includes('wikimedia.org') ? 'Wikimedia Commons' : locale === 'zh' ? '照片来源' : locale === 'es' ? 'Fuente de la fotografía' : 'Photo source'} · {locale === 'zh' ? '景点实景照片' : locale === 'es' ? 'Fotografía del lugar' : 'Location photograph'}
           </a>
         </figcaption>
       )}

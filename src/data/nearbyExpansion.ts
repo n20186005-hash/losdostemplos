@@ -1,5 +1,6 @@
 // Individual historic-centre places listed in Guadalajara's municipal visitor routes.
 // The photos are Wikimedia file candidates; VerifiedPhoto handles unavailable images.
+import { nearbyProfiles } from './nearbyProfiles';
 const places = [
   {
     slug: 'jardin-san-francisco', name: 'Jardín de San Francisco', address: 'Jardín de San Francisco, Av. 16 de Septiembre, Zona Centro, Guadalajara, Jalisco, México',
@@ -68,18 +69,32 @@ const places = [
 
 const sourceUrl = 'https://tequiero.guadalajara.gob.mx/rutas/ruta-de-centro-historico';
 const culturalSource = 'https://tequiero.guadalajara.gob.mx/rutas/ruta-de-museos';
+const categories: Record<string, {es:string;zh:string}> = {
+  'jardin-san-francisco':{es:'Jardín público',zh:'公共花园'},
+  'puente-de-las-damas':{es:'Puente histórico',zh:'历史桥梁'},
+  'ex-convento-del-carmen':{es:'Centro cultural',zh:'文化中心'},
+  'teatro-diana':{es:'Teatro y espectáculos',zh:'演出场馆'},
+  'catedral-guadalajara':{es:'Catedral histórica',zh:'历史主教座堂'},
+  'palacio-de-gobierno-jalisco':{es:'Palacio de gobierno',zh:'政府宫殿'},
+  'teatro-degollado':{es:'Teatro histórico',zh:'历史剧院'},
+  'rotonda-jaliscienses-ilustres':{es:'Monumento cívico',zh:'公共纪念建筑'},
+  'plaza-de-armas-guadalajara':{es:'Plaza histórica',zh:'历史广场'},
+};
 export const expandedNearbySlugs = places.map((p) => p.slug);
 export const expandedNearbyTopics = Object.fromEntries(['es', 'en', 'zh'].map((locale) => [locale, Object.fromEntries(places.map((p) => {
   const [title, intro, history, architecture, route, photo] = p[locale as 'es' | 'en' | 'zh'];
   const es = locale === 'es'; const zh = locale === 'zh';
   const section = (heading: string, body: string) => ({ heading, body });
-  const management = es ? `Lugar del Centro Histórico de Guadalajara. El uso y la conservación corresponden a los responsables del recinto y a las autoridades públicas competentes según se trate de espacio cívico, cultural o religioso; consulta las indicaciones oficiales en cada visita.` : zh ? '该地点属于瓜达拉哈拉历史城区。具体运营与维护由所属场馆管理方及相关公共主管机构依地点性质负责；请遵循现场发布的参观安排。' : 'This historic-centre site is managed or maintained by its venue operator and relevant public authorities according to its civic, cultural or religious use; follow the current visitor notices.';
-  const access = es ? 'Las vistas desde calles y plazas públicas no requieren entrada. Los horarios, las visitas interiores, eventos y posibles tarifas dependen de cada recinto: compruébalos antes de salir.' : zh ? '公共街道与广场的外观观赏通常免费。室内开放、活动、票价和临时限制以所属场馆当天公告为准。' : 'Street and public-square views are generally free. Interior admission, event schedules, fees and temporary restrictions depend on the venue; check current notices.';
+  const profile = nearbyProfiles[p.slug];
+  const management = profile.management[locale as 'es'|'en'|'zh'];
+  const access = profile.visit[locale as 'es'|'en'|'zh'];
   const transport = es ? `Sitio: ${p.address}. Traza una ruta a pie desde Los Dos Templos o comprueba las paradas actuales del transporte público. La navegación usa el nombre específico de este lugar.` : zh ? `地点：${p.address}。可从双教堂规划步行路线，或核查当天公交站点；导航使用该景点专属名称。` : `Location: ${p.address}. Plan a walk from Los Dos Templos or check current transit stops; navigate using this place's own name.`;
   const tip = es ? `Plan: ${route} En lugares de culto o espectáculos, respeta las actividades y las normas de fotografía.` : zh ? `路线建议：${route} 如进入宗教或演出场所，请遵守活动秩序和摄影规定。` : `Suggested walk: ${route} Respect ceremonies, performances and photography rules inside venues.`;
   const photoText = es ? `Punto de foto: ${photo} Utiliza el espacio público con respeto por peatones y actividades.` : zh ? `摄影位置：${photo} 拍摄时不要妨碍行人与现场活动。` : `Photo spot: ${photo} Keep pathways clear and respect activities on site.`;
   const sections = [section(es ? 'Historia y contexto' : zh ? '历史背景' : 'History and context',history),section(es ? 'Arquitectura y detalles' : zh ? '建筑与观察重点' : 'Architecture and highlights',architecture),section(es ? 'Gestión y conservación' : zh ? '管理与维护' : 'Management and care',management),section(es ? 'Horarios, entrada y servicios' : zh ? '开放与门票' : 'Hours and admission',access),section(es ? 'Dirección y transporte' : zh ? '地址与交通' : 'Address and transport',transport),section(es ? 'Ruta recomendada y normas' : zh ? '步行路线与游览须知' : 'Walking route and visitor tips',tip),section(es ? 'Fotografía' : zh ? '摄影机位' : 'Photography',photoText),section(es ? 'Alojamiento cercano' : zh ? '住宿建议' : 'Where to stay',es ? 'Para recorrer varios lugares a pie, el Centro Histórico es una base práctica; compara accesos y transporte antes de reservar.' : zh ? '若计划步行游览多处旧城景点，可以市中心作为住宿区域，并比较实际步行距离和交通。' : 'The historic centre is a convenient base for a multi-stop walk; compare actual walking distances and transport when booking.')];
   const faq = [{q:es ? `¿Dónde está ${p.name}?` : zh ? `${p.name}在哪里？` : `Where is ${p.name}?`,a:transport},{q:es ? '¿Se necesita entrada?' : zh ? '需要门票吗？' : 'Do I need a ticket?',a:access}];
-  const image = p.photo ? `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(p.photo).replace(/%2F/g,'/')}` : '';
-  return [p.slug,{title,description:intro,intro,sections,faq,localName:p.name,address:p.address,category:p.category,management,image,imageSource:image || 'https://guadalajara.gob.mx/turismo/puenteDeLasDamas',mapsUrl:`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name+' Guadalajara Jalisco Mexico')}`,sourceUrl:p.slug==='puente-de-las-damas' ? 'https://guadalajara.gob.mx/turismo/puenteDeLasDamas' : p.slug==='ex-convento-del-carmen' ? culturalSource : sourceUrl}];
+  const commons = (filename:string) => `https://commons.wikimedia.org/wiki/Special:FilePath/${encodeURIComponent(filename)}`;
+  const images = profile.directPhoto ? [{url:profile.directPhoto,source:profile.photoSource || profile.official}] : [p.photo,profile.extraPhoto,profile.extraPhoto2].filter((s):s is string=>Boolean(s)).map(filename=>({url:commons(filename),source:commons(filename)}));
+  const image = images[0]?.url || '';
+  return [p.slug,{title,description:intro,intro,sections,faq,localName:p.name,address:p.address,category:locale==='es'?categories[p.slug].es:locale==='zh'?categories[p.slug].zh:p.category,management,image,imageSource:images[0]?.source || profile.official,images,visitAdvice:access,routeAdvice:route,photoAdvice:photo,mapsUrl:`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(p.name+' Guadalajara Jalisco Mexico')}`,sourceUrl:profile.official}];
 }))]));
