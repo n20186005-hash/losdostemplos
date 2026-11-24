@@ -5,6 +5,7 @@ import { nearbySlugs, nearbyTopics } from '@/data/nearbyTopics';
 import VerifiedPhoto from './VerifiedPhoto';
 import NearbyDetailSections from './NearbyDetailSections';
 import ExpandedNearbySections from './ExpandedNearbySections';
+import { culturalSlugs } from '@/data/culturalTopics';
 import { getNearbyFacts } from '@/data/nearbyFacts';
 
 interface TopicContent {
@@ -89,7 +90,8 @@ export default function TopicPage({
   const isGallery = slug === 'fotos';
   const galleryCount = 17;
   const isNearby = nearbySlugs.includes(slug);
-  const isExpanded = isNearby && slug !== 'templo-san-francisco-asis' && slug !== 'capilla-aranzazu';
+  const isCultural = culturalSlugs.includes(slug);
+  const isExpanded = isNearby && !isCultural && slug !== 'templo-san-francisco-asis' && slug !== 'capilla-aranzazu';
   const facts = isExpanded ? getNearbyFacts(slug, locale) : null;
   const management = isNearby ? topic.sections?.find((section) => /^(Gestión y conservación|Management and conservation|管理与保护|管理与文物保护|管理与维护|Management and care)$/.test(section.heading)) : undefined;
   const nearbySections = isNearby ? topic.sections?.filter((section) => section !== management) : topic.sections;
@@ -122,7 +124,7 @@ export default function TopicPage({
             <div className="flex flex-wrap gap-3 mb-6 text-sm" style={{ color: 'var(--text-secondary)' }}>
               <span className="rounded-full px-3 py-1" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>Guadalajara · Jalisco</span>
               <span className="rounded-full px-3 py-1" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>
-                {isExpanded ? topic.category : locale === 'zh' ? '历史宗教建筑' : locale === 'es' ? 'Monumento religioso histórico' : 'Historic religious landmark'}
+                {topic.category || (locale === 'zh' ? '历史宗教建筑' : locale === 'es' ? 'Monumento religioso histórico' : 'Historic religious landmark')}
               </span>
               <a className="rounded-full px-3 py-1 underline underline-offset-4" style={{ background: 'var(--card-bg)', color: 'var(--accent)', border: '1px solid var(--border-color)' }} href={topic.mapsUrl} target="_blank" rel="noopener noreferrer">
                 {locale==='zh'?'查看地点与评价':locale==='es'?'Ubicación y reseñas':'Location and reviews'} · Google Maps
@@ -156,7 +158,7 @@ export default function TopicPage({
                     : `${topic.localName} is part of Guadalajara’s historic religious heritage and the former Franciscan complex. The federal cultural authority documents and protects its historic-monument status, while religious administrators oversee worship and everyday interior access.`)}
               </p>
               {management && <p className="leading-relaxed" style={{ color: 'var(--text-secondary)' }}>{management.body}</p>}
-              {topic.sourceUrl && <a className="block mt-4 text-sm underline underline-offset-4" style={{ color: 'var(--accent)' }} href={topic.sourceUrl} target="_blank" rel="noopener noreferrer">{isExpanded ? locale === 'zh' ? '官方景点资料' : locale === 'es' ? 'Información turística municipal' : 'Municipal visitor information' : locale === 'zh' ? '历史建筑资料来源' : locale === 'es' ? 'Ficha patrimonial de referencia' : 'Heritage documentation'}</a>}
+              {topic.sourceUrl && <a className="block mt-4 text-sm underline underline-offset-4" style={{ color: 'var(--accent)' }} href={topic.sourceUrl} target="_blank" rel="noopener noreferrer">{isCultural ? 'Sistema de Información Cultural · México' : isExpanded ? locale === 'zh' ? '官方景点资料' : locale === 'es' ? 'Información turística municipal' : 'Municipal visitor information' : locale === 'zh' ? '历史建筑资料来源' : locale === 'es' ? 'Ficha patrimonial de referencia' : 'Heritage documentation'}</a>}
             </section>
           )}
 
@@ -189,11 +191,11 @@ export default function TopicPage({
                 {locale === 'zh' ? '评分和评价数量会随时间变化，请在该地点专属 Google 地图页面查看最新数据。' : locale === 'es' ? 'La puntuación y el número de reseñas varían; consulta los datos actuales de este lugar en Google Maps.' : 'Ratings and review counts change; see the latest figures for this specific place on Google Maps.'}
               </p>
               <a className="underline text-sm" style={{ color: 'var(--accent)' }} href={topic.mapsUrl} target="_blank" rel="noopener noreferrer">Google Maps · {topic.title}</a>
-              {topic.sourceUrl && <p className="mt-3 text-sm"><a className="underline" style={{ color: 'var(--accent)' }} href={topic.sourceUrl} target="_blank" rel="noopener noreferrer">{isExpanded ? locale === 'zh' ? '参考资料：瓜达拉哈拉市旅游部门' : locale === 'es' ? 'Fuente: Turismo de Guadalajara' : 'Source: Guadalajara Tourism' : locale === 'zh' ? '历史与管理资料来源：墨西哥文化部门' : locale === 'es' ? 'Fuente patrimonial: Secretaría de Cultura' : 'Heritage source: Mexican Ministry of Culture'}</a></p>}
+              {topic.sourceUrl && <p className="mt-3 text-sm"><a className="underline" style={{ color: 'var(--accent)' }} href={topic.sourceUrl} target="_blank" rel="noopener noreferrer">{isCultural ? 'Sistema de Información Cultural · México' : isExpanded ? locale === 'zh' ? '参考资料：瓜达拉哈拉市旅游部门' : locale === 'es' ? 'Fuente: Turismo de Guadalajara' : 'Source: Guadalajara Tourism' : locale === 'zh' ? '历史与管理资料来源：墨西哥文化部门' : locale === 'es' ? 'Fuente patrimonial: Secretaría de Cultura' : 'Heritage source: Mexican Ministry of Culture'}</a></p>}
             </section>
           )}
 
-          {isNearby && !isExpanded && <NearbyDetailSections locale={locale} slug={slug} />}
+          {isNearby && !isExpanded && !isCultural && <NearbyDetailSections locale={locale} slug={slug} />}
           {isExpanded && <ExpandedNearbySections locale={locale} slug={slug} />}
 
           {isGallery ? (

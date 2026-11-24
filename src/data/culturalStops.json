@@ -1,0 +1,762 @@
+[
+  {
+    "slug": "musa-artes",
+    "localName": "MUSA · Museo de las Artes",
+    "address": "Av. Juárez 975, Centro, CP 44100, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.674279177917000,-103.358927071090000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=444",
+    "image": "/cultura/musa-artes.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "MUSA · Museo de las Artes",
+        "intro": "La estructura de 1914 iba a ser una escuela primaria. Pasó por un proyecto de congreso antes de abrir como sede universitaria en 1937. Desde 1994 alberga el museo. En el Paraninfo cambia el punto de vista entre el muro y la cúpula para seguir las figuras de José Clemente Orozco.",
+        "route": "Desde el Templo Expiatorio camina a avenida Juárez, localiza el 975 y pregunta por el Paraninfo antes de recorrer las salas temporales.",
+        "management": "Universidad de Guadalajara",
+        "access": "La ficha cultural de 2023 registra mar–sáb 10:00–18:00 · dom 10:00–15:00. Entrada libre. Confirma el horario vigente antes de ir.",
+        "question": "¿Dónde están los murales?",
+        "answer": "En el Paraninfo universitario. Una muestra temporal puede ocupar otras salas del edificio."
+      },
+      "en": {
+        "title": "MUSA University Art Museum",
+        "intro": "The structure begun in 1914 was intended as a primary school. Plans for a legislative chamber intervened before the building opened as a university seat in 1937. The museum followed in 1994. In the Paraninfo, shift your gaze from wall to dome to follow José Clemente Orozco’s figures across two different surfaces.",
+        "route": "From the Expiatorio church walk to Avenida Juárez and find number 975. Ask about access to the Paraninfo before visiting the temporary galleries.",
+        "management": "University of Guadalajara",
+        "access": "The 2023 cultural directory entry lists Tue–Sat 10:00–18:00 · Sun 10:00–15:00. Free entry. Confirm the current schedule before visiting.",
+        "question": "Where are the murals?",
+        "answer": "In the university’s Paraninfo hall. Temporary shows use other rooms in the building."
+      },
+      "zh": {
+        "title": "MUSA 大学艺术博物馆",
+        "intro": "1914年动工时，这里原拟作小学，随后又有过议会方案，1937年才以大学校舍的身份开放，1994年设馆。在大学礼堂内先看墙面，再仰望穹顶，可以比较奥罗斯科如何让人物适应平面与曲面。",
+        "route": "从赎罪圣殿步行到华雷斯大道975号，先问礼堂当天能否参观，再依次看临展厅。",
+        "management": "瓜达拉哈拉大学",
+        "access": "2023年文化名录所列时段为周二–周六 10:00–18:00 · 周日 10:00–15:00。免费入场。出发前请向场馆核对当日安排。",
+        "question": "壁画在哪里？",
+        "answer": "在大学礼堂内。临时展览分布在楼内其他房间。"
+      }
+    }
+  },
+  {
+    "slug": "museo-cabanas",
+    "localName": "Museo Cabañas",
+    "address": "Cabañas 8, Plaza Tapatía, Centro, CP 44360, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.676545441020000,-103.337599039300000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1027",
+    "image": "/cultura/museo-cabanas.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo Cabañas",
+        "intro": "La antigua casa de asistencia empezó a construirse en 1805 con diseño de Manuel Tolsá. La repetición de patios y corredores conduce a la capilla mayor. Compara primero la escala horizontal de los patios con la altura de la cúpula, donde Orozco pintó al Hombre de Fuego.",
+        "route": "Sigue la Plaza Tapatía hacia el este hasta la explanada de Cabañas. Entra por el número 8 y busca en el plano el paso entre patios hacia la capilla.",
+        "management": "Secretaría de Cultura del Gobierno del Estado de Jalisco",
+        "access": "La ficha cultural de 2023 registra mar–dom 10:00–17:00. Entrada general: MX$80. Confirma el horario vigente antes de ir.",
+        "question": "¿Qué priorizar en una visita breve?",
+        "answer": "La capilla y uno de los patios vecinos permiten ver juntos la pintura mural y el trazado del antiguo hospicio."
+      },
+      "en": {
+        "title": "Cabañas Museum",
+        "intro": "Work on this former charitable institution began in 1805 to Manuel Tolsá’s design. Repeated courtyards and corridors lead towards the principal chapel. Before looking up at Orozco’s Man of Fire, note how sharply the dome’s height contrasts with the low horizontal courts you have just crossed.",
+        "route": "Follow Plaza Tapatía east to the Cabañas forecourt. Enter at number 8 and use the courtyard plan to pick out the passage to the chapel.",
+        "management": "Jalisco state cultural department",
+        "access": "The 2023 cultural directory entry lists Tue–Sun 10:00–17:00. General admission: MX$80. Confirm the current schedule before visiting.",
+        "question": "What comes first on a short visit?",
+        "answer": "Visit the chapel and one adjoining court to see both the murals and the former institution’s plan."
+      },
+      "zh": {
+        "title": "卡瓦尼亚斯博物馆",
+        "intro": "这座昔日的慈善院依曼努埃尔·托尔萨的设计于1805年开工。相似的院落和走廊把人引向主礼拜堂。先留意低矮庭院的水平线，再看穹顶上奥罗斯科的《火人》，两处空间的高度反差尤其鲜明。",
+        "route": "沿塔帕蒂亚广场向东走到馆前空地，从8号入口进入，按院落平面图寻找通往主礼拜堂的走廊。",
+        "management": "哈利斯科州文化部门",
+        "access": "2023年文化名录所列时段为周二–周日 10:00–17:00。普通票价：MX$80.出发前请向场馆核对当日安排。",
+        "question": "时间有限先看什么？",
+        "answer": "先看礼拜堂和相邻庭院，既可欣赏壁画，又能读懂旧慈善院的格局。"
+      }
+    }
+  },
+  {
+    "slug": "museo-regional",
+    "localName": "Museo Regional de Guadalajara",
+    "address": "Liceo 60, Centro, CP 44100, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.677719265223000,-103.346324712040000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1030",
+    "image": "/cultura/museo-regional.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo Regional de Guadalajara",
+        "intro": "El nombre actual data de 1973, pero el relato de sus salas empieza mucho antes de la ciudad. El esqueleto de mamut ayuda a entender la escala de la fauna regional. Después cambia de sala para comparar lo que se deduce de un fósil con lo que cuentan la cerámica arqueológica y la pintura virreinal.",
+        "route": "Rodea la catedral hacia el lado de la Rotonda. En la calle Liceo busca el 60; entra a paleontología antes de continuar al patio y a las salas de arqueología.",
+        "management": "Instituto Nacional de Antropología e Historia (INAH)",
+        "access": "La ficha cultural de 2026 registra mar–vie 09:30–17:30 · sáb–dom 09:00–16:00. Entrada general: MX$100. Confirma el horario vigente antes de ir.",
+        "question": "¿El mamut es una pieza del periodo colonial?",
+        "answer": "Pertenece al acervo paleontológico; las pinturas virreinales explican una etapa distinta."
+      },
+      "en": {
+        "title": "Guadalajara Regional Museum",
+        "intro": "The museum took its current name in 1973, but the galleries begin long before Guadalajara existed. The mammoth skeleton gives a sense of the scale of the region’s fauna. Move from fossils to archaeological pottery and colonial paintings to compare what each kind of evidence can tell us about western Mexico.",
+        "route": "Walk around the cathedral towards the Rotonda, then find number 60 on Liceo. Begin in palaeontology before crossing the courtyard to archaeology.",
+        "management": "National Institute of Anthropology and History (INAH)",
+        "access": "The 2026 cultural directory entry lists Tue–Fri 09:30–17:30 · Sat–Sun 09:00–16:00. General admission: MX$100. Confirm the current schedule before visiting.",
+        "question": "Does the mammoth belong to the colonial collection?",
+        "answer": "It belongs to the palaeontology collection. The colonial paintings document a much later period."
+      },
+      "zh": {
+        "title": "瓜达拉哈拉地区博物馆",
+        "intro": "博物馆从1973年起使用现名，展线却始于城市诞生之前。先借猛犸骨架了解当地古生物的体量，再对照出土陶器和殖民时期绘画，辨别化石、器物和图像各自能回答什么历史问题。",
+        "route": "绕大教堂走向名人纪念圆亭一侧，沿利塞奥街寻找60号；先看古生物展，再经庭院前往考古展厅。",
+        "management": "墨西哥国家人类学与历史研究所（INAH）",
+        "access": "2026年文化名录所列时段为周二–周五 09:30–17:30 · 周六–周日 09:00–16:00。普通票价：MX$100.出发前请向场馆核对当日安排。",
+        "question": "猛犸骨架也属于殖民时期展品吗？",
+        "answer": "骨架属于古生物收藏，殖民时期绘画讲述的是晚得多的历史。"
+      }
+    }
+  },
+  {
+    "slug": "casa-lopez-portillo",
+    "localName": "Casa Museo López Portillo",
+    "address": "Liceo 177, Centro Histórico, CP 44100, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.679277449890000,-103.346773803280000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1019",
+    "image": "/cultura/casa-lopez-portillo.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Casa Museo López Portillo",
+        "intro": "La casa de finales del siglo XVIII fue residencia familiar, colegio y hospital. El ayuntamiento la adquirió en 1981 y abrió el museo al año siguiente. Recorre los salones fijándote en cuántas personas podían usar cada mueble: escritorios, sillas y mesas revelan hábitos distintos de lectura y de recibimiento.",
+        "route": "Desde el Museo Regional sigue por Liceo hacia el norte hasta el 177. Recorre las habitaciones alrededor del patio y vuelve por Liceo hacia la catedral.",
+        "management": "Secretaría de Cultura del Ayuntamiento de Guadalajara",
+        "access": "La ficha cultural de 2023 registra mar–sáb 10:00–17:00 · dom 10:00–15:00. Entrada libre. Confirma el horario vigente antes de ir.",
+        "question": "¿Es una visita sobre un solo personaje?",
+        "answer": "Varias generaciones vivieron aquí. La colección permite leer la casa también como historia de las artes decorativas."
+      },
+      "en": {
+        "title": "López Portillo House Museum",
+        "intro": "This late eighteenth-century house served successively as a family residence, school and hospital. The municipality bought it in 1981 and opened the museum the following year. In the furnished rooms, look at how many people could use each piece: writing desks and reception furniture suggest very different patterns of daily life.",
+        "route": "From the Regional Museum follow Liceo north to number 177. Circle the courtyard rooms, then return down Liceo towards the cathedral.",
+        "management": "Guadalajara municipal cultural department",
+        "access": "The 2023 cultural directory entry lists Tue–Sat 10:00–17:00 · Sun 10:00–15:00. Free entry. Confirm the current schedule before visiting.",
+        "question": "Is the visit devoted to one individual?",
+        "answer": "Several generations lived here. The furniture also makes this a visit about the decorative arts."
+      },
+      "zh": {
+        "title": "洛佩斯·波蒂略故居博物馆",
+        "intro": "这座18世纪末民宅曾作家宅、学校和医院。市政府于1981年买下它，次年开馆。逐间看家具时，可比较独用书桌与多人会客座椅的尺度，由此推想宅内阅读、写信和接待访客的不同日常。",
+        "route": "从地区博物馆沿利塞奥街向北走至177号，依序参观院落四周房间，返程可沿原街走回大教堂。",
+        "management": "瓜达拉哈拉市文化部门",
+        "access": "2023年文化名录所列时段为周二–周六 10:00–17:00 · 周日 10:00–15:00。免费入场。出发前请向场馆核对当日安排。",
+        "question": "这里专门纪念一位人物吗？",
+        "answer": "这里曾住过家族数代，家具收藏也让这次参观成为一堂装饰艺术课。"
+      }
+    }
+  },
+  {
+    "slug": "museo-ciudad",
+    "localName": "Museo de la Ciudad",
+    "address": "Independencia 684, Centro Histórico, CP 44100, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.678081050496000,-103.352121010410000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=564",
+    "image": "/cultura/museo-ciudad.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo de la Ciudad",
+        "intro": "El edificio perteneció al convento de las capuchinas a finales del siglo XVII. Abrió como museo en 1992. Las salas de la planta baja relacionan la traza urbana con la vida de quienes la ocuparon. Usa el patio para orientarte entre la antigua distribución conventual y los recorridos actuales.",
+        "route": "Desde el corredor de Alcalde toma Independencia hacia el poniente y localiza el 684. Empieza abajo; mira el cartel del patio antes de subir a una temporal.",
+        "management": "Secretaría de Cultura del Ayuntamiento de Guadalajara",
+        "access": "La ficha cultural de 2023 registra mar–sáb 10:00–15:00. Entrada libre. Confirma el horario vigente antes de ir.",
+        "question": "¿Qué conserva del convento?",
+        "answer": "El patio y las habitaciones que lo rodean permiten seguir su organización espacial, además del contenido de las vitrinas."
+      },
+      "en": {
+        "title": "Guadalajara City Museum",
+        "intro": "The building formed part of the Capuchin convent in the late seventeenth century and opened as a city museum in 1992. The ground-floor displays link Guadalajara’s changing layout to the people who lived in it. Use the courtyard to orient yourself and compare the former convent circulation with the museum route.",
+        "route": "From the Alcalde pedestrian corridor take Independencia west to number 684. Start downstairs and check the courtyard notice before going up for a temporary show.",
+        "management": "Guadalajara municipal cultural department",
+        "access": "The 2023 cultural directory entry lists Tue–Sat 10:00–15:00. Free entry. Confirm the current schedule before visiting.",
+        "question": "What remains legible from the convent?",
+        "answer": "The court and the rooms arranged around it let you read the older plan alongside the exhibits."
+      },
+      "zh": {
+        "title": "瓜达拉哈拉城市博物馆",
+        "intro": "馆舍在17世纪末属于嘉布遣女修院，1992年以城市博物馆开放。底层展览把街区发展与居民日常联系起来。可把庭院当作方位基准，在各展厅间观察修院旧动线如何转为今天的参观路线。",
+        "route": "从阿尔卡尔德步行道转入独立街向西至684号，先看底层；再看庭院公告决定是否上楼参观临展。",
+        "management": "瓜达拉哈拉市文化部门",
+        "access": "2023年文化名录所列时段为周二–周六 10:00–15:00。免费入场。出发前请向场馆核对当日安排。",
+        "question": "怎样看出旧修院的格局？",
+        "answer": "庭院以及围绕它的房间共同勾勒出旧建筑的组织方式，可与柜中展品一起观察。"
+      }
+    }
+  },
+  {
+    "slug": "artes-populares",
+    "localName": "Museo de las Artes Populares de Jalisco",
+    "address": "San Felipe 211, Centro, CP 44280, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.679879083363000,-103.345652904220000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1022",
+    "image": "/cultura/artes-populares.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo de las Artes Populares de Jalisco",
+        "intro": "La colección reúne cerámica, talabartería, textiles y objetos ligados a la música y la charrería. En vez de pasar de vitrina en vitrina por tamaño, sigue una materia: compara el cuero de un apero con el trabajo de una fibra vegetal. Así se aprecia dónde cambia la herramienta y dónde el uso.",
+        "route": "Camina desde la zona de la Rotonda hasta San Felipe 211. Escoge primero una sala permanente y pregunta en recepción qué muestra temporal la complementa.",
+        "management": "Secretaría de Cultura del Gobierno del Estado de Jalisco",
+        "access": "La ficha cultural de 2026 registra mar–sáb 11:00–17:00 · dom 11:00–14:00. Entrada libre. Confirma el horario vigente antes de ir.",
+        "question": "¿Es solo una colección de cerámica?",
+        "answer": "También se muestran trabajos de cuero, fibras, textiles y metal; compáralos para entender el alcance del oficio regional."
+      },
+      "en": {
+        "title": "Jalisco Folk Arts Museum",
+        "intro": "Pottery, saddlery and textiles sit alongside objects associated with music and equestrian traditions. Follow a material through the rooms rather than sorting the objects by size. Comparing leather tack with work in plant fibre makes it easier to see how a different tool or intended use changes a finished surface.",
+        "route": "Walk from the Rotonda district to 211 San Felipe. Choose one permanent room first, then ask reception which temporary display complements it.",
+        "management": "Jalisco state cultural department",
+        "access": "The 2026 cultural directory entry lists Tue–Sat 11:00–17:00 · Sun 11:00–14:00. Free entry. Confirm the current schedule before visiting.",
+        "question": "Is this exclusively a ceramics collection?",
+        "answer": "Leather, woven fibres, textiles and metalwork show the range of regional craft alongside the pottery."
+      },
+      "zh": {
+        "title": "哈利斯科民间艺术博物馆",
+        "intro": "陶器、马具和织物与民间音乐、墨西哥马术传统有关的物件同馆展出。可按材质选线，比较皮制挽具与植物纤维制品，观察不同工具在表面留下的纹理，再从用途解释形状差异。",
+        "route": "从名人圆亭一带步行至圣费利佩街211号，先挑一个常设展厅，再向接待处询问哪项临展适合衔接。",
+        "management": "哈利斯科州文化部门",
+        "access": "2026年文化名录所列时段为周二–周六 11:00–17:00 · 周日 11:00–14:00。免费入场。出发前请向场馆核对当日安排。",
+        "question": "馆内只看陶器吗？",
+        "answer": "除陶器外还有皮革、编织纤维、纺织品和金属工艺，适合按材料对照参观。"
+      }
+    }
+  },
+  {
+    "slug": "museo-raul-anguiano",
+    "localName": "Museo de Arte Raúl Anguiano",
+    "address": "Av. Mariano Otero 375, Col. Moderna, CP 44190, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.665826392360000,-103.370187361720000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=306",
+    "image": "/cultura/museo-raul-anguiano.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo de Arte Raúl Anguiano",
+        "intro": "Inaugurado en 2003, el MURA protege la obra de Raúl Anguiano y dedica espacio a otras prácticas contemporáneas. La visita puede empezar fuera: el patio de esculturas y las obras del perímetro cambian el ritmo de la calle. Dentro, contrasta ese encuentro al aire libre con las decisiones de montaje de la exposición del día.",
+        "route": "Desde la glorieta de los Niños Héroes sigue Mariano Otero al 375. Observa primero el perímetro y la terraza accesible; después pasa a las salas temporales.",
+        "management": "Secretaría de Cultura del Ayuntamiento de Guadalajara",
+        "access": "La ficha cultural de 2025 registra mar–sáb 10:00–17:00 · dom 10:00–15:00. Entrada libre. Confirma el horario vigente antes de ir.",
+        "question": "¿Todas las salas muestran a Anguiano?",
+        "answer": "La colección lleva su nombre, pero las temporales cambian y abren espacio a otros artistas contemporáneos."
+      },
+      "en": {
+        "title": "Raúl Anguiano Art Museum",
+        "intro": "Opened in 2003, MURA cares for Raúl Anguiano’s work while also showing contemporary practices. The visit can start outside, where the sculpture terrace and art around the perimeter interrupt the rhythm of the street. Compare that outdoor encounter with the scale and spacing chosen for the current indoor display.",
+        "route": "From the Niños Héroes roundabout follow Mariano Otero to number 375. Look at the perimeter and any open terrace first, then enter the temporary galleries.",
+        "management": "Guadalajara municipal cultural department",
+        "access": "The 2025 cultural directory entry lists Tue–Sat 10:00–17:00 · Sun 10:00–15:00. Free entry. Confirm the current schedule before visiting.",
+        "question": "Does every room show Anguiano’s work?",
+        "answer": "The museum bears his name, but changing exhibitions also make room for other contemporary artists."
+      },
+      "zh": {
+        "title": "劳尔·安吉亚诺艺术博物馆",
+        "intro": "MURA于2003年开馆，既收藏劳尔·安吉亚诺的作品，也展出现代艺术。可从室外雕塑露台和建筑周边作品开始，体会街道尺度；入内再比较当期展览如何利用悬挂高度、展距与光线。",
+        "route": "从少年英雄环岛沿马里亚诺·奥特罗大道至375号，先看外围和开放的露台，再进入临时展厅。",
+        "management": "瓜达拉哈拉市文化部门",
+        "access": "2025年文化名录所列时段为周二–周六 10:00–17:00 · 周日 10:00–15:00。免费入场。出发前请向场馆核对当日安排。",
+        "question": "每间展厅都展出安吉亚诺的作品吗？",
+        "answer": "馆名纪念这位艺术家，但临展也会安排其他当代艺术家的作品。"
+      }
+    }
+  },
+  {
+    "slug": "museo-periodismo",
+    "localName": "Museo del Periodismo y las Artes Gráficas",
+    "address": "Av. Fray Antonio Alcalde 225, Centro Histórico, CP 44100, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.679958028954000,-103.347803950310000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1024",
+    "image": "/cultura/museo-periodismo.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo del Periodismo y las Artes Gráficas",
+        "intro": "Los perros de la azotea identifican la casa actual. La imprenta que funcionó en este solar desde 1792 era anterior a esa fachada. En diciembre de 1810 imprimió El Despertador Americano, periódico insurgente. Distinguir edificio y solar permite entender por qué una casa posterior cuenta una historia de la prensa más antigua.",
+        "route": "Desde la catedral avanza al norte por Alcalde hasta el 225. Mira la línea del tejado desde la acera de enfrente y cruza por la esquina antes de buscar la entrada.",
+        "management": "Secretaría de Cultura del Ayuntamiento de Guadalajara",
+        "access": "La ficha cultural de 2026 registra mar–dom 10:00–18:00. Entrada general: MX$20. Confirma el horario vigente antes de ir.",
+        "question": "¿Se imprimió el periódico dentro de esta misma casa?",
+        "answer": "La imprenta ocupaba el mismo terreno; la casa conocida por sus perros es posterior."
+      },
+      "en": {
+        "title": "Journalism and Graphic Arts Museum",
+        "intro": "The rooftop dogs mark the present house. A press operated on this plot from 1792, before the current facade existed. In December 1810 the insurgent newspaper El Despertador Americano was printed here. Distinguishing the building from its site explains why a later house can tell a much older story of journalism.",
+        "route": "Walk north along Alcalde from the cathedral to number 225. View the roofline from across the street and cross at the corner to reach the entrance.",
+        "management": "Guadalajara municipal cultural department",
+        "access": "The 2026 cultural directory entry lists Tue–Sun 10:00–18:00. General admission: MX$20. Confirm the current schedule before visiting.",
+        "question": "Was the newspaper printed in the house visible today?",
+        "answer": "The press stood on this plot. The house identifiable by its dogs came later."
+      },
+      "zh": {
+        "title": "新闻与印刷艺术博物馆",
+        "intro": "屋顶犬像是现存建筑的识别标志。这块土地早在1792年就有印刷作坊，比今天的立面更早。1810年12月，起义报纸《美洲觉醒者》在此印刷。区分地块与现存房屋的年代，就能理解为何一栋较晚的宅邸讲述更早的报业历史。",
+        "route": "从大教堂沿阿尔卡尔德大道北行至225号，先在对侧观察屋顶轮廓，再经路口过街找入口。",
+        "management": "瓜达拉哈拉市文化部门",
+        "access": "2026年文化名录所列时段为周二–周日 10:00–18:00。普通票价：MX$20.出发前请向场馆核对当日安排。",
+        "question": "报纸是在眼前这栋宅邸里印的吗？",
+        "answer": "印刷作坊位于同一块地上，以犬像闻名的现存宅邸建成得更晚。"
+      }
+    }
+  },
+  {
+    "slug": "galeria-legisladores",
+    "localName": "Galería de Juristas y Legisladores Jaliscienses",
+    "address": "Av. Hidalgo 222, Centro Histórico, CP 44100, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.677565122023000,-103.345312178130000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1251",
+    "image": "/cultura/galeria-legisladores.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Galería de Juristas y Legisladores Jaliscienses",
+        "intro": "La galería del Congreso, abierta en 2007, reúne la declaración del estado libre de Jalisco y la historia del gobernador Prisciliano Sánchez. Observa juntos los textos legislativos y las fotografías de diputados: uno documenta las decisiones y las otras devuelven un rostro a quienes ocuparon las bancas.",
+        "route": "Desde el Teatro Degollado acércate al Congreso por Hidalgo 222. Identifícate en recepción y pregunta por la galería antes de pasar a la zona de exposición.",
+        "management": "Poder Legislativo del Estado de Jalisco",
+        "access": "La ficha cultural de 2022 registra lun–vie 10:00–18:00. Consulta las condiciones de entrada con el recinto. Confirma el horario vigente antes de ir.",
+        "question": "¿Está siempre a la vista la constitución original?",
+        "answer": "La biblioteca legislativa custodia el documento. Confirma en recepción qué versión puede verse ese día."
+      },
+      "en": {
+        "title": "Gallery of Jalisco Jurists and Legislators",
+        "intro": "Opened in 2007, the legislature’s gallery traces Jalisco’s declaration as a free state and the appointment of governor Prisciliano Sánchez. Read a legislative text alongside the portraits of deputies. One records a decision; the other puts faces to the people who once sat on the benches.",
+        "route": "Walk from Teatro Degollado to the legislature at 222 Hidalgo. Check in at reception and ask for the gallery before proceeding to the exhibition space.",
+        "management": "Jalisco state legislature",
+        "access": "The 2022 cultural directory entry lists Mon–Fri 10:00–18:00. Check admission with the venue. Confirm the current schedule before visiting.",
+        "question": "Is the original constitution always on display?",
+        "answer": "The legislative library safeguards the document. Ask at reception which version can be seen that day."
+      },
+      "zh": {
+        "title": "哈利斯科法学家与议员陈列馆",
+        "intro": "州议会陈列馆于2007年开放，展线涉及哈利斯科宣布成为自由州以及州长普里西利亚诺·桑切斯的任命。可把法律文件与议员肖像对照阅读，前者记录制度决议，后者帮助理解当时议席上有哪些具体的人。",
+        "route": "从德戈亚多剧院走至伊达尔戈大道222号州议会，在接待处登记并询问陈列馆入口，再按指引入内。",
+        "management": "哈利斯科州议会",
+        "access": "2022年文化名录所列时段为周一–周五 10:00–18:00。入场条件请向场馆核对。出发前请向场馆核对当日安排。",
+        "question": "州宪法原件始终陈列吗？",
+        "answer": "原件由州议会图书馆保管，参观当天请向接待处询问展出的是哪个版本。"
+      }
+    }
+  },
+  {
+    "slug": "panteon-belen",
+    "localName": "Museo Panteón de Belén",
+    "address": "Belén 684, Centro, CP 44100, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.687803680438000,-103.345346601070000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1611",
+    "image": "/cultura/panteon-belen.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo Panteón de Belén",
+        "intro": "Aquí las piezas del museo son las criptas y los monumentos funerarios. La capilla de inspiración egipcia ocupó el mausoleo central, donde descansaron jaliscienses ilustres antes de su traslado a la Rotonda. Seguir ese desplazamiento ayuda a distinguir un cementerio histórico de un monumento cívico conmemorativo.",
+        "route": "Ve por la calle Belén hasta el 684, junto al antiguo Hospital Civil. Reúnete con el guía en la entrada y recorre los andadores hacia el mausoleo por la ruta autorizada.",
+        "management": "Secretaría de Cultura del Ayuntamiento de Guadalajara",
+        "access": "La ficha cultural de 2023 registra mar–sáb 10:00/11:00/13:00/14:00. Entrada general: MX$37. Confirma el horario vigente antes de ir.",
+        "question": "¿Puedo entrar a cualquier hora entre recorridos?",
+        "answer": "El recinto anuncia pases guiados a horas concretas; confirma la salida y el punto de encuentro antes de llegar."
+      },
+      "en": {
+        "title": "Belén Cemetery Museum",
+        "intro": "The museum’s objects are its crypts and funerary monuments. An Egyptian-influenced chapel marks the central mausoleum, once the resting place of notable Jalisco figures later transferred to the Rotonda. Tracking that movement connects two different places of remembrance, a historic cemetery and a civic memorial.",
+        "route": "Follow Calle Belén to number 684 near the old Civil Hospital. Meet the guide at the entrance and use the permitted paths towards the central mausoleum.",
+        "management": "Guadalajara municipal cultural department",
+        "access": "The 2023 cultural directory entry lists Tue–Sat 10:00/11:00/13:00/14:00. General admission: MX$37. Confirm the current schedule before visiting.",
+        "question": "Can I walk in between tours?",
+        "answer": "The museum lists timed guided visits. Confirm departure time and meeting point before setting out."
+      },
+      "zh": {
+        "title": "贝伦公墓博物馆",
+        "intro": "这里的展品就是墓室与纪念碑。受埃及风格影响的礼拜堂标示着中央陵寝，曾安葬多位哈利斯科名人，其后迁往市中心圆亭。顺着迁葬关系参观，可区分历史公墓与后来承担公共纪念功能的圆亭。",
+        "route": "沿贝伦街走到旧市立医院旁的684号，在入口集合，跟随导览沿开放步道前往中央陵寝。",
+        "management": "瓜达拉哈拉市文化部门",
+        "access": "2023年文化名录所列时段为周二–周六 10:00/11:00/13:00/14:00。普通票价：MX$37.出发前请向场馆核对当日安排。",
+        "question": "两场导览之间能自行入园吗？",
+        "answer": "馆方公布分时导览，请出发前确认场次和集合处。"
+      }
+    }
+  },
+  {
+    "slug": "historia-medicina",
+    "localName": "Museo de la Historia de la Medicina",
+    "address": "Hospital 320, Col. El Retiro, CP 44280, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.685558758244000,-103.345297039580000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1331",
+    "image": "/cultura/historia-medicina.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo de la Historia de la Medicina",
+        "intro": "El antiguo Hospital Civil conserva una memoria material de la atención médica. Los instrumentos de los siglos XIX y XX se leen junto a una farmacia histórica y cerámica de Ocumicho que representa salud y enfermedad. Fíjate en la diferencia entre un objeto utilizado en una consulta y una figura hecha para interpretar la dolencia.",
+        "route": "Desde el Panteón de Belén localiza la calle Hospital y sigue al 320. Pregunta por la asociación cultural en el acceso indicado y evita los corredores de atención clínica.",
+        "management": "Asociación Cultural del Antiguo Hospital Civil de Guadalajara Fray Antonio Alcalde, A.C.",
+        "access": "La ficha cultural de 2022 registra lun–vie 09:00–14:00. Entrada libre. Confirma el horario vigente antes de ir.",
+        "question": "¿Es una visita a salas hospitalarias?",
+        "answer": "La colección cultural tiene su propio acceso coordinado; las áreas asistenciales siguen su funcionamiento habitual."
+      },
+      "en": {
+        "title": "Museum of the History of Medicine",
+        "intro": "The old Civil Hospital preserves a material history of medical care. Nineteenth- and twentieth-century instruments sit alongside a historic pharmacy and ceramics from Ocumicho depicting health and illness. Look for the difference between an object once used in a consultation and a figure made to interpret the experience of illness.",
+        "route": "From Belén Cemetery find Calle Hospital and follow it to number 320. Ask for the cultural association at the marked entrance and keep clear of clinical corridors.",
+        "management": "Fray Antonio Alcalde Old Civil Hospital Cultural Association",
+        "access": "The 2022 cultural directory entry lists Mon–Fri 09:00–14:00. Free entry. Confirm the current schedule before visiting.",
+        "question": "Does a museum visit include the wards?",
+        "answer": "Access is coordinated for the cultural collection. Patient-care areas have their own working routines."
+      },
+      "zh": {
+        "title": "医学史博物馆",
+        "intro": "旧市立医院以实物记录医疗史。19、20世纪的医疗器具与旧药房、表现健康和疾病的奥库米奇奥陶塑相互补充。参观时可比较临床上实际使用的器具与艺术家描绘病痛经验的作品。",
+        "route": "从贝伦公墓走到奥斯皮塔尔街320号，在指定入口找文化协会；避免走入仍在进行诊疗的通道。",
+        "management": "安东尼奥·阿尔卡尔德旧市立医院文化协会",
+        "access": "2022年文化名录所列时段为周一–周五 09:00–14:00。免费入场。出发前请向场馆核对当日安排。",
+        "question": "参观需要进入病房吗？",
+        "answer": "文化收藏由专门人员安排参观，临床区域照常工作，按各自入口通行。"
+      }
+    }
+  },
+  {
+    "slug": "museo-santoscoy",
+    "localName": "Museo de Ciencia y Tecnología Guillermo Santoscoy Gómez",
+    "address": "Av. México 2341, Col. Ladrón de Guevara, CP 44650, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.678937971679000,-103.375774025920000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1605",
+    "image": "/cultura/museo-santoscoy.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo de Ciencia y Tecnología Guillermo Santoscoy Gómez",
+        "intro": "La colección de patología clínica sigue los cambios en los métodos de diagnóstico desde el siglo XIX. Compara el tipo de información que aporta una imagen radiográfica con la que produce un microscopio. Esa diferencia permite leer las vitrinas como historia de las preguntas que un laboratorio puede hacer al cuerpo humano.",
+        "route": "Acércate a avenida México 2341, en Ladrón de Guevara. En la recepción del laboratorio pide acceso al museo; busca microscopía antes de pasar a imagenología.",
+        "management": "Laboratorio Unidad de Patología Clínica, S.C.",
+        "access": "La ficha cultural de 2021 registra lun–vie 09:00–17:00 · sáb 09:00–14:00. Consulta las condiciones de entrada con el recinto. Confirma el horario vigente antes de ir.",
+        "question": "¿Es un museo general de ciencias?",
+        "answer": "Se especializa en patología clínica e imagenología; el recorrido gira en torno al diagnóstico."
+      },
+      "en": {
+        "title": "Guillermo Santoscoy Gómez Science Museum",
+        "intro": "The clinical pathology collection traces diagnostic methods from the nineteenth century onwards. Compare what a radiograph reveals with what a microscope can show. Reading the cases this way turns a display of instruments into a history of the different questions a laboratory can ask about the human body.",
+        "route": "Approach 2341 Avenida México in Ladrón de Guevara. Ask for museum access at the laboratory reception, then look for microscopy before moving to imaging.",
+        "management": "Unidad de Patología Clínica laboratory",
+        "access": "The 2021 cultural directory entry lists Mon–Fri 09:00–17:00 · Sat 09:00–14:00. Check admission with the venue. Confirm the current schedule before visiting.",
+        "question": "Is this a general science museum?",
+        "answer": "It specialises in clinical pathology and imaging, with diagnosis as the thread between displays."
+      },
+      "zh": {
+        "title": "吉列尔莫·圣托斯科伊医学科技馆",
+        "intro": "临床病理学收藏追溯19世纪以来的诊断方法。对照X光影像与显微镜各自能揭示的信息，便可把不同展柜看成一部实验室观察人体的历史，而不仅是仪器陈列。",
+        "route": "步行抵达拉德龙·德格瓦拉区墨西哥大道2341号，在实验室前台询问博物馆入口，先看显微观察，再看医学成像。",
+        "management": "临床病理实验室 Unidad de Patología Clínica",
+        "access": "2021年文化名录所列时段为周一–周五 09:00–17:00 · 周六 09:00–14:00。入场条件请向场馆核对。出发前请向场馆核对当日安排。",
+        "question": "这是综合科学馆吗？",
+        "answer": "以临床病理与医学成像为重点，展柜围绕诊断方法展开。"
+      }
+    }
+  },
+  {
+    "slug": "cuartel-colorado",
+    "localName": "Museo del Ejército y Fuerza Aérea · Cuartel Colorado",
+    "address": "Valentín Gómez Farías 600, Sector Reforma, Col. San Juan de Dios, CP 44101, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.669583284021000,-103.332572317250000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1023",
+    "image": "/cultura/cuartel-colorado.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo del Ejército y Fuerza Aérea · Cuartel Colorado",
+        "intro": "El cuartel construido entre 1903 y 1905 fue alojamiento de tropas y escuela militar. Desde 1999 funciona como museo. Antes de mirar los objetos, observa la disposición de los espacios colectivos. Después, busca la secuencia de banderas para seguir los cambios de símbolos a lo largo de distintos periodos históricos.",
+        "route": "Busca la entrada de Valentín Gómez Farías 600 en San Juan de Dios. Cruza el acceso público hacia el patio, sigue la señalización de salas y regresa al mismo control de entrada.",
+        "management": "Secretaría de la Defensa Nacional, área de Archivo e Historia",
+        "access": "La ficha cultural de 2025 registra mar–sáb 10:00–18:00 · dom 10:00–16:00. Entrada libre. Confirma el horario vigente antes de ir.",
+        "question": "¿Por qué mirar el edificio antes que las vitrinas?",
+        "answer": "El antiguo cuartel constituye una pieza histórica en sí mismo; su escala se entiende mejor antes de dividir la visita en salas."
+      },
+      "en": {
+        "title": "Cuartel Colorado Army and Air Force Museum",
+        "intro": "Built between 1903 and 1905, the barracks housed troops and later served as a military school. A museum opened here in 1999. Notice how the building organises collective spaces before looking at the objects, then follow the flag displays to see how national symbols changed across different historical periods.",
+        "route": "Find the public entrance at 600 Valentín Gómez Farías in San Juan de Dios. Walk towards the court, follow the gallery signs and return through the same entrance control.",
+        "management": "Mexican Ministry of Defence, archives and history division",
+        "access": "The 2025 cultural directory entry lists Tue–Sat 10:00–18:00 · Sun 10:00–16:00. Free entry. Confirm the current schedule before visiting.",
+        "question": "Why start with the building?",
+        "answer": "The former barracks are a historical object in their own right. Their scale is easier to grasp before you focus on individual cases."
+      },
+      "zh": {
+        "title": "红营房陆空军博物馆",
+        "intro": "1903至1905年间建成的营房先后用作驻地和军校，1999年以博物馆开放。进展厅前先观察公共空间怎样组织集体生活，再沿军旗陈列辨认不同时期国家象征的变化。",
+        "route": "在圣胡安·德迪奥斯区瓦伦丁·戈麦斯·法里亚斯街600号找公共入口，进入庭院后跟随展厅指示参观，再经原入口离开。",
+        "management": "墨西哥国防部档案与历史部门",
+        "access": "2025年文化名录所列时段为周二–周六 10:00–18:00 · 周日 10:00–16:00。免费入场。出发前请向场馆核对当日安排。",
+        "question": "为什么先看建筑布局？",
+        "answer": "营房本身就是历史实物，先观察整体尺度，再看展柜更容易理解原用途。"
+      }
+    }
+  },
+  {
+    "slug": "globo-museo-ninez",
+    "localName": "Globo, Museo de la Niñez",
+    "address": "Av. 5 de Febrero s/n (Unidad Administrativa Reforma), Barrio de Analco, CP 44460, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.661527647479000,-103.343132403710000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1020",
+    "image": "/cultura/globo-museo-ninez.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Globo, Museo de la Niñez",
+        "intro": "El museo abrió en 2000 en un edificio de la Unidad Administrativa Reforma. Su colección se recorre haciendo: en Luz y Sombra el movimiento ayuda a entender las primeras ilusiones del cine, mientras que Rodari propone otra pausa alrededor de los libros. Alternar estas dos actividades cambia el ritmo de la visita familiar.",
+        "route": "Desde avenida 5 de Febrero identifica la Unidad Administrativa Reforma y sigue las señales de Globo. Consulta los talleres de ese turno antes de elegir las salas de juego.",
+        "management": "Ayuntamiento de Guadalajara y Secretaría de Cultura de Jalisco",
+        "access": "La ficha cultural de 2023 registra jue–dom 10:00–18:00. Entrada libre. Confirma el horario vigente antes de ir.",
+        "question": "¿Dónde hacer una pausa tranquila?",
+        "answer": "Pregunta si está disponible la sala Rodari, dedicada a lectura y consulta de materiales."
+      },
+      "en": {
+        "title": "Globo Children’s Museum",
+        "intro": "Opened in 2000 in the Reforma administrative complex, Globo is best explored by doing. Movement in the Light and Shadow area explains early cinematic illusions; the Rodari room offers a quieter encounter with books. Alternating the two creates a natural change of pace for a family visit.",
+        "route": "From Avenida 5 de Febrero identify the Reforma administrative complex and follow the Globo signs. Check that session’s workshops before choosing the play rooms.",
+        "management": "Guadalajara municipality and the Jalisco cultural department",
+        "access": "The 2023 cultural directory entry lists Thu–Sun 10:00–18:00. Free entry. Confirm the current schedule before visiting.",
+        "question": "Where can a family take a quieter break?",
+        "answer": "Ask whether the Rodari room is open; it is dedicated to reading and exploring books."
+      },
+      "zh": {
+        "title": "环球儿童博物馆",
+        "intro": "这座博物馆于2000年在雷福尔马行政中心的建筑内开放。“光与影”区域通过运动解释早期电影的视觉错觉，罗达里空间则适合安静阅读。把两项体验交错安排，亲子行程更容易掌握节奏。",
+        "route": "从二月五日大道辨认雷福尔马行政中心，沿环球馆标识步行入内，先问当天工作坊，再选择互动展室。",
+        "management": "瓜达拉哈拉市政府与哈利斯科州文化部门",
+        "access": "2023年文化名录所列时段为周四–周日 10:00–18:00。免费入场。出发前请向场馆核对当日安排。",
+        "question": "哪里适合安静片刻？",
+        "answer": "可询问罗达里阅读空间当天是否开放，那里适合翻阅图书。"
+      }
+    }
+  },
+  {
+    "slug": "planetario-lunaria",
+    "localName": "Planetario y Centro Interactivo Lunaria",
+    "address": "Calle Carlos Pereira  790, Col. Miraflores, CP 44270, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.695078343142000,-103.345237970240000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=2129",
+    "image": "/cultura/planetario-lunaria.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Planetario y Centro Interactivo Lunaria",
+        "intro": "La pantalla del domo abarca 180 grados, de modo que una función ocupa casi todo el campo visual. Las salas interactivas trabajan a otra escala, desde los átomos hasta los ecosistemas. Usa la hora de la proyección como punto fijo y recorre las estaciones que permitan comparar esas escalas antes o después.",
+        "route": "En Miraflores camina por Carlos Pereira al 790. Desde taquilla localiza primero la entrada del domo y después el recorrido interactivo; vuelve al domo antes de la hora indicada.",
+        "management": "Gobierno del Estado de Jalisco",
+        "access": "La ficha cultural de 2023 registra mié–vie 10:00–17:00 · sáb–dom 11:00–18:00. Entrada general: MX$80. Confirma el horario vigente antes de ir.",
+        "question": "¿La proyección equivale a todo el recorrido?",
+        "answer": "El domo es una actividad con horario; el centro dispone además de estaciones sobre ciencia, tecnología y biodiversidad."
+      },
+      "en": {
+        "title": "Lunaria Planetarium",
+        "intro": "The dome’s screen spans 180 degrees, so a showing fills much of the field of view. The interactive rooms work at very different scales, from atoms to ecosystems. Use the projection time as a fixed point, then visit the stations on either side of it to compare those scales without rushing back to the dome.",
+        "route": "In Miraflores walk along Carlos Pereira to number 790. From the ticket desk locate the dome entrance before exploring the interactive rooms; return ahead of your showing.",
+        "management": "Government of Jalisco",
+        "access": "The 2023 cultural directory entry lists Wed–Fri 10:00–17:00 · Sat–Sun 11:00–18:00. General admission: MX$80. Confirm the current schedule before visiting.",
+        "question": "Is the dome show the whole visit?",
+        "answer": "The dome is a timed activity. The centre also has stations on science, technology and biodiversity."
+      },
+      "zh": {
+        "title": "卢纳里亚天文馆",
+        "intro": "穹幕视角达180度，投影时会占据大片视野；互动空间则从原子讲到生态系统。先确定场次，再把尺度不同的展项安排在放映前后，便能从微观观察自然过渡到宇宙主题。",
+        "route": "在米拉弗洛雷斯区沿卡洛斯·佩雷拉街走到790号，先从售票处认清穹幕厅入口，再去互动区，按票面时间提前返回。",
+        "management": "哈利斯科州政府",
+        "access": "2023年文化名录所列时段为周三–周五 10:00–17:00 · 周六–周日 11:00–18:00。普通票价：MX$80.出发前请向场馆核对当日安排。",
+        "question": "看完穹幕就参观完了吗？",
+        "answer": "穹幕为定时体验，馆内还有科学、技术与生物多样性互动展项。"
+      }
+    }
+  },
+  {
+    "slug": "museo-cera",
+    "localName": "Museo de Cera de Guadalajara",
+    "address": "Morelos 217, Centro, CP 44100, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.676561512037000,-103.345170244550000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=museo&table_id=1083",
+    "image": "/cultura/museo-cera.webp",
+    "isStage": false,
+    "locales": {
+      "es": {
+        "title": "Museo de Cera de Guadalajara",
+        "intro": "El museo se inauguró en 1994 y acondicionó su sede actual en 1998. Sus figuras reúnen personajes de la historia, las artes y el deporte en escenas preparadas para verse a corta distancia. Elige una figura y compara la postura, el movimiento sugerido por las manos y los accesorios que delatan su profesión.",
+        "route": "Camina desde Teatro Degollado a Morelos 217. En la taquilla compartida pregunta por el recorrido de cera; empieza por los personajes históricos antes de entrar a las escenas de entretenimiento.",
+        "management": "Atracciones Culturales de Occidente, S.A. de C.V.",
+        "access": "La ficha cultural de 2022 registra lun–dom 11:00–19:00. Consulta las condiciones de entrada con el recinto. Confirma el horario vigente antes de ir.",
+        "question": "¿El boleto incluye la colección Ripley?",
+        "answer": "Los dos recorridos comparten dirección. Comprueba en taquilla si elegiste la entrada individual o un paquete combinado."
+      },
+      "en": {
+        "title": "Guadalajara Wax Museum",
+        "intro": "Founded in 1994, the museum adapted its current premises in 1998. Its figures bring historical personalities, artists and athletes into scenes meant to be seen at close range. Pick one figure and examine its posture, the implied movement of its hands and the props that signal a profession.",
+        "route": "Walk from Teatro Degollado to 217 Morelos. Ask at the shared ticket desk for the wax route and begin with historical figures before the entertainment scenes.",
+        "management": "Atracciones Culturales de Occidente, the museum operator",
+        "access": "The 2022 cultural directory entry lists Mon–Sun 11:00–19:00. Check admission with the venue. Confirm the current schedule before visiting.",
+        "question": "Does a ticket include the Ripley collection?",
+        "answer": "Both routes share an address. Check whether the desk is selling you a single admission or a combined package."
+      },
+      "zh": {
+        "title": "瓜达拉哈拉蜡像馆",
+        "intro": "蜡像馆始创于1994年，现馆舍于1998年完成改造。历史人物、艺术家与运动员被安排在适合近看的场景中。可选一尊蜡像，依次观察身体姿势、手部动作和职业道具，理解布景怎样帮助辨认人物。",
+        "route": "从德戈亚多剧院步行至莫雷洛斯街217号，在共用售票处询问蜡像参观路线，先看历史人物，再看娱乐主题场景。",
+        "management": "场馆运营公司 Atracciones Culturales de Occidente",
+        "access": "2022年文化名录所列时段为周一–周日 11:00–19:00。入场条件请向场馆核对。出发前请向场馆核对当日安排。",
+        "question": "一张票也包括里普利收藏吗？",
+        "answer": "两项体验位于同一地址，购票时请确认选的是单馆票还是联票。"
+      }
+    }
+  },
+  {
+    "slug": "larva-variedades",
+    "localName": "Laboratorio de Arte Variedades (LARVA)",
+    "address": "Ocampo 120 esq. Av. Juárez, Centro Histórico, CP 44100, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.674878194339000,-103.349769644210000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=teatro&table_id=681",
+    "image": "/cultura/larva-variedades.webp",
+    "isStage": true,
+    "locales": {
+      "es": {
+        "title": "Laboratorio de Arte Variedades (LARVA)",
+        "intro": "El cine de 1938 conservó su función hasta 1996. La ciudad adquirió después el edificio y en 2011 reinauguró el foro como caja negra multidisciplinaria. La diferencia importa al espectador: una fachada asociada a una antigua pantalla da paso a un espacio que puede reorganizarse de una función a otra.",
+        "route": "Sigue avenida Juárez hasta el cruce de Ocampo. Dobla en Ocampo, busca el 120 y revisa la puerta indicada en la cartelera: el montaje puede cambiar la entrada a la sala.",
+        "management": "Secretaría de Cultura del Ayuntamiento de Guadalajara",
+        "access": "La entrada a la sala depende de la función. Consulta fecha, hora y precio en la cartelera del recinto antes de desplazarte.",
+        "question": "¿Por qué el plano de asientos puede cambiar?",
+        "answer": "La caja negra admite distintas configuraciones. Comprueba la disposición anunciada para tu función al elegir entrada."
+      },
+      "en": {
+        "title": "LARVA Performing Arts Laboratory",
+        "intro": "This 1938 cinema continued showing films until 1996. The city later acquired it and reopened the venue in 2011 as a multidisciplinary black box. For a spectator, the contrast is tangible: a frontage associated with a fixed cinema screen now leads to a space that can be rearranged between performances.",
+        "route": "Follow Avenida Juárez to Ocampo, turn onto Ocampo and find number 120. Check the entrance on the programme; the performance layout can affect the route into the hall.",
+        "management": "Guadalajara municipal cultural department",
+        "access": "Auditorium access follows the performance. Check the venue programme for the date, curtain time and ticket price before travelling.",
+        "question": "Why might the seating plan change?",
+        "answer": "A black box supports different configurations. Check the layout advertised for your performance when choosing a ticket."
+      },
+      "zh": {
+        "title": "拉尔瓦表演艺术实验剧场",
+        "intro": "这座1938年的电影院持续放映至1996年，后被市政府收购，2011年作为多功能黑匣子剧场重新开放。外立面仍让人想到旧银幕，里面的观演关系却可随不同节目重新布置。",
+        "route": "沿华雷斯大道走到奥坎波街路口，转入奥坎波街寻找120号，再按节目公告找入场门；不同布景可能改变入厅路线。",
+        "management": "瓜达拉哈拉市文化部门",
+        "access": "观众厅按演出场次开放。出发前请按场馆节目单核对演出日期、开演时间和票价。",
+        "question": "为什么座位图可能变化？",
+        "answer": "黑匣子允许不同的舞台配置，选票时应以本场节目公布的座位图为准。"
+      }
+    }
+  },
+  {
+    "slug": "teatro-experimental",
+    "localName": "Teatro Experimental de Jalisco",
+    "address": "Calz. Independencia Sur s/n, Col. Núcleo Agua Azul, CP 44190, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.660630151624000,-103.349215954560000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=teatro&table_id=351",
+    "image": "/cultura/teatro-experimental.webp",
+    "isStage": true,
+    "locales": {
+      "es": {
+        "title": "Teatro Experimental de Jalisco",
+        "intro": "El foro universitario del conjunto Agua Azul se remonta a 1960. La sala, con escenario a la italiana, concentra la mirada a través de una embocadura de unos cinco metros de alto. Esa relación entre marco y público ayuda a entender por qué un montaje pensado para esta sala no se ve igual en una plaza abierta.",
+        "route": "Acércate al conjunto Agua Azul por Calzada Independencia Sur y sigue la señal del Teatro Experimental. Localiza la taquilla antes de recorrer los andadores del parque para no perder el acceso de la función.",
+        "management": "Universidad de Guadalajara",
+        "access": "La entrada a la sala depende de la función. Consulta fecha, hora y precio en la cartelera del recinto antes de desplazarte.",
+        "question": "¿Se entra con la misma visita que al parque?",
+        "answer": "Consulta el programa universitario y la entrada de la función. La zona de butacas abre conforme a la actividad teatral."
+      },
+      "en": {
+        "title": "Jalisco Experimental Theatre",
+        "intro": "This university venue in the Agua Azul complex dates to 1960. Its Italian-style stage frames the action through an opening about five metres high. Notice how the frame concentrates the audience’s gaze: a production designed for this room reads very differently from one staged in an open square.",
+        "route": "Approach Agua Azul via Calzada Independencia Sur and follow signs for Teatro Experimental. Locate the box office before walking the park paths so you can return directly for your performance.",
+        "management": "University of Guadalajara",
+        "access": "Auditorium access follows the performance. Check the venue programme for the date, curtain time and ticket price before travelling.",
+        "question": "Does a park visit include theatre admission?",
+        "answer": "Check the university programme and the admission for your performance. The auditorium opens according to the theatre schedule."
+      },
+      "zh": {
+        "title": "哈利斯科实验剧院",
+        "intro": "位于蓝水公园建筑群的大学剧场始于1960年。意大利式镜框舞台的台口高约五米，像画框一样集中观众视线。入座后可留意台口如何限定可见范围，同一部作品在广场演出时会有完全不同的观看关系。",
+        "route": "沿南独立大道走近蓝水公园建筑群，跟随实验剧院标识先找到售票处，再游园内步道，以便开场前直接返回剧场入口。",
+        "management": "瓜达拉哈拉大学",
+        "access": "观众厅按演出场次开放。出发前请按场馆节目单核对演出日期、开演时间和票价。",
+        "question": "游园时可直接入剧场吗？",
+        "answer": "请查询大学演出日历和单场入场安排，观众席按演出活动开放。"
+      }
+    }
+  },
+  {
+    "slug": "teatro-alarife",
+    "localName": "Teatro Alarife Martín Casillas",
+    "address": "Av. Alcalde 1351, Col. Miraflores, CP 44270, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.697843143336000,-103.348326615760000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=teatro&table_id=354",
+    "image": "/cultura/teatro-alarife.webp",
+    "isStage": true,
+    "locales": {
+      "es": {
+        "title": "Teatro Alarife Martín Casillas",
+        "intro": "Julio Ornelas diseñó este teatro, inaugurado en diciembre de 1976 y reabierto en 2004. Su sala de butacas fijas recibe ópera, danza y conciertos. Una vez sentado, compara la anchura del proscenio con la abertura escénica: la franja más cercana al público permite leer los movimientos desde otra distancia.",
+        "route": "En Miraflores sigue avenida Alcalde al 1351. Identifica el nombre Martín Casillas en la entrada y confirma en taquilla la sala de tu espectáculo antes de acercarte a las puertas.",
+        "management": "Secretaría de Cultura del Gobierno del Estado de Jalisco",
+        "access": "La entrada a la sala depende de la función. Consulta fecha, hora y precio en la cartelera del recinto antes de desplazarte.",
+        "question": "¿La reapertura de 2004 marca su origen?",
+        "answer": "Fue una reinauguración. El primer teatro diseñado por Ornelas abrió en 1976."
+      },
+      "en": {
+        "title": "Alarife Martín Casillas Theatre",
+        "intro": "Designed by Julio Ornelas, the theatre opened in December 1976 and reopened in 2004. Fixed seating accommodates opera, dance and concerts. From your seat compare the width of the proscenium with the stage opening: performers who move onto that front strip occupy a different distance from the audience.",
+        "route": "Follow Avenida Alcalde in Miraflores to number 1351. Look for Martín Casillas on the entrance and confirm your performance hall at the desk before joining the auditorium queue.",
+        "management": "Jalisco state cultural department",
+        "access": "Auditorium access follows the performance. Check the venue programme for the date, curtain time and ticket price before travelling.",
+        "question": "Was 2004 the theatre’s founding year?",
+        "answer": "That was a reopening. The original Ornelas-designed theatre opened in 1976."
+      },
+      "zh": {
+        "title": "阿拉里费·马丁·卡西利亚斯剧院",
+        "intro": "胡利奥·奥尔内拉斯设计的剧院于1976年12月启用，2004年重新开馆。固定座席服务歌剧、舞蹈和音乐会。入座后可将台唇宽度与台口比较，观察演员移动到台前时与观众距离怎样改变。",
+        "route": "在米拉弗洛雷斯区沿阿尔卡尔德大道至1351号，认准入口的 Martín Casillas 名称，在售票处核对场次和厅名后再排队。",
+        "management": "哈利斯科州文化部门",
+        "access": "观众厅按演出场次开放。出发前请按场馆节目单核对演出日期、开演时间和票价。",
+        "question": "2004年就是剧院的创立年份吗？",
+        "answer": "2004年为重开年份，奥尔内拉斯设计的剧场早在1976年就已开放。"
+      }
+    }
+  },
+  {
+    "slug": "teatro-vivian-blumenthal",
+    "localName": "Teatro Vivian Blumenthal",
+    "address": "Tomás V. Gómez 125 entre Justo Sierra y Av. México, Col. Ladrón de Guevara, CP 44600, Guadalajara, Jalisco",
+    "mapsUrl": "https://www.google.com/maps?q=20.678536960239000,-103.382911018790000",
+    "sourceUrl": "https://sic.cultura.gob.mx/ficha.php?table=teatro&table_id=840",
+    "image": "/cultura/teatro-vivian-blumenthal.webp",
+    "isStage": true,
+    "locales": {
+      "es": {
+        "title": "Teatro Vivian Blumenthal",
+        "intro": "Antes conocido como Foro CEPE, este teatro universitario tomó el nombre de una actriz y dramaturga de Guadalajara. Con unas 280 localidades, el espacio acerca la acción al público. Al entrar, observa la boca del escenario y la escasa distancia entre filas y escena antes de que se apague la luz.",
+        "route": "Desde avenida México entra por Tomás V. Gómez hacia Justo Sierra; el teatro está en el 125, en esa misma cuadra. Recoge la entrada antes de volver a la puerta de sala.",
+        "management": "Universidad de Guadalajara",
+        "access": "La entrada a la sala depende de la función. Consulta fecha, hora y precio en la cartelera del recinto antes de desplazarte.",
+        "question": "¿Foro CEPE es otro destino?",
+        "answer": "Es el nombre anterior del mismo espacio. Para mapas y entradas busca Teatro Vivian Blumenthal."
+      },
+      "en": {
+        "title": "Vivian Blumenthal Theatre",
+        "intro": "Formerly Foro CEPE, this university theatre honours a Guadalajara actress and playwright. With roughly 280 seats it brings the stage action close to the audience. Take a moment before the lights dim to see how the proscenium and short viewing distances shape this much more intimate space.",
+        "route": "From Avenida México turn onto Tomás V. Gómez towards Justo Sierra. Number 125 is on that block. Collect your ticket before returning to the auditorium door.",
+        "management": "University of Guadalajara",
+        "access": "Auditorium access follows the performance. Check the venue programme for the date, curtain time and ticket price before travelling.",
+        "question": "Is Foro CEPE a separate destination?",
+        "answer": "It is the former name of the same venue. Use Teatro Vivian Blumenthal for maps and tickets."
+      },
+      "zh": {
+        "title": "薇薇安·布卢门塔尔剧院",
+        "intro": "这座大学剧院曾称 Foro CEPE，现名纪念一位瓜达拉哈拉女演员兼剧作家。约280席的规模使舞台离观众很近。灯暗前可先看台口与前后排座位的距离，体会小剧场为何适合更细微的表演动作。",
+        "route": "从墨西哥大道转入托马斯·V·戈麦斯街，朝胡斯托·谢拉街走；剧院位于同一街段125号，先取票再到观众入口。",
+        "management": "瓜达拉哈拉大学",
+        "access": "观众厅按演出场次开放。出发前请按场馆节目单核对演出日期、开演时间和票价。",
+        "question": "Foro CEPE 是另一间剧院吗？",
+        "answer": "这是同一场地的旧名，导航和购票时请使用 Teatro Vivian Blumenthal。"
+      }
+    }
+  }
+]

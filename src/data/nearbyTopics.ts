@@ -1,3 +1,4 @@
+import { culturalSlugs, culturalTopics } from './culturalTopics';
 import { expandedNearbySlugs, expandedNearbyTopics } from './nearbyExpansion';
 
 const landmarks = {
@@ -123,8 +124,14 @@ const originalNearbyTopics = Object.fromEntries(
 ) as Record<string, Record<string, { title: string; description: string; intro: string; sections: readonly {heading: string; body: string}[]; faq: readonly {q: string; a: string}[]; image: string; imageSource: string; mapsUrl: string; sourceUrl: string; localName: string; address: string; category?: string; management?: string; images?: {url:string;source:string}[]; visitAdvice?: string; routeAdvice?: string; photoAdvice?: string }>>;
 
 export const nearbyTopics = Object.fromEntries(['es', 'en', 'zh'].map((locale) => [locale, {
-  ...originalNearbyTopics[locale],
+  ...Object.fromEntries(Object.entries(originalNearbyTopics[locale]).map(([slug, page]) => {
+    const question = locale === 'es' ? '¿Qué recorrido a pie permite situar este edificio?' : locale === 'zh' ? '怎样步行参观这座建筑？' : 'Which walking route helps place this building in context?';
+    const route = page.sections.find((section) => /^(Cómo llegar|Transport|交通)/.test(section.heading));
+    const text = route?.body || page.address;
+    return [slug, { ...page, faq: [...page.faq, { q: question, a: text }] }];
+  })),
+  ...culturalTopics(locale as 'en' | 'es' | 'zh'),
   ...(expandedNearbyTopics as Record<string, Record<string, any>>)[locale],
 }])) as typeof originalNearbyTopics;
 
-export const nearbySlugs = [...Object.keys(landmarks), ...expandedNearbySlugs];
+export const nearbySlugs = [...Object.keys(landmarks), ...expandedNearbySlugs, ...culturalSlugs];
