@@ -101,9 +101,10 @@ export default function TopicPage({
       <TopicJsonLd topic={topic} locale={locale} slug={slug} homeLabel={tHeader('home')} />
       <main className="min-h-screen" style={{ background: 'var(--bg)', color: 'var(--text-primary)' }}>
         <div className="max-w-3xl mx-auto px-5 py-12 sm:py-16">
+          <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
           <a
             href={`/${locale}`}
-            className="inline-flex items-center gap-1.5 text-sm mb-8 transition-opacity hover:opacity-70"
+            className="inline-flex items-center gap-1.5 text-sm transition-opacity hover:opacity-70"
             style={{ color: 'var(--text-muted)' }}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -112,6 +113,17 @@ export default function TopicPage({
             </svg>
             {tHeader('backToHome')}
           </a>
+          <nav aria-label={ui('switchLanguage')} className="flex flex-wrap gap-3 text-sm">
+            {Object.entries({ es: 'Español', en: 'English', zh: '中文' }).map(([lang, label]) => (
+              <a key={lang} href={`/${lang}/${slug}`} hrefLang={lang} lang={lang}
+                aria-current={lang === locale ? 'page' : undefined}
+                className={lang === locale ? 'font-semibold' : 'underline underline-offset-4'}
+                style={{ color: lang === locale ? 'var(--text-primary)' : 'var(--accent)' }}>
+                {label}
+              </a>
+            ))}
+          </nav>
+          </div>
 
           <h1
             className="font-display text-3xl sm:text-4xl font-semibold mb-4"
