@@ -96,6 +96,10 @@ export default function TopicPage({
   const management = isNearby ? topic.sections?.find((section) => /^(Gestión y conservación|Management and conservation|管理与保护|管理与文物保护|管理与维护|Management and care)$/.test(section.heading)) : undefined;
   const nearbySections = isNearby ? topic.sections?.filter((section) => section !== management) : topic.sections;
 
+  const relatedSlugs = new Set(isNearby ? [...nearbySlugs, ...allTopicSlugs] : [...allTopicSlugs, ...nearbySlugs]);
+  relatedSlugs.delete(slug);
+  const localizedSeoTopics = seoTopics[locale as keyof typeof seoTopics] || seoTopics.es;
+
   return (
     <>
       <TopicJsonLd topic={topic} locale={locale} slug={slug} homeLabel={tHeader('home')} />
@@ -271,29 +275,23 @@ export default function TopicPage({
             </section>
           )}
 
-          {isNearby && (
-            <section className="mt-12 pt-8" style={{borderTop:'1px solid var(--border-color)'}}>
-              <h2 className="font-display text-2xl font-semibold mb-5">{locale === 'zh' ? '继续探索周边景点' : locale === 'es' ? 'Sigue explorando lugares cercanos' : 'Explore more nearby places'}</h2>
-              <div className="grid sm:grid-cols-2 gap-3">
-                {nearbySlugs.filter((other) => other !== slug).map((other) => (
-                  <a key={other} href={`/${locale}/${other}`} className="rounded-lg px-4 py-3 text-sm font-medium hover:underline" style={{background:'var(--card-bg)',border:'1px solid var(--border-color)',color:'var(--text-primary)'}}>
-                    {nearbyTopics[locale]?.[other]?.localName} →
-                  </a>
-                ))}
-              </div>
-            </section>
-          )}
-
           <section className="mt-12 pt-8" style={{ borderTop: '1px solid var(--border-color)' }}>
-            <h2 className="font-display text-xl font-semibold mb-4" style={{ color: 'var(--text-primary)' }}>
-              {locale === 'es' ? 'Más guías del lugar' : locale === 'zh' ? '继续探索双教堂' : 'More local guides'}
+            <h2 className="font-display text-2xl font-semibold mb-5">
+              {isNearby
+                ? (locale === 'zh' ? '继续探索周边景点' : locale === 'es' ? 'Sigue explorando lugares cercanos' : 'Explore more nearby places')
+                : (locale === 'zh' ? '继续探索双教堂' : locale === 'es' ? 'Más guías del lugar' : 'More local guides')}
             </h2>
-            <div className="flex flex-wrap gap-3">
-              {[...allTopicSlugs, ...nearbySlugs].filter((s) => s !== slug).map((s) => {
-                const key = topicKeys[s];
-                const extra = seoTopics[locale as keyof typeof seoTopics] || seoTopics.es;
-                const label = key ? tRoot(`topics.${key}.title`) : nearbyTopics[locale]?.[s]?.title || (extra as Record<string, { title: string }>)[s]?.title;
-                return <a key={s} className="text-sm underline underline-offset-4" style={{ color: 'var(--accent)' }} href={`/${locale}/${s}`}>{label}</a>;
+            <div className={isNearby ? 'grid sm:grid-cols-2 gap-3' : 'flex flex-wrap gap-3'}>
+              {Array.from(relatedSlugs, (other) => {
+                const key = topicKeys[other];
+                const label = key ? tRoot(`topics.${key}.title`) : nearbyTopics[locale]?.[other]?.title || (localizedSeoTopics as Record<string, { title: string }>)[other]?.title;
+                return (
+                  <a key={other} href={`/${locale}/${other}`}
+                    className={isNearby ? 'rounded-lg px-4 py-3 text-sm font-medium hover:underline' : 'text-sm underline underline-offset-4'}
+                    style={isNearby ? { background: 'var(--card-bg)', border: '1px solid var(--border-color)', color: 'var(--text-primary)' } : { color: 'var(--accent)' }}>
+                    {label}
+                  </a>
+                );
               })}
             </div>
             <a className="inline-block text-sm mt-6 underline underline-offset-4" style={{ color: 'var(--accent)' }} href={siteConfig.mapsShareUrl} target="_blank" rel="noopener noreferrer">{ui('mapsName')}</a>
