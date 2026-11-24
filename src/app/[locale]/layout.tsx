@@ -4,6 +4,7 @@ import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import type { Metadata, Viewport } from 'next';
 import { siteConfig } from '@/config/site';
+import Footer from '@/components/Footer';
 import ServiceWorkerRegister from '@/components/ServiceWorkerRegister';
 
 export function generateStaticParams() {
@@ -162,6 +163,7 @@ export default async function LocaleLayout({
       <body className="min-h-screen">
         <NextIntlClientProvider messages={messages}>
           {children}
+          <Footer />
         </NextIntlClientProvider>
         <ServiceWorkerRegister />
       </body>

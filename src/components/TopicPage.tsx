@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import { siteConfig } from '@/config/site';
 import { allTopicSlugs, seoTopics, topicKeys } from '@/data/seoTopics';
 import { nearbySlugs, nearbyTopics } from '@/data/nearbyTopics';
+import Header from './Header';
 import VerifiedPhoto from './VerifiedPhoto';
 import NearbyDetailSections from './NearbyDetailSections';
 import ExpandedNearbySections from './ExpandedNearbySections';
@@ -96,6 +97,7 @@ export default function TopicPage({
   const management = isNearby ? topic.sections?.find((section) => /^(Gestión y conservación|Management and conservation|管理与保护|管理与文物保护|管理与维护|Management and care)$/.test(section.heading)) : undefined;
   const nearbySections = isNearby ? topic.sections?.filter((section) => section !== management) : topic.sections;
 
+  const cover = topic.images?.[0] || { url: topic.image || '/images/hero.jpg', source: topic.imageSource };
   const relatedSlugs = new Set(isNearby ? [...nearbySlugs, ...allTopicSlugs] : [...allTopicSlugs, ...nearbySlugs]);
   relatedSlugs.delete(slug);
   const localizedSeoTopics = seoTopics[locale as keyof typeof seoTopics] || seoTopics.es;
@@ -103,39 +105,29 @@ export default function TopicPage({
   return (
     <>
       <TopicJsonLd topic={topic} locale={locale} slug={slug} homeLabel={tHeader('home')} />
-      <main className="min-h-screen" style={{ background: 'var(--bg)', color: 'var(--text-primary)' }}>
-        <div className="max-w-3xl mx-auto px-5 py-12 sm:py-16">
-          <div className="flex flex-wrap items-center justify-between gap-4 mb-8">
-          <a
-            href={`/${locale}`}
-            className="inline-flex items-center gap-1.5 text-sm transition-opacity hover:opacity-70"
-            style={{ color: 'var(--text-muted)' }}
-          >
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <line x1="19" y1="12" x2="5" y2="12" />
-              <polyline points="12 19 5 12 12 5" />
-            </svg>
-            {tHeader('backToHome')}
-          </a>
-          <nav aria-label={ui('switchLanguage')} className="flex flex-wrap gap-3 text-sm">
-            {Object.entries({ es: 'Español', en: 'English', zh: '中文' }).map(([lang, label]) => (
-              <a key={lang} href={`/${lang}/${slug}`} hrefLang={lang} lang={lang}
-                aria-current={lang === locale ? 'page' : undefined}
-                className={lang === locale ? 'font-semibold' : 'underline underline-offset-4'}
-                style={{ color: lang === locale ? 'var(--text-primary)' : 'var(--accent)' }}>
-                {label}
-              </a>
-            ))}
-          </nav>
+      <Header />
+      <main className="min-h-screen" style={{ background: 'var(--bg-primary)', color: 'var(--text-primary)' }}>
+        <div className="relative isolate overflow-hidden bg-nature-900 text-white">
+          <img
+            src={cover.url}
+            alt=""
+            fetchPriority="high"
+            referrerPolicy="no-referrer"
+            className="absolute inset-0 -z-20 h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/90 via-black/55 to-black/55" />
+          <div className="max-w-6xl mx-auto px-5 sm:px-8 pt-28 pb-10 sm:pt-52 sm:pb-14">
+            <a href={`/${locale}`} className="text-sm underline underline-offset-4">{tHeader('backToHome')}</a>
+            <h1 className="font-display max-w-4xl mt-5 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight">{topic.title}</h1>
+            {topic.localName && topic.localName !== topic.title && (
+              <p className="mt-3 text-lg text-white/90" lang="es">{topic.localName}</p>
+            )}
+            {cover.source && <a href={cover.source} target="_blank" rel="noopener noreferrer" className="mt-5 inline-block text-sm underline underline-offset-4">
+              {locale === 'zh' ? '照片来源' : locale === 'es' ? 'Fuente de la fotografía' : 'Photo source'}
+            </a>}
           </div>
-
-          <h1
-            className="font-display text-3xl sm:text-4xl font-semibold mb-4"
-            style={{ color: 'var(--text-primary)' }}
-          >
-            {topic.title}
-          </h1>
-
+        </div>
+        <div className="max-w-5xl mx-auto px-5 sm:px-8 py-10 sm:py-14 [&>section]:rounded-xl [&>section]:border [&>section]:border-[var(--border-color)] [&>section]:bg-[var(--card-bg)] [&>section]:p-5 sm:[&>section]:p-8 [&>section]:shadow-sm">
           {isNearby && (
             <div className="flex flex-wrap gap-3 mb-6 text-sm" style={{ color: 'var(--text-secondary)' }}>
               <span className="rounded-full px-3 py-1" style={{ background: 'var(--card-bg)', border: '1px solid var(--border-color)' }}>Guadalajara · Jalisco</span>
@@ -159,7 +151,11 @@ export default function TopicPage({
             </p>
           )}
 
-          {topic.images?.length ? <div className="grid sm:grid-cols-2 gap-4 mb-10">{topic.images.map((photo,i)=><VerifiedPhoto key={photo.url} src={photo.url} alt={`${topic.localName} · ${locale==='zh'?'实景':locale==='es'?'fotografía':'photograph'} ${i+1}`} source={photo.source} locale={locale} />)}</div> : topic.image ? <VerifiedPhoto src={topic.image} alt={topic.title} source={topic.imageSource} locale={locale} /> : null}
+          {topic.images && topic.images.length > 1 && (
+            <div className="grid sm:grid-cols-2 gap-4 mb-10">
+              {topic.images.slice(1).map((photo) => <VerifiedPhoto key={photo.url} src={photo.url} alt={topic.localName || topic.title} source={photo.source} locale={locale} />)}
+            </div>
+          )}
 
           {isExpanded && <section className="mb-10"><h2 className="font-display text-2xl font-semibold mb-4">{locale==='zh'?'探索与游览建议':locale==='es'?'Explora y prepara la visita':'Explore and plan your visit'}</h2><p className="leading-relaxed" style={{color:'var(--text-secondary)'}}>{topic.visitAdvice}</p><h3 className="font-display text-xl font-semibold mt-6 mb-3">{locale==='zh'?'这里值得观察什么':locale==='es'?'Qué merece la pena observar':'What to look for'}</h3><p className="leading-relaxed" style={{color:'var(--text-secondary)'}}>{topic.sections?.[1]?.body}</p></section>}
 

@@ -19,7 +19,6 @@ import EducationSection from '@/components/EducationSection';
 import FaqSection from '@/components/FaqSection';
 import MapEmbed from '@/components/MapEmbed';
 import SourcesSection from '@/components/SourcesSection';
-import Footer from '@/components/Footer';
 import { siteConfig } from '@/config/site';
 
 function JsonLd({ data }: { data: object }) {
@@ -146,7 +145,6 @@ export default async function HomePage({
         <MapEmbed />
         <SourcesSection />
       </main>
-      <Footer />
     </>
   );
 }
